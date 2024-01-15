@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PageBase from "../book/page-base";
+import { Button } from "react-bootstrap";
 
 export default function Book(bookDataRaw) {
   const [pageNumber, setPageNumber] = useState(1);
@@ -7,9 +8,9 @@ export default function Book(bookDataRaw) {
   const bookData = bookDataRaw.bookData;
 
   function handleSetPage(newPage) {
-    pageNumber < 1
+    newPage < 1
       ? setPageNumber(1)
-      : pageNumber > bookData.length
+      : newPage > bookData.length
       ? setPageNumber(bookData.length)
       : setPageNumber(newPage);
   }
@@ -28,17 +29,17 @@ export default function Book(bookDataRaw) {
     <div className="book-body">
       <PageBase pageData={bookData[pageNumber - 1]} />
       <div className="controls">
-        <button onClick={pageBack} k>
+        <Button onClick={pageBack} k>
           &lt;
-        </button>
+        </Button>
         <input
           style={{ width: "5%" }}
           type="text"
           value={pageNumber}
           onChange={(e) => handleSetPage(e.target.value)}
         />
-        <span> / {bookData.length}</span>
-        <button onClick={pageForward}>&gt;</button>
+        <span style={{ color: "white" }}> / {bookData.length}</span>
+        <Button onClick={pageForward}>&gt;</Button>
       </div>
     </div>
   );

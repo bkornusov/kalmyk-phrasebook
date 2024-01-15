@@ -4,7 +4,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 12pt;
-  text-align: start;
+  text-align: center;
   width: 800px;
   height: 885px;
   background-color: white;
@@ -21,10 +21,20 @@ span {
   font-weight: bold;
 }
 
-.vocabulary {
-  columns: 2;
-  column-gap: 0;
+.play-button {
+  margin: 0 !important;
 }
+
+.play-button-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.audio-column {
+  width: 25px;
+}
+
+.vocabulary {}
 
 @media (max-width: 800px) {
   .page-base {

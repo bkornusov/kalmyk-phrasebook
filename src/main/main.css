@@ -40,5 +40,12 @@
 
 .controls {
   height: 40px;
+  align-items: center;
+  align-content: end;
   background-color: darkblue;
+}
+
+Button {
+  margin-right: 1em !important;
+  margin-left: 1em !important;
 }

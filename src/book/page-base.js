@@ -1,8 +1,15 @@
 import "./book.css";
 import { Table } from "react-bootstrap";
+import displayMemorize from "./memorize";
+import { useEffect } from "react";
 
 function PageBase(pageData) {
   var page = pageData.pageData;
+  // const [playSound, setPlaySound] = useState(0);
+
+  useEffect(() => {
+    playAudio();
+  }, []);
 
   function boldenSpeaker(line) {
     var splitLine = line.split(":");
@@ -14,23 +21,89 @@ function PageBase(pageData) {
     );
   }
 
+  async function playAudio(location) {
+    var audio = new Audio("./media/" + location);
+    var audioPromise = audio.play();
+    if (audioPromise !== undefined) {
+      audioPromise
+        .then(function () {})
+        .catch(function (error) {
+          console.log(error);
+        });
+    }
+  }
+
+  function renderPlayButton(fileName) {
+    if (fileName == "") {
+      return <td></td>;
+    }
+    return (
+      <td className="audio-column">
+        <button className="play-button" onClick={() => playAudio(fileName)}>
+          <img className="play-button-icon" src="./media/play.png" />
+        </button>
+      </td>
+    );
+  }
+
   function displayVocabulary() {
     var data = page.vocabulary;
 
-    // if (data.length > 7) {
-    //   data.splice(7, 0, { audio: "", kalmyk: "Хальмг", russian: "Русский" });
-    // }
+    if (data.length > 5) {
+      const mid = Math.ceil(data.length / 2);
+      const column1 = data.slice(0, mid);
+      const column2 = data.slice(mid);
+      if (data.length % 2 == 1) {
+        column2.push({ audio: "", kalmyk: "", russian: "" });
+      }
+      return (
+        <>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Хальмг</th>
+              <th>Русский</th>
+              <th></th>
+              <th>Хальмг</th>
+              <th>Русский</th>
+            </tr>
+          </thead>
+          <tbody>
+            {column1.map((col1row, index) => (
+              <tr>
+                {renderPlayButton(col1row.audio)}
+                <td>{col1row.kalmyk}</td>
+                <td>{col1row.russian}</td>
+                {renderPlayButton(column2[index].audio)}
+                <td>{column2[index].kalmyk}</td>
+                <td>{column2[index].russian}</td>
+              </tr>
+            ))}
+          </tbody>
+        </>
+      );
+    }
 
-    // console.log(data);
+    return (
+      <>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Хальмг</th>
+            <th>Русский</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
 
-    return data.map((row) => (
-      <tr>
-        {/* <td>{row.audio}</td> */}
-        <td></td>
-        <td>{row.kalmyk}</td>
-        <td>{row.russian}</td>
-      </tr>
-    ));
+        {data.map((row) => (
+          <tr>
+            {renderPlayButton(row.audio)}
+            <td>{row.kalmyk}</td>
+            <td>{row.russian}</td>
+          </tr>
+        ))}
+      </>
+    );
   }
 
   return (
@@ -50,8 +123,7 @@ function PageBase(pageData) {
           <tbody>
             {page.dialog.map((row) => (
               <tr>
-                {/* <td>{row.audio}</td> */}
-                <td></td>
+                {renderPlayButton(row.audio)}
                 {boldenSpeaker(row.kalmyk)}
                 {boldenSpeaker(row.russian)}
               </tr>
@@ -62,18 +134,11 @@ function PageBase(pageData) {
 
       <span>Толь бичг / Словарь</span>
       <div className="vocabulary">
-        <Table bordered>
-          <thead>
-            <tr>
-              <th></th>
-              <th>Хальмг</th>
-              <th>Русский</th>
-            </tr>
-          </thead>
-          <tbody>{displayVocabulary()}</tbody>
-        </Table>
+        <Table bordered>{displayVocabulary()}</Table>
       </div>
-      <div className="memorize"></div>
+      <div className="memorize">
+        {displayMemorize(page.memorize, page.memorizeType)}
+      </div>
     </div>
   );
 }
