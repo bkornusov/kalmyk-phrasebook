@@ -59,42 +59,72 @@ var phraseBookPages = [
         russian: "сестренка",
       },
       {
-        audio: "",
+        audio: "ch1/эн.mp3",
         kalmyk: "эн",
         russian: "это",
       },
       {
-        audio: "",
+        audio: "ch1/сургульч.mp3",
         kalmyk: "сурһульч",
         russian: "школьник, ученик",
       },
-      { audio: "", kalmyk: "эк", russian: "мать" },
-      { audio: "", kalmyk: "эцк", russian: "отец" },
-      { audio: "", kalmyk: "багш", russian: "учитель" },
-      { audio: "", kalmyk: "номт", russian: "ученый" },
+      { audio: "ch1/эк.mp3", kalmyk: "эк", russian: "мать" },
+      { audio: "ch1/эцк.mp3", kalmyk: "эцк", russian: "отец" },
+      { audio: "ch1/багш.mp3", kalmyk: "багш", russian: "учитель" },
+      { audio: "ch1/номт.mp3", kalmyk: "номт", russian: "ученый" },
     ],
     memorize: [
-      { audio: "ch1/1-14.mp3", kalmyk: "би", russian: "я" },
-      { audio: "ch1/1-16.mp3", kalmyk: "чи", russian: "ты" },
-      { audio: "ch1/1-18.mp3", kalmyk: "Та", russian: "Вы (уважительное)" },
-      { audio: "ch1/1-20.mp3", kalmyk: "эн, тер", russian: "он / она / оно" },
-      { audio: "ch1/1-22.mp3", kalmyk: "бидн, мадн", russian: "мы" },
-      { audio: "ch1/1-24.mp3", kalmyk: "тадн", russian: "вы" },
-      { audio: "ch1/1-26.mp3", kalmyk: "эдн, тедн", russian: "они" },
-      { audio: "ch1/1-15.mp3", kalmyk: "мини", russian: "мой / моя / мое" },
-      { audio: "ch1/1-17.mp3", kalmyk: "чини", russian: "твой / твоя / твое" },
-      { audio: "ch1/1-19", kalmyk: "Тана", russian: "Ваш" },
-      {
-        audio: "ch1/1-21.mp3",
-        kalmyk: "энүнә / үүнә, терүнә / түүнә",
-        russian: "его / ее",
-      },
-      { audio: "ch1/1-23.mp3", kalmyk: "мана, мадна", russian: "наш" },
-      { audio: "ch1/1-25.mp3", kalmyk: "тадна", russian: "ваш" },
-      { audio: "ch1/1-27.mp3", kalmyk: "эднә, теднә", russian: "их" },
+      [
+        { audio: "ch1/1-14.mp3", kalmyk: "би", russian: "я" },
+        { audio: "ch1/1-15.mp3", kalmyk: "мини", russian: "мой / моя / мое" },
+      ],
+      [
+        { audio: "ch1/1-16.mp3", kalmyk: "чи", russian: "ты" },
+        {
+          audio: "ch1/1-17.mp3",
+          kalmyk: "чини",
+          russian: "твой / твоя / твое",
+        },
+      ],
+      [
+        { audio: "ch1/1-18.mp3", kalmyk: "Та", russian: "Вы (уважительное)" },
+        { audio: "ch1/1-19.mp3", kalmyk: "Тана", russian: "Ваш" },
+      ],
+      [
+        {
+          audio: "ch1/1-20.mp3",
+          kalmyk: "эн, тер",
+          russian: "он / она / оно",
+        },
+        {
+          audio: "ch1/1-21.mp3",
+          kalmyk: "энүнә / үүнә, терүнә / түүнә",
+          russian: "его / ее",
+        },
+      ],
+      [
+        { audio: "ch1/1-22.mp3", kalmyk: "бидн, мадн", russian: "мы" },
+        { audio: "ch1/1-23.mp3", kalmyk: "мана, мадна", russian: "наш" },
+      ],
+      [
+        { audio: "ch1/1-24.mp3", kalmyk: "тадн", russian: "вы" },
+        { audio: "ch1/1-25.mp3", kalmyk: "тадна", russian: "ваш" },
+      ],
+      [
+        { audio: "ch1/1-26.mp3", kalmyk: "эдн, тедн", russian: "они" },
+        { audio: "ch1/1-27.mp3", kalmyk: "эднә, теднә", russian: "их" },
+      ],
     ],
-    memorizeType: "base",
-    extras: "",
+    memorizeType: "table2",
+    extras: {
+      items: [
+        "В калмыцком языке есть разные показатели множественного числа существительных. Чтобы образовать множественное число существительных, называющих профессии и родство, надо к основе слова добавить суффикс -нр: багш – багшнр (учителя), эгч – эгчнр (сестры), номт – номтнр (ученые), сурһульч –сурһульчнр (школьники, ученики).",
+        "Сказуемым в предложении может быть существительное, прилагательное, числительное и глагол. Личная частица сказуемого в предложении зависит от лица местоимения, в роли подлежащего:",
+        "Традиционно калмыки к родителям обращались: ээҗ, аав. Позже так стали называть бабушку и дедушку, а родителей - аак, баав, бааҗа.",
+      ],
+      table: [[], [], []],
+      tableIndex: 2,
+    },
   },
   {
     chapter: 2,
@@ -127,46 +157,67 @@ var phraseBookPages = [
       { audio: "ch2/12.mp3", kalmyk: "болн", russian: "и" },
     ],
     memorize: [
-      { audio: "ch2/15.mp3", number: "1", kalmyk: "негн" },
-      { audio: "ch2/16.mp3", number: "2", kalmyk: "хойр" },
-      { audio: "ch2/17.mp3", number: "3", kalmyk: "һурвн" },
-      { audio: "ch2/18.mp3", number: "4", kalmyk: "дөрвн" },
-      { audio: "ch2/19.mp3", number: "5", kalmyk: "тавн" },
-      { audio: "ch2/20.mp3", number: "6", kalmyk: "зурһан" },
-      { audio: "ch2/21.mp3", number: "7", kalmyk: "долан" },
-      { audio: "ch2/22.mp3", number: "8", kalmyk: "нәәмн" },
-      { audio: "ch2/23.mp3", number: "9", kalmyk: "йисн" },
-      { audio: "ch2/24.mp3", number: "10", kalmyk: "арвн" },
-      { audio: "ch2/25.mp3", number: "11", kalmyk: "арвн негн" },
-      { audio: "ch2/26.mp3", number: "12", kalmyk: "арвн хойр" },
-      { audio: "ch2/27.mp3", number: "13", kalmyk: "арвн һурвн" },
-      { audio: "ch2/28.mp3", number: "14", kalmyk: "арвн дөрвн" },
-      { audio: "ch2/29.mp3", number: "15", kalmyk: "арвн тавн" },
-      { audio: "ch2/30.mp3", number: "16", kalmyk: "арвн зурһан" },
-      { audio: "ch2/31.mp3", number: "17", kalmyk: "арвн долан" },
-      { audio: "ch2/32.mp3", number: "18", kalmyk: "арвн нәәмн" },
-      { audio: "ch2/33.mp3", number: "19", kalmyk: "арвн йисн" },
-      { audio: "ch2/34.mp3", number: "20", kalmyk: "хөрн" },
-      { audio: "ch2/35.mp3", number: "21", kalmyk: "хөрн негн" },
-      { audio: "ch2/36.mp3", number: "22", kalmyk: "хөрн хойр" },
-      { audio: "ch2/37.mp3", number: "23", kalmyk: "хөрн һурвн" },
-      { audio: "ch2/38.mp3", number: "24", kalmyk: "хөрн дөрвн" },
-      { audio: "ch2/39.mp3", number: "25", kalmyk: "хөрн тавн" },
-      { audio: "ch2/40.mp3", number: "26", kalmyk: "хөрн зурһан" },
-      { audio: "ch2/41.mp3", number: "27", kalmyk: "хөрн долан" },
-      { audio: "ch2/42.mp3", number: "28", kalmyk: "хөрн нәәмн" },
-      { audio: "ch2/43.mp3", number: "29", kalmyk: "хөрн йисн" },
-      { audio: "ch2/44.mp3", number: "30", kalmyk: "һучн" },
-      { audio: "ch2/45.mp3", number: "10", kalmyk: "арвн" },
-      { audio: "ch2/46.mp3", number: "20", kalmyk: "хөрн" },
-      { audio: "ch2/47.mp3", number: "30", kalmyk: "һучн" },
-      { audio: "ch2/48.mp3", number: "40", kalmyk: "дөчн" },
-      { audio: "ch2/49.mp3", number: "50", kalmyk: "тәвн" },
-      { audio: "ch2/50.mp3", number: "60", kalmyk: "җирн" },
-      { audio: "ch2/51.mp3", number: "70", kalmyk: "далн" },
-      { audio: "ch2/52.mp3", number: "80", kalmyk: "найн" },
-      { audio: "ch2/53.mp3", number: "90", kalmyk: "йирн" },
-      { audio: "ch2/54.mp3", number: "100", kalmyk: "(нег) зун" },
+      [
+        { audio: "ch2/15.mp3", number: "1", kalmyk: "негн" },
+        { audio: "ch2/25.mp3", number: "11", kalmyk: "арвн негн" },
+        { audio: "ch2/35.mp3", number: "21", kalmyk: "хөрн негн" },
+        { audio: "ch2/45.mp3", number: "10", kalmyk: "арвн" },
+      ],
+      [
+        { audio: "ch2/16.mp3", number: "2", kalmyk: "хойр" },
+        { audio: "ch2/26.mp3", number: "12", kalmyk: "арвн хойр" },
+        { audio: "ch2/36.mp3", number: "22", kalmyk: "хөрн хойр" },
+        { audio: "ch2/46.mp3", number: "20", kalmyk: "хөрн" },
+      ],
+
+      [
+        { audio: "ch2/17.mp3", number: "3", kalmyk: "һурвн" },
+        { audio: "ch2/27.mp3", number: "13", kalmyk: "арвн һурвн" },
+        { audio: "ch2/37.mp3", number: "23", kalmyk: "хөрн һурвн" },
+        { audio: "ch2/47.mp3", number: "30", kalmyk: "һучн" },
+      ],
+      [
+        { audio: "ch2/18.mp3", number: "4", kalmyk: "дөрвн" },
+        { audio: "ch2/28.mp3", number: "14", kalmyk: "арвн дөрвн" },
+        { audio: "ch2/38.mp3", number: "24", kalmyk: "хөрн дөрвн" },
+        { audio: "ch2/48.mp3", number: "40", kalmyk: "дөчн" },
+      ],
+      [
+        { audio: "ch2/19.mp3", number: "5", kalmyk: "тавн" },
+        { audio: "ch2/29.mp3", number: "15", kalmyk: "арвн тавн" },
+        { audio: "ch2/39.mp3", number: "25", kalmyk: "хөрн тавн" },
+        { audio: "ch2/49.mp3", number: "50", kalmyk: "тәвн" },
+      ],
+      [
+        { audio: "ch2/20.mp3", number: "6", kalmyk: "зурһан" },
+        { audio: "ch2/30.mp3", number: "16", kalmyk: "арвн зурһан" },
+        { audio: "ch2/40.mp3", number: "26", kalmyk: "хөрн зурһан" },
+        { audio: "ch2/50.mp3", number: "60", kalmyk: "җирн" },
+      ],
+      [
+        { audio: "ch2/21.mp3", number: "7", kalmyk: "долан" },
+        { audio: "ch2/31.mp3", number: "17", kalmyk: "арвн долан" },
+        { audio: "ch2/41.mp3", number: "27", kalmyk: "хөрн долан" },
+        { audio: "ch2/51.mp3", number: "70", kalmyk: "далн" },
+      ],
+      [
+        { audio: "ch2/22.mp3", number: "8", kalmyk: "нәәмн" },
+        { audio: "ch2/32.mp3", number: "18", kalmyk: "арвн нәәмн" },
+        { audio: "ch2/42.mp3", number: "28", kalmyk: "хөрн нәәмн" },
+        { audio: "ch2/52.mp3", number: "80", kalmyk: "найн" },
+      ],
+      [
+        { audio: "ch2/23.mp3", number: "9", kalmyk: "йисн" },
+        { audio: "ch2/33.mp3", number: "19", kalmyk: "арвн йисн" },
+        { audio: "ch2/43.mp3", number: "29", kalmyk: "хөрн йисн" },
+        { audio: "ch2/53.mp3", number: "90", kalmyk: "йирн" },
+      ],
+      [
+        { audio: "ch2/24.mp3", number: "10", kalmyk: "арвн" },
+        { audio: "ch2/34.mp3", number: "20", kalmyk: "хөрн" },
+        { audio: "ch2/44.mp3", number: "30", kalmyk: "һучн" },
+        { audio: "ch2/54.mp3", number: "100", kalmyk: "(нег) зун" },
+      ],
     ],
     memorizeType: "numberTable",
     extras: { tableHead: ["", "Ед.ч", "", "", "Мн.ч", ""], table: [] },
@@ -198,14 +249,14 @@ var phraseBookPages = [
       },
     ],
     vocabulary: [
-      { audio: "ch3/3-07.mp3", kalmyk: "кедү", russian: "сколько" },
-      { audio: "ch3/3-08.mp3", kalmyk: "үзг", russian: "буква" },
-      { audio: "ch3/3-09.mp3", kalmyk: "ямаран", russian: "какой" },
+      { audio: "ch3/3-07.mp3", kalmyk: "хальмг", russian: "калмыцкий" },
+      { audio: "ch3/3-08.mp3", kalmyk: "кедү", russian: "сколько" },
+      { audio: "ch3/3-09.mp3", kalmyk: "үзг", russian: "буква" },
+      { audio: "ch3/3-10.mp3", kalmyk: "ямаран", russian: "какой" },
     ],
     memorize: [
-      "Аа Әә Бб Вв Гг Һһ Дд Ее Ее \n" +
-        "Жж Җҗ Зз Ии Йи Кк Лл Мм Нн+ \n" +
-        "Ңң Оо Өө Пп Рр Сс Тт \n" +
+      "Аа Әә Бб Вв Гг Һһ Дд Ее Ее Жж Җҗ Зз Ии Йи \n" +
+        "Кк Лл Мм Нн Ңң Оо Өө Пп Рр Сс Тт \n" +
         "Уу Үү Фф Хх Цц Чч Шш Щщ ъ ы ь Ээ Юю Яя",
     ],
     memorizeType: "text",
@@ -244,8 +295,34 @@ var phraseBookPages = [
       { audio: "ch4/4-10.mp3", kalmyk: "хонх", russian: "спать; ночевать" },
     ],
     memorize: [
-      { audio: "", kalmyk: "", russian: "" },
-      { audio: "", kalmyk: "", russian: "" },
+      [
+        { audio: "ch4/4-12.mp3", kalmyk: "серх", russian: "(просыпаться)" },
+        { audio: "ch4/4-13.mp3", kalmyk: "Сер!", russian: "(Просыпайся!)" },
+        {
+          audio: "ch4/4-14.mp3",
+          kalmyk: "Би серүв.",
+          russian: "(Я проснулся. / проснулась)",
+        },
+        {
+          audio: "ch4/4-15.mp3",
+          kalmyk: "Чи сервч.",
+          russian: "(Ты проснулся / проснулась)",
+        },
+      ],
+      [
+        { audio: "ch4/4-16.mp3", kalmyk: "хонх", russian: "(спать; ночевать)" },
+        { audio: "ch4/4-17.mp3", kalmyk: "Хон! ", russian: "(Ночуй!)" },
+        {
+          audio: "ch4/4-18.mp3",
+          kalmyk: "Би сән хонув. ",
+          russian: "(Я хорошо спал / спала.)",
+        },
+        {
+          audio: "ch4/4-19.mp3",
+          kalmyk: "Чи сән хонвч.",
+          russian: "(Ты хорошо спал / спала.)",
+        },
+      ],
     ],
     memorizeType: "horizontalTable",
     extras: "",
@@ -630,7 +707,7 @@ var phraseBookPages = [
   {
     chapter: 12,
     pageNumber: 14,
-    title: "12. Сурһульдан йовҗ йовад / П о дороге в школу",
+    title: "12. Сурһульдан йовҗ йовад / По дороге в школу",
     dialog: [
       {
         audio: "ch12/12-02.mp3",
@@ -1268,41 +1345,397 @@ var phraseBookPages = [
       },
     ],
     vocabulary: [
-      ,// { audio: "ch21/21-16.mp3", kalmyk: "җил", russian: "год" },
-      // {
-      //   audio: "ch21/21-17.mp3",
-      //   kalmyk: "Зул",
-      //   russian: "Зул (калмыцкий праздник)",
-      // },
-      // {
-      //   audio: "ch21/21-18.mp3",
-      //   kalmyk: "йөрәх",
-      //   russian: "произносить благопожелание",
-      // },
-      // {
-      //   audio: "ch21/21-19.mp3",
-      //   kalmyk: "күцх",
-      //   russian: "достигать, доходить",
-      // },
-      // { audio: "ch21/21-20.mp3", kalmyk: "медх", russian: "знать" },
-      // { audio: "ch21/21-21.mp3", kalmyk: "насн", russian: "возраст" },
-      // {
-      //   audio: "ch21/21-22.mp3",
-      //   kalmyk: "немгдх",
-      //   russian: "добавляться, прибавляться",
-      // },
-      // { audio: "ch21/21-23.mp3", kalmyk: "нилх", russian: "грудной ребенок" },
-      // { audio: "ch21/21-24.mp3", kalmyk: "одн", russian: "звезда" },
-      // { audio: "ch21/21-25.mp3", kalmyk: "эндр", russian: "сегодня" },
-      // { audio: "ch21/21-26.mp3", kalmyk: "оӊһц", russian: "лодка" },
-      // { audio: "ch21/21-27.mp3", kalmyk: "өдр", russian: "день" },
-      // { audio: "ch21/21-28.mp3", kalmyk: "өргх", russian: "преподносить" },
-      // { audio: "ch21/21-29.mp3", kalmyk: "сө", russian: "ночь" },
-      // { audio: "ch21/21-30.mp3", kalmyk: "сөөд", russian: "ночью" },
-      // { audio: "ch21/21-31.mp3", kalmyk: "тиигхлә", russian: "тогда" },
-      // { audio: "ch21/21-32.mp3", kalmyk: "тоолгдх", russian: "считаться" },
-      // { audio: "ch21/21-33.mp3", kalmyk: "төрх", russian: "рождаться" },
-      // { audio: "ch21/21-34.mp3", kalmyk: "хальмгар", russian: "по-калмыцки" },
+      { audio: "ch21/21-16.mp3", kalmyk: "җил", russian: "год" },
+      {
+        audio: "ch21/21-17.mp3",
+        kalmyk: "Зул",
+        russian: "Зул (калмыцкий праздник)",
+      },
+      {
+        audio: "ch21/21-18.mp3",
+        kalmyk: "йөрәх",
+        russian: "произносить благопожелание",
+      },
+      {
+        audio: "ch21/21-19.mp3",
+        kalmyk: "күцх",
+        russian: "достигать, доходить",
+      },
+      { audio: "ch21/21-20.mp3", kalmyk: "медх", russian: "знать" },
+      { audio: "ch21/21-21.mp3", kalmyk: "насн", russian: "возраст" },
+      {
+        audio: "ch21/21-22.mp3",
+        kalmyk: "немгдх",
+        russian: "добавляться, прибавляться",
+      },
+      { audio: "ch21/21-23.mp3", kalmyk: "нилх", russian: "грудной ребенок" },
+      { audio: "ch21/21-24.mp3", kalmyk: "одн", russian: "звезда" },
+      { audio: "ch21/21-25.mp3", kalmyk: "оӊһц", russian: "лодка" },
+      { audio: "ch21/21-26.mp3", kalmyk: "өдр", russian: "день" },
+
+      { audio: "ch21/21-27.mp3", kalmyk: "өргх", russian: "преподносить" },
+      { audio: "ch21/21-28.mp3", kalmyk: "сө", russian: "ночь" },
+      { audio: "ch21/21-29.mp3", kalmyk: "сөөд", russian: "ночью" },
+      { audio: "ch21/21-30.mp3", kalmyk: "тиигхлә", russian: "тогда" },
+      { audio: "ch21/21-31.mp3", kalmyk: "тоолгдх", russian: "считаться" },
+      { audio: "ch21/21-32.mp3", kalmyk: "төрх", russian: "рождаться" },
+      { audio: "ch21/21-33.mp3", kalmyk: "хальмгар", russian: "по-калмыцки" },
+      { audio: "ch21/21-34.mp3", kalmyk: "эндр", russian: "сегодня" },
+    ],
+    memorize: [],
+    memorizeType: "",
+    extras: "",
+  },
+  {
+    chapter: 22,
+    pageNumber: 24,
+    title: "22. Шин хувцн а йөрәл / Благопожелание по поводу новой одежды",
+    dialog: [
+      {
+        audio: "ch22/22-02.mp3",
+        kalmyk: "Саглр: Ээҗ нанд шин бүшмүд хулдҗ авв.",
+        russian: "Саглара: Мама купила мне новое платье.",
+      },
+      {
+        audio: "ch22/22-03.mp3",
+        kalmyk: "Аав: Яһсн сәәхн бүшмүдв!",
+        russian: "Папа: Какое красивое платье!",
+      },
+      {
+        audio: "ch22/22-04.mp3",
+        kalmyk: "Ээҗ: Бүшмүдинь йөрәх кергтә.",
+        russian: "Мама: Надо произнести благопожелание.",
+      },
+      {
+        audio: "ch22/22-05.mp3",
+        kalmyk:
+          "Аав: Нә,өмссн бүшмднь\nӨлзәтә болҗ,\nЭднь элҗ,\nЭзнь мөӊкрҗ,\nХөөннь үүнәс сән\nХувц өмсх болтха!",
+        russian:
+          "Папа: Хорошо, да будет надетое\nплатье благословенным,\nпусть ткань изнашивается,\nа хозяйка долго живет,\nпусть в будущем носит\nодежду лучше этой!",
+      },
+      {
+        audio: "ch22/22-06.mp3",
+        kalmyk: "Ээҗ: Тиигтхә! Йөрәл бүттхә!",
+        russian: "Мама: Да будет так! Пусть благопожелание сбудется!",
+      },
+      {
+        audio: "ch22/22-07.mp3",
+        kalmyk: "Амулң: Йөрәл шиңгтхә!",
+        russian: "Амуланга: Пусть благопожелание воплотится!",
+      },
+      {
+        audio: "ch22/22-08.mp3",
+        kalmyk: "Аав: Хувцичнь йөрәһәд, чамд мөӊг өгчәнәв.",
+        russian: "Папа: Благославляя твою одежду, даю тебе деньги",
+      },
+      {
+        audio: "ch22/22-09.mp3",
+        kalmyk: "Саглр: Ханҗанав.",
+        russian: "Саглара: Спасибо!",
+      },
+    ],
+    vocabulary: [
+      { audio: "ch22/22-10.mp3", kalmyk: "бүтх", russian: "сбываться" },
+      { audio: "ch22/22-11.mp3", kalmyk: "бүшмүд", russian: "платье" },
+      { audio: "ch22/22-12.mp3", kalmyk: "йөрәл", russian: "благопожелание" },
+      { audio: "ch22/22-13.mp3", kalmyk: "мөӊкрх", russian: "долго жить" },
+      { audio: "ch22/22-14.mp3", kalmyk: "өлзәтә", russian: "благословенный" },
+      { audio: "ch22/22-15.mp3", kalmyk: "сәәхн", russian: "красивый" },
+      { audio: "ch22/22-16.mp3", kalmyk: "ханҗанав", russian: "благодарю" },
+      { audio: "ch22/22-17.mp3", kalmyk: "хөөннь", russian: "потом" },
+      { audio: "ch22/22-18.mp3", kalmyk: "хувцн", russian: "одежда" },
+      { audio: "ch22/22-19.mp3", kalmyk: "хулдҗ авх", russian: "покупать" },
+      { audio: "ch22/22-20.mp3", kalmyk: "хулдх", russian: "продавать" },
+      { audio: "ch22/22-21.mp3", kalmyk: "шин", russian: "новый" },
+      { audio: "ch22/22-22.mp3", kalmyk: "шиңгх", russian: "воплощаться" },
+      { audio: "ch22/22-23.mp3", kalmyk: "эд", russian: "ткань" },
+      { audio: "ch22/22-24.mp3", kalmyk: "эзн", russian: "хозяин" },
+      { audio: "ch22/22-25.mp3", kalmyk: "элх", russian: "изнашиваться" },
+    ],
+    memorize: [],
+    memorizeType: "",
+    extras: "",
+  },
+  {
+    chapter: 23,
+    pageNumber: 25,
+    title: "23. Һарсн өдрин байр / Праздник дня рождения",
+    dialog: [
+      {
+        audio: "ch23/23-02.mp3",
+        kalmyk: "Амулӊ: Эндр аавин һарсн өдр.",
+        russian: "Амуланга: Сегодня день рождения папы.",
+      },
+      {
+        audio: "ch23/23-03.mp3",
+        kalmyk: "Саглр: Меднәв. Йөрәл белдҗәнәв.",
+        russian: "Саглара: Знаю. Я готовлю благопожелание.",
+      },
+      {
+        audio: "ch23/23-04.mp3",
+        kalmyk: "Амулӊ: О, йир сән. Келәд өг нанд, соӊснав.",
+        russian: "Амуланг: О, очень хорошо. Расскажи мне, послушаю.",
+      },
+      {
+        audio: "ch23/23-05.mp3",
+        kalmyk:
+          "Саглр: Авсн наснтн өлзәтә болҗ,\nУт наста, бат кишгтә болҗ,\nОньдин дөрвн цагт\nМенд амулӊ бәәхиг\nОлн деедс өршәтхә!",
+        russian:
+          "Саглара: Пусть возраст будет благословенным,\nЖизнь долгой, здоровье крепким,\nПусть будут милосердны божества\nК спокойной жизни в добром здравии\nВо все четыре времени года!",
+      },
+      {
+        audio: "ch23/23-06.mp3",
+        kalmyk: "Амулӊ: Сәәхн йөрәл! Кен чамаг дасхв?",
+        russian: "Амуланг: Красивое благопожелание! Кто тебя научил?",
+      },
+      {
+        audio: "ch23/23-07.mp3",
+        kalmyk: "Саглр: Дегтрт умшув.",
+        russian: "Саглара: В книге прочитала.",
+      },
+      {
+        audio: "ch23/23-08.mp3",
+        kalmyk: "Амулӊ: Аав чамд икәр ханх. Гиичнр байрлх.",
+        russian: "Амуланг: Папа будет тебе очень благодарен. Гости будут рады.",
+      },
+      {
+        audio: "ch23/23-09.mp3",
+        kalmyk: "Саглр: Кен гиичд ирх?",
+        russian: "Саглара: Кто придет в гости?",
+      },
+      {
+        audio: "ch23/23-10.mp3",
+        kalmyk:
+          "Амулӊ: Авһнр болн һаһа, наһцх болн наһц эгч, мана бөлнр, үйнр.",
+        russian:
+          "Амуланг: Дяди и тетя (по отцу), дядя и тетя (по матери), наши двоюродные (по матери и отцу).",
+      },
+      {
+        audio: "ch23/23-11.mp3",
+        kalmyk: "Саглр: Мана көгшн наһц ээҗ ирхий?",
+        russian: "Саглара: А наша старенькая бабушка (по матери) придет?",
+      },
+      {
+        audio: "ch23/23-12.mp3",
+        kalmyk: "Амулӊ: Эрк биш ирх.",
+        russian: "Амуланга: Непременно придет.",
+      },
+    ],
+    vocabulary: [
+      {
+        audio: "ch23/23-13.mp3",
+        kalmyk: "амулӊ",
+        russian: "безмятежный, спокойный",
+      },
+      {
+        audio: "ch23/23-14.mp3",
+        kalmyk: "белдх",
+        russian: "готовить (подарок)",
+      },
+      {
+        audio: "ch23/23-15.mp3",
+        kalmyk: "һарсн өдр",
+        russian: "день рождения",
+      },
+      { audio: "ch23/23-16.mp3", kalmyk: "деедс", russian: "божества" },
+      {
+        audio: "ch23/23-17.mp3",
+        kalmyk: "менд амулң бәәх",
+        russian: "быть в добром здравии",
+      },
+      { audio: "ch23/23-18.mp3", kalmyk: "оньдин", russian: "всегда" },
+      {
+        audio: "ch23/23-19.mp3",
+        kalmyk: "өршәх",
+        russian: "миловать, проявлять милосердие",
+      },
+      { audio: "ch23/23-20.mp3", kalmyk: "сонсх", russian: "слушать" },
+      { audio: "ch23/23-21.mp3", kalmyk: "цаг", russian: "время" },
+    ],
+    memorize: [],
+    memorizeType: "",
+    extras: "",
+  },
+  {
+    chapter: 24,
+    pageNumber: 26,
+    title: "24. Цаһан Сарин белг / Подарки на Цаһан Сар",
+    dialog: [
+      {
+        audio: "ch24/24-02.mp3",
+        kalmyk: "Аав: Маӊһдур һаһад одҗ, цаһалх кергтә.",
+        russian:
+          "Папа: Завтра на праздник Цаган Сар надо пойти поздравить тетю.",
+      },
+      {
+        audio: "ch24/24-03.mp3",
+        kalmyk: "Ээҗ: Меднәв. Белгән белдчкләв.",
+        russian: "Мама: Знаю. Я уже приготовила подарок.",
+      },
+      {
+        audio: "ch24/24-04.mp3",
+        kalmyk: "Аав: Ямаран белг?",
+        russian: "Папа: Какой подарок?",
+      },
+      {
+        audio: "ch24/24-05.mp3",
+        kalmyk: "Ээҗ: Көк торһн эд.",
+        russian: "Мама: Синюю шелковую ткань.",
+      },
+      {
+        audio: "ch24/24-06.mp3",
+        kalmyk: "Аав: О, йир сән. Бас ю авч одхм?",
+        russian: "Папа: О, очень хорошо. А что еще понесем?",
+      },
+      {
+        audio: "ch24/24-07.mp3",
+        kalmyk: "Ээҗ: Боорцган. Делгүрт бас юм хулдҗ авх кергтә.",
+        russian: "Мама: Свои борцоки. Еще кое-что надо купить в магазине.",
+      },
+      {
+        audio: "ch24/24-08.mp3",
+        kalmyk: "Аав: Ю хулдҗ авхм?",
+        russian: "Папа:Что надо будет купить?",
+      },
+      {
+        audio: "ch24/24-09.mp3",
+        kalmyk: "Ээҗ: Цә, үс, цаһан тос, зать, шикр-балта, альм, уста үзм.",
+        russian:
+          "Мама: Чай, молоко, сливочное масло, мускатный орех, сладости, яблоки, виноград.",
+      },
+      {
+        audio: "ch24/24-10.mp3",
+        kalmyk: "Аав: Тиигхлә одад хулдҗ авнав.",
+        russian: "Папа: Тогда пойду куплю.",
+      },
+    ],
+    vocabulary: [
+      {
+        audio: "ch24/24-11.mp3",
+        kalmyk: "авч одх",
+        russian: "понести, отнести",
+      },
+      { audio: "ch24/24-12.mp3", kalmyk: "альмн", russian: "яблоко" },
+      { audio: "ch24/24-13.mp3", kalmyk: "балта", russian: "пряник" },
+      { audio: "ch24/24-14.mp3", kalmyk: "бас", russian: "" },
+      { audio: "ch24/24-15.mp3", kalmyk: "белг", russian: "подарок" },
+      { audio: "ch24/24-16.mp3", kalmyk: "делгүр", russian: "магазин" },
+      { audio: "ch24/24-17.mp3", kalmyk: "зать", russian: "мускатный орех" },
+      { audio: "ch24/24-18.mp3", kalmyk: "көк", russian: "синий" },
+
+      { audio: "ch24/24-19.mp3", kalmyk: "одх", russian: "идти" },
+      { audio: "ch24/24-20.mp3", kalmyk: "торһн", russian: "щелковый" },
+      { audio: "ch24/24-21.mp3", kalmyk: "тосн", russian: "масло" },
+      { audio: "ch24/24-22.mp3", kalmyk: "уста үзм", russian: "виноград" },
+      { audio: "ch24/24-23.mp3", kalmyk: "цаһан", russian: "белый" },
+      {
+        audio: "ch24/24-24.mp3",
+        kalmyk: "цаһан тосн",
+        russian: "сливочное масло",
+      },
+      {
+        audio: "ch24/24-25.mp3",
+        kalmyk: "цаһалх",
+        russian: "поздравлять с Цаган Саром",
+      },
+      {
+        audio: "ch24/24-26.mp3",
+        kalmyk: "Цаһан Сар",
+        russian: "Цаган Сар (калмыцкий праздник)",
+      },
+    ],
+    memorize: [],
+    memorizeType: "",
+    extras: "",
+  },
+  {
+    chapter: 25,
+    pageNumber: 27,
+    title: "25. Теӊгрин одд / Небесные светила",
+    dialog: [
+      {
+        audio: "ch25/25-02.mp3",
+        kalmyk: "Амулӊ: Аав, хәлә, теӊгрт одд күцҗ.",
+        russian: "Амуланга: Папа, смотри, уже все звезды взошли.",
+      },
+      {
+        audio: "ch25/25-03.mp3",
+        kalmyk: "Саглр: Теднә тускар маднд келәд өгич.",
+        russian: "Саглара: Расскажи нам о них, пожалуйста.",
+      },
+      {
+        audio: "ch25/25-04.mp3",
+        kalmyk:
+          "Аав: Нарнд өөрхн бәәх һаргуд – Үлмҗ, Басӊ, Һазр, Мигмр, цааранднь - Пүрвә, Бемб...",
+        russian:
+          "Папа: Ближайшие к солнцу планеты – это Меркурий, Венера, Земля, Марс, далее -Юпитер, Сатурн...",
+      },
+      {
+        audio: "ch25/25-05.mp3",
+        kalmyk:
+          "Амулӊ: А, медгдҗәнә. Хальмгар долан хонгин өдрмүд һаргин нертә бәәҗ.",
+        russian:
+          "Амуланга: А, поняла. Оказывается у калмыков дни недели носят названия планет.",
+      },
+      {
+        audio: "ch25/25-06.mp3",
+        kalmyk: "Аав: Тиим, өдрмүд һаргин, одна болн дахулин нертә.",
+        russian:
+          "Папа: Да, это так. Дни недели имеют названия планет, звезды и спутника.",
+      },
+      {
+        audio: "ch25/25-07.mp3",
+        kalmyk:
+          "Амулӊ: Өдрмүдин нерднь: Нарн, Сарӊ, Мигмр, Үлмҗ, Пүрвә, Басң, Бемб.",
+        russian:
+          "Амуланга: Названия дней недели: Солнце, Луна, Марс, Меркурий, Юпитер, Венера, Сатурн.",
+      },
+      {
+        audio: "ch25/25-08.mp3",
+        kalmyk: "Аав: Чик келвч.",
+        russian: "Папа: Ты все правильно сказала.",
+      },
+      {
+        audio: "ch25/25-09.mp3",
+        kalmyk: "Саглр: Эн цаһан хаалһ ямаран нертә?",
+        russian: "Саглара: А как называется эта белая дорожка?",
+      },
+      {
+        audio: "ch25/25-10.mp3",
+        kalmyk: "Аав: Энчн Теӊгрин уйдл.",
+        russian: "Папа: Это Млечный путь.",
+      },
+      {
+        audio: "ch25/25-11.mp3",
+        kalmyk: "Амулӊ: Би Алтн һас үзҗәнәв.",
+        russian: "Амуланга: Я вижу Полярную звезду.",
+      },
+      {
+        audio: "ch25/25-12.mp3",
+        kalmyk: "Саглр: Терчн хаалһ заадг одн.",
+        russian: "Саглара: Это звезда, которая указывает путь.",
+      },
+      {
+        audio: "ch25/25-13.mp3",
+        kalmyk: "Аав: Чик. Ормдан бәәдг төләднь Алтн һасн нер өгч.",
+        russian:
+          "Папа: Правильно. Она находится в одном и том же месте, поэтому ее назвали Золотым колом.",
+      },
+    ],
+    vocabulary: [
+      { audio: "ch25/25-14.mp3", kalmyk: "алтн", russian: "звезда" },
+      { audio: "ch25/25-15.mp3", kalmyk: "һарг", russian: "планета" },
+      { audio: "ch25/25-16.mp3", kalmyk: "һасн", russian: "кол" },
+      { audio: "ch25/25-17.mp3", kalmyk: "дахуль", russian: "спутник" },
+      { audio: "ch25/25-18.mp3", kalmyk: "заах", russian: "указывать" },
+      { audio: "ch25/25-19.mp3", kalmyk: "нерн", russian: "название" },
+      { audio: "ch25/25-20.mp3", kalmyk: "одн", russian: "" },
+      { audio: "ch25/25-21.mp3", kalmyk: "орм", russian: "место" },
+      { audio: "ch25/25-22.mp3", kalmyk: "өөрхн", russian: "ближайший" },
+      { audio: "ch25/25-23.mp3", kalmyk: "теӊгр", russian: "небо" },
+      { audio: "ch25/25-24.mp3", kalmyk: "төлә", russian: "потому что" },
+      { audio: "ch25/25-25.mp3", kalmyk: "хаалһ", russian: "дорога" },
+      { audio: "ch25/25-26.mp3", kalmyk: "хәләх", russian: "смотреть" },
     ],
     memorize: [],
     memorizeType: "",
@@ -1324,4 +1757,4 @@ var chapter_template = [
   },
 ];
 
-var memorizeTypes = ["base", "numberTable", "text"];
+var memorizeTypes = ["normal", "numberTable", "list", "text"];

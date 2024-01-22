@@ -2,10 +2,10 @@ import "./book.css";
 import { Table } from "react-bootstrap";
 import displayMemorize from "./memorize";
 import { useEffect } from "react";
+import displayExtras from "./extras";
 
 function PageBase(pageData) {
   var page = pageData.pageData;
-  // const [playSound, setPlaySound] = useState(0);
 
   useEffect(() => {
     playAudio();
@@ -93,15 +93,15 @@ function PageBase(pageData) {
             <th>Русский</th>
           </tr>
         </thead>
-        <tbody></tbody>
-
-        {data.map((row) => (
-          <tr>
-            {renderPlayButton(row.audio)}
-            <td>{row.kalmyk}</td>
-            <td>{row.russian}</td>
-          </tr>
-        ))}
+        <tbody>
+          {data.map((row) => (
+            <tr>
+              {renderPlayButton(row.audio)}
+              <td>{row.kalmyk}</td>
+              <td>{row.russian}</td>
+            </tr>
+          ))}
+        </tbody>
       </>
     );
   }
@@ -134,11 +134,15 @@ function PageBase(pageData) {
 
       <span>Толь бичг / Словарь</span>
       <div className="vocabulary">
-        <Table bordered>{displayVocabulary()}</Table>
+        <Table className="dictionary" bordered>
+          {displayVocabulary()}
+        </Table>
       </div>
+      <span>Тодлтн / Запомните</span>
       <div className="memorize">
         {displayMemorize(page.memorize, page.memorizeType)}
       </div>
+      {displayExtras(page.extras)}
     </div>
   );
 }

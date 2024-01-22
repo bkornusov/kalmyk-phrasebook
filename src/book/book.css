@@ -5,20 +5,32 @@
   -moz-osx-font-smoothing: grayscale;
   font-size: 12pt;
   text-align: center;
-  width: 800px;
+  width: 900px;
   height: 885px;
   background-color: white;
   padding: 1.5em;
   overflow-y: scroll;
 }
 
+Table {
+  word-break: normal;
+  border: 1px solid;
+}
+
 Table * {
+  line-height: 20px;
   text-align: start;
   padding: 0.1em !important;
+  text-wrap: unset;
+}
+
+.audio-column {
+  vertical-align: middle;
 }
 
 span {
   font-weight: bold;
+  font-size: 14pt;
 }
 
 .play-button {
@@ -31,10 +43,21 @@ span {
 }
 
 .audio-column {
-  width: 25px;
+  width: 20px;
 }
 
 .vocabulary {}
+
+pre {
+  font-size: 1.25em !important;
+  text-align: start;
+}
+
+ol {
+  padding-left: 1em !important;
+  text-align: start;
+  font-size: 13pt;
+}
 
 @media (max-width: 800px) {
   .page-base {
