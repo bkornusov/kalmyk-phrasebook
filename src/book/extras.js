@@ -56,11 +56,14 @@ function displayExtraTable(table) {
 }
 
 export default function displayExtras(data) {
-  var items = data.items;
-  var tableIndex = data.tableIndex;
-  if (!items || !data) {
+  if (!data || data.length == 0) {
     return;
   }
+  var items = data.items;
+  if (!items) {
+    return;
+  }
+  var tableIndex = data.tableIndex;
   return (
     <>
       <span>Примечания:</span>

@@ -25,8 +25,36 @@ function renderPlayButton(fileName) {
   );
 }
 
-function displayTable1() {
-  return <></>;
+function displayTable1(data) {
+  if (data[0].audio) {
+    return (
+      <Table bordered>
+        <tbody>
+          {data.map((row) => (
+            <tr>
+              {renderPlayButton(row.audio)}
+              <td>{row.kalmyk}</td>
+              <td>{row.russian}</td>
+            </tr>
+          ))}
+        </tbody>
+      </Table>
+    );
+  }
+  return (
+    <Table bordered>
+      <tbody>
+        {data.map((row) => (
+          <tr>
+            {renderPlayButton(row.audio1)}
+            <td>{row.kalmyk}</td>
+            {renderPlayButton(row.audio2)}
+            <td>{row.russian}</td>
+          </tr>
+        ))}
+      </tbody>
+    </Table>
+  );
 }
 
 function displayTable2(data) {
@@ -104,9 +132,9 @@ function displayText(data) {
   return <pre>{data}</pre>;
 }
 
-export default function displayMemorize(data, type) {
+function memorizeSwitch(data, type) {
   switch (type) {
-    case "table":
+    case "table1":
       return displayTable1(data);
     case "table2":
       return displayTable2(data);
@@ -120,5 +148,19 @@ export default function displayMemorize(data, type) {
     default:
       return;
   }
+}
+
+export default function displayMemorize(data, type) {
+  if (!data || data.length == 0) {
+    return;
+  }
+  return (
+    <>
+      <span>Тодлтн / Запомните</span>
+      <div className="memorize"></div>
+      {memorizeSwitch(data, type)}
+    </>
+  );
+
   // return <div className="memorize-body"></div>;
 }

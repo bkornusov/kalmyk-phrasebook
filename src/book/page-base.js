@@ -138,10 +138,8 @@ function PageBase(pageData) {
           {displayVocabulary()}
         </Table>
       </div>
-      <span>Тодлтн / Запомните</span>
-      <div className="memorize">
-        {displayMemorize(page.memorize, page.memorizeType)}
-      </div>
+
+      {displayMemorize(page.memorize, page.memorizeType)}
       {displayExtras(page.extras)}
     </div>
   );

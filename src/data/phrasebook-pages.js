@@ -325,7 +325,16 @@ var phraseBookPages = [
       ],
     ],
     memorizeType: "horizontalTable",
-    extras: "",
+    extras: {
+      items: [
+        "В калмыцком языке можно сказать «Би серүв» (Я проснулась) или «Серүв» (Проснулась), «Би сән хонув» (Я хорошо спала) или «Сән хонув» (Хорошо спала). Предложение может строиться без местоимения «би».",
+        "Неопределенная форма глагола имеет окончание -х: серх, хонх.",
+        "Повелительная форма образуется от неопределенной формы без окончания -х: Сер! (Просыпайся!), Хон! (Ночуй!)",
+        "Недавнопрошедшее время глагола образуется с помощью суффикса -в. В некоторых случаях -в заменяется на -у/ү, если подряд идут два или три букв «в». ",
+      ],
+      table: [[], [], []],
+      tableIndex: 4,
+    },
   },
   {
     chapter: 5,
@@ -444,11 +453,26 @@ var phraseBookPages = [
       { audio: "ch6/6-17.mp3", kalmyk: "бас", russian: "тоже" },
     ],
     memorize: [
-      { audio: "", kalmyk: "", russian: "" },
-      { audio: "", kalmyk: "", russian: "" },
+      [
+        { audio: "ch6/6-19.mp3", kalmyk: "ясх ", russian: "(заправлять)" },
+        { audio: "ch6/6-21.mp3", kalmyk: "ястн", russian: "(заправьте)" },
+        { audio: "ch6/6-23.mp3", kalmyk: "уһах", russian: "(мыть)" },
+        { audio: "ch6/6-25.mp3", kalmyk: "уһатн", russian: "(мойте)" },
+      ],
+      [
+        { audio: "ch6/6-20.mp3", kalmyk: "яс ", russian: "(заправь)" },
+        { audio: "ch6/6-22.mp3", kalmyk: "ясчкув", russian: "(я заправила)" },
+        { audio: "ch6/6-24.mp3", kalmyk: "уһа", russian: "(мой)" },
+        { audio: "ch6/6-26.mp3", kalmyk: "уһачкув", russian: "(я помыла)" },
+      ],
     ],
-    memorizeType: "",
-    extras: "",
+    memorizeType: "horizontalTable",
+    extras: {
+      items: [
+        "Повелительная форма, обращенная к нескольким людям, и уважительная повелительная форма, образуются с помощью окончания -тн: Оран ястн. (Заправьте кровати.). Нүр-һаран уһатн. (Умывайтесь.).",
+        "Суффикс -чк обозначает завершенность дейстия.",
+      ],
+    },
   },
   {
     chapter: 7,
@@ -497,11 +521,61 @@ var phraseBookPages = [
       { audio: "ch7/7-16.mp3", kalmyk: "аашх", russian: "приближаться; идти" },
     ],
     memorize: [
-      { audio: "", kalmyk: "", russian: "" },
-      { audio: "", kalmyk: "", russian: "" },
+      {
+        audio1: "ch7/7-18.mp3",
+        audio2: "ch7/7-19.mp3",
+        kalmyk: "цеврлх",
+        russian: "Шүдән цеврлҗәнәв. (Зубы чищу.)",
+      },
+      {
+        audio1: "ch7/7-20.mp3",
+        audio2: "ch7/7-21.mp3",
+        kalmyk: "самлх",
+        russian: "Үсән самлҗанав. (Волосы расчесываю.)",
+      },
+      {
+        audio1: "ch7/7-22.mp3",
+        audio2: "ch7/7-23.mp3",
+        kalmyk: "күләх",
+        russian: "Бидн күләжәнәвидн. (Мы ждем.)",
+      },
+      {
+        audio1: "ch7/7-24.mp3",
+        audio2: "ch7/7-25.mp3",
+        kalmyk: "кех",
+        russian: "Ю кеҗәнәч? (Что делаешь?)",
+      },
+      {
+        audio1: "ch7/7-26.mp3",
+        audio2: "ch7/7-27.mp3",
+        kalmyk: "ясх",
+        russian: "Тедн оран ясчана. (Они заправляю кровати.)",
+      },
+      {
+        audio1: "ch7/7-28.mp3",
+        audio2: "ch7/7-29.mp3",
+        kalmyk: "уһах",
+        russian: "Эгч һаран уһаҗана. (Сестра моет руки.)",
+      },
+      {
+        audio1: "ch7/7-30.mp3",
+        audio2: "ch7/7-31.mp3",
+        kalmyk: "давшх",
+        russian: "Аав уул давшҗана. (Папа поднимается на гору.)",
+      },
+      {
+        audio1: "ch7/7-32.mp3",
+        audio2: "ch7/7-33.mp3",
+        kalmyk: "үзх",
+        russian: "Тадн уул үзҗәнәт. (Вы видите горы.)",
+      },
     ],
-    memorizeType: "",
-    extras: "",
+    memorizeType: "table1",
+    extras: {
+      items: [
+        "Когда мы говорим о действии, которое происходит сейчас, к основе глагола добавляют суффиксы -җана/-җәнә/-чана/-чәнә",
+      ],
+    },
   },
   {
     chapter: 8,
@@ -548,9 +622,55 @@ var phraseBookPages = [
       { audio: "ch8/8-14.mp3", kalmyk: "нанд", russian: "мне" },
       { audio: "ch8/8-15.mp3", kalmyk: "хар", russian: "черный" },
     ],
-    memorize: [],
-    memorizeType: "",
-    extras: "",
+    memorize: [
+      { audio: "ch8/8-17.mp3", kalmyk: "хальмг", russian: "калмык; калмыцкий" },
+      {
+        audio: "ch8/8-18.mp3",
+        kalmyk: "хальмг күүкн",
+        russian: "девочка калмычка",
+      },
+      {
+        audio: "ch8/8-19.mp3",
+        kalmyk: "хальмг көвүн",
+        russian: "мальчик калмык",
+      },
+      {
+        audio: "ch8/8-20.mp3",
+        kalmyk: "хальмг залу",
+        russian: "калмык (мужчина)",
+      },
+      {
+        audio: "ch8/8-21.mp3",
+        kalmyk: "хальмг күүкд күн",
+        russian: "калмычка (женщина)",
+      },
+      {
+        audio: "ch8/8-22.mp3",
+        kalmyk: "Хальмг Таӊһч",
+        russian: "Республика Калмыкия",
+      },
+      {
+        audio: "ch8/8-23.mp3",
+        kalmyk: "хальмг тег",
+        russian: "калмыцкая степь",
+      },
+      {
+        audio: "ch8/8-24.mp3",
+        kalmyk: "хальмг дун",
+        russian: "калмыцкая песня",
+      },
+      {
+        audio: "ch8/8-25.mp3",
+        kalmyk: "хальмг би",
+        russian: "калмыцкий танец",
+      },
+      {
+        audio: "ch8/8-26.mp3",
+        kalmyk: "хальмг тууль",
+        russian: "калмыцкая сказка",
+      },
+    ],
+    memorizeType: "table1",
   },
   {
     chapter: 9,
@@ -598,9 +718,60 @@ var phraseBookPages = [
       { audio: "ch9/9-15.mp3", kalmyk: "йир", russian: "очень" },
       { audio: "ch9/9-16.mp3", kalmyk: "идх", russian: "есть, кушать" },
     ],
-    memorize: [],
-    memorizeType: "",
-    extras: "",
+    memorize: [
+      {
+        audio: "ch9/9-18.mp3",
+        kalmyk: "Би уулд дуртав.",
+        russian: "Я люблю горы.",
+      },
+      {
+        audio: "ch9/9-19.mp3",
+        kalmyk: "Би цәәд дуртав.",
+        russian: "Я люблю чай.",
+      },
+      {
+        audio: "ch9/9-20.mp3",
+        kalmyk: "Би тутрһд дуртав.",
+        russian: "Я люблю рис.",
+      },
+      {
+        audio: "ch9/9-21.mp3",
+        kalmyk: "Би өндгт дуртав.",
+        russian: "Я люблю яйца.",
+      },
+      {
+        audio: "ch9/9-22.mp3",
+        kalmyk: "Би чамд дуртав.",
+        russian: "Я люблю тебя.",
+      },
+      {
+        audio: "ch9/9-23.mp3",
+        kalmyk: "Би аавдан дуртав.",
+        russian: "Я люблю (своего) папу.",
+      },
+      {
+        audio: "ch9/9-24.mp3",
+        kalmyk: "Би ээҗдән дуртав.",
+        russian: "Я люблю (свою) маму.",
+      },
+      {
+        audio: "ch9/9-25.mp3",
+        kalmyk: "Би Амулядан дуртав.",
+        russian: "Я люблю (свою) Амулю.",
+      },
+      {
+        audio: "ch9/9-26.mp3",
+        kalmyk: "Би Саглртан дуртав.",
+        russian: "Я люблю (свою) Саглару.",
+      },
+    ],
+    memorizeType: "table1",
+    extras: {
+      items: [
+        "Существительные, которые употребляются с глаголом «дурта» (нравиться, любить) получают окончание -д/т (дательно-местный падеж).",
+        "Суффикс -ан/ән выражает принадлежность и означает «свой».",
+      ],
+    },
   },
   {
     chapter: 10,
@@ -648,9 +819,85 @@ var phraseBookPages = [
       { audio: "ch10/10-15.mp3", kalmyk: "үзг", russian: "ручка" },
       { audio: "ch10/10-16.mp3", kalmyk: "хувцн", russian: "одежда" },
     ],
-    memorize: [],
-    memorizeType: "",
-    extras: "",
+    memorize: [
+      [
+        { audio: "ch10/10-18.mp3", kalmyk: "серх", russian: "(просыпаться)" },
+        {
+          audio: "ch10/10-19.mp3",
+          kalmyk: "чи сервч ",
+          russian: "(ты проснулся)",
+        },
+        {
+          audio: "ch10/10-20.mp3",
+          kalmyk: "Чи серүвч?",
+          russian: "(Ты проснулся?)",
+        },
+      ],
+      [
+        { audio: "ch10/10-21.mp3", kalmyk: "давшх", russian: "(подниматься)" },
+        {
+          audio: "ch10/10-22.mp3",
+          kalmyk: "тадн давшвт ",
+          russian: "(вы поднялись)",
+        },
+        {
+          audio: "ch10/10-23.mp3",
+          kalmyk: "Тадн уул давшувт?",
+          russian: "(Вы поднимались на гору?)",
+        },
+      ],
+      [
+        { audio: "ch10/10-24.mp3", kalmyk: "уух", russian: "(пить)" },
+        { audio: "ch10/10-25.mp3", kalmyk: "чи уувч ", russian: "(ты выпил)" },
+        {
+          audio: "ch10/10-26.mp3",
+          kalmyk: "Чи цә ууввч? ",
+          russian: "(Ты пил чай?)",
+        },
+      ],
+      [
+        { audio: "ch10/10-27.mp3", kalmyk: "идх", russian: "(есть)" },
+        { audio: "ch10/10-28.mp3", kalmyk: "тадн идвт ", russian: "(вы ели)" },
+        {
+          audio: "ch10/10-29.mp3",
+          kalmyk: "Тадн хаш идүвт?",
+          russian: "(Вы ели кашу?)",
+        },
+      ],
+      [
+        { audio: "ch10/10-30.mp3", kalmyk: "өмсх", russian: "(одеваться)" },
+        {
+          audio: "ch10/10-31.mp3",
+          kalmyk: "чи өмсвч ",
+          russian: "(ты оделся)",
+        },
+        {
+          audio: "ch10/10-32.mp3",
+          kalmyk: "Хувцан өмсүвч?",
+          russian: "(Ты оделся?)",
+        },
+      ],
+      [
+        { audio: "ch10/10-33.mp3", kalmyk: "шарх", russian: "(жарить)" },
+        {
+          audio: "ch10/10-34.mp3",
+          kalmyk: "тадн шарвт ",
+          russian: "(вы пожарили)",
+        },
+        {
+          audio: "ch10/10-35.mp3",
+          kalmyk: "Өндг шарувт?",
+          russian: "(Вы пожарили яйца?)",
+        },
+      ],
+    ],
+    memorizeType: "horizontalTable",
+    extras: {
+      items: [
+        "Недавнопрошедшее время глагола образуется с помощью суффикса -в. ",
+        "Вопросительная частица -в добавляетя после суффикса -в недавнопрошедшего времени. В некоторых случаях -в заменяется на -у/ү, если подряд идут две или три буквы «в». Если основа глагола оканчивается на гласную букву, две буквы «в» сохраняются (уу – уувв, ууввч, ууввт).",
+      ],
+    },
   },
   {
     chapter: 11,
@@ -700,9 +947,24 @@ var phraseBookPages = [
       { audio: "ch11/11-17.mp3", kalmyk: "уга", russian: "нет" },
       { audio: "ch11/11-18.mp3", kalmyk: "һуйр", russian: "тесто" },
     ],
-    memorize: [],
-    memorizeType: "",
-    extras: "",
+    memorize: [
+      { audio: "ch11/11-20.mp3", kalmyk: "боднцгта", russian: "с картошкой" },
+      { audio: "ch11/11-21.mp3", kalmyk: "һуйрта", russian: "с тестом" },
+      { audio: "ch11/11-22.mp3", kalmyk: "күүкдтә", russian: "с детьми" },
+      { audio: "ch11/11-23.mp3", kalmyk: "һарта", russian: "с рукой" },
+      { audio: "ch11/11-24.mp3", kalmyk: "орта", russian: "с кроватью" },
+      { audio: "ch11/11-25.mp3", kalmyk: "саната", russian: "с намерением" },
+      { audio: "ch11/11-26.mp3", kalmyk: "уулта", russian: "с горой, горами" },
+      { audio: "ch11/11-27.mp3", kalmyk: "хувцта", russian: "с одеждой" },
+      { audio: "ch11/11-28.mp3", kalmyk: "цәәтә", russian: "с чаем" },
+      { audio: "ch11/11-29.mp3", kalmyk: "чирәтә", russian: "с лицом" },
+    ],
+    memorizeType: "table1",
+    extras: {
+      items: [
+        "Существительные, окончавающиеся на суффикс совместного падежа -та/тә, отвечают на вопросы с кем? с чем? ",
+      ],
+    },
   },
   {
     chapter: 12,
@@ -748,9 +1010,24 @@ var phraseBookPages = [
       { audio: "ch12/12-13.mp3", kalmyk: "авх", russian: "получить" },
       { audio: "ch12/12-14.mp3", kalmyk: "намий", russian: "даже так" },
     ],
-    memorize: [],
-    memorizeType: "",
-    extras: "",
+    memorize: [
+      { audio: "ch12/12-16.mp3", kalmyk: "кичәлән", russian: "свой урок" },
+      {
+        audio: "ch12/12-17.mp3",
+        kalmyk: "шүлгән",
+        russian: "свое стихотворение",
+      },
+      { audio: "ch12/12-18.mp3", kalmyk: "зүүдән", russian: "свой сон" },
+      { audio: "ch12/12-19.mp3", kalmyk: "цәәһән", russian: "свой чай" },
+      { audio: "ch12/12-20.mp3", kalmyk: "хашан", russian: "свою кашу" },
+      { audio: "ch12/12-21.mp3", kalmyk: "чирәһән", russian: "свое лицо" },
+      { audio: "ch12/12-22.mp3", kalmyk: "һаран", russian: "свою руку" },
+      { audio: "ch12/12-23.mp3", kalmyk: "шүдән", russian: "свои зубы" },
+    ],
+    memorizeType: "table1",
+    extras: {
+      items: ["Суффикс -ан/ән выражает принадлежность и означает «свой». "],
+    },
   },
   {
     chapter: 13,
@@ -819,9 +1096,40 @@ var phraseBookPages = [
         russian: "пусть будет так",
       },
     ],
-    memorize: [],
-    memorizeType: "",
-    extras: "",
+    memorize: [
+      {
+        audio: "ch13/13-23.mp3",
+        kalmyk: "Яһсн сән күүкдв!",
+        russian: "Какие хорошие девочки (дети)!",
+      },
+      {
+        audio: "ch13/13-24.mp3",
+        kalmyk: "Яһсн сән дегтрв!",
+        russian: "Какая хорошая книга!",
+      },
+      {
+        audio: "ch13/13-25.mp3",
+        kalmyk: "Яһсн шимтә махмб!",
+        russian: "Какое сочное мясо!",
+      },
+      {
+        audio: "ch13/13-26.mp3",
+        kalmyk: "Яһсн нигт шөлмб!",
+        russian: "Какой наваристый бульон!",
+      },
+      {
+        audio: "ch13/13-27.mp3",
+        kalmyk: "Яһсн сән күүкмб!",
+        russian: "Какая хорошая девочка!",
+      },
+    ],
+    memorizeType: "table1",
+    extras: {
+      items: [
+        "Вопросительное местоимение «яһсн» употребляется в риторическом вопросе.",
+        "В таких вопросах конечная буква -н у существительных (махн, шөлн, күүкн) превращается в -м перед вопросительной частицей -в, а сама частица -в превращается в -б (махн – махмб, шөлн – шөлмб, күүкн - күүкмб).  ",
+      ],
+    },
   },
   {
     chapter: 14,
@@ -880,11 +1188,63 @@ var phraseBookPages = [
         kalmyk: "ачлх",
         russian: "награждать; вознаграждать",
       },
-      { audio: "ch14/14-21.mp3", kalmyk: "боорцг", russian: "борцоки" },
+      { audio: "ch14/14-21.mp3", kalmyk: "боорцг ", russian: "борцоки" },
     ],
-    memorize: [],
-    memorizeType: "",
-    extras: "",
+    memorize: [
+      [
+        { audio: "ch14/14-23.mp3", kalmyk: "магтх ", russian: "(хвалить)" },
+        {
+          audio: "ch14/14-24.mp3",
+          kalmyk: "магтв ",
+          russian: "(он/она хвалил/ла )",
+        },
+        {
+          audio: "ch14/14-25.mp3",
+          kalmyk: "Багш намаг магтв. ",
+          russian: "(Учитель меня похвалил.)",
+        },
+      ],
+      [
+        { audio: "ch14/14-26.mp3", kalmyk: "давшх ", russian: "(подниматься)" },
+        {
+          audio: "ch14/14-27.mp3",
+          kalmyk: "давшв ",
+          russian: "(он/она поднялся/ лась)",
+        },
+        {
+          audio: "ch14/14-28.mp3",
+          kalmyk: "Аав уул давшв. ",
+          russian: "(Папа поднимался на гору.)",
+        },
+      ],
+      [
+        { audio: "ch14/14-29.mp3", kalmyk: "унтх ", russian: "(спать)" },
+        {
+          audio: "ch14/14-30.mp3",
+          kalmyk: "унтв ",
+          russian: "(он/она спал/а)",
+        },
+        {
+          audio: "ch14/14-31.mp3",
+          kalmyk: "Ээҗ үдин хөөн унтв. ",
+          russian: "(Мама спала после обеда.)",
+        },
+      ],
+      [
+        { audio: "ch14/14-32.mp3", kalmyk: "ясх ", russian: "(заправлять)" },
+        {
+          audio: "ch14/14-33.mp3",
+          kalmyk: "ясв ",
+          russian: "(он/она заправил/а)",
+        },
+        {
+          audio: "ch14/14-34.mp3",
+          kalmyk: "Күүкн оран ясв.",
+          russian: "(Девочка заправила постель.)",
+        },
+      ],
+    ],
+    memorizeType: "horizontalTable",
   },
   {
     chapter: 15,
