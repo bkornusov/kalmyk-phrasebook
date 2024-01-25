@@ -1,6 +1,7 @@
 import "./book.css";
 import { Table } from "react-bootstrap";
 import displayMemorize from "./memorize";
+import displayExtraMemorizeTable from "./memorize";
 import { useEffect } from "react";
 import displayExtras from "./extras";
 
@@ -44,6 +45,13 @@ function PageBase(pageData) {
         </button>
       </td>
     );
+  }
+
+  function displayExtraMemorizeTable(data) {
+    if (!data || data.length == 0) {
+      return;
+    }
+    return displayMemorize(data, "table1", true);
   }
 
   function displayVocabulary() {
@@ -138,8 +146,8 @@ function PageBase(pageData) {
           {displayVocabulary()}
         </Table>
       </div>
-
       {displayMemorize(page.memorize, page.memorizeType)}
+      {displayExtraMemorizeTable(page.memorizeExtraTable)}
       {displayExtras(page.extras)}
     </div>
   );

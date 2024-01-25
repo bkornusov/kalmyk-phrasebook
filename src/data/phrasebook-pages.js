@@ -1308,9 +1308,95 @@ var phraseBookPages = [
       { audio: "ch15/15-15.mp3", kalmyk: "бөөрг", russian: "бериги" },
       { audio: "ch15/15-16.mp3", kalmyk: "булмг", russian: "булмук" },
     ],
-    memorize: [],
-    memorizeType: "",
-    extras: "",
+    memorize: [
+      [
+        {
+          audio: "ch15/15-18.mp3",
+          kalmyk: "Би хальмг цә уунав.",
+          russian: "Я пью калмыцкий чай.",
+        },
+        {
+          audio: "ch15/15-22.mp3",
+          kalmyk: "Бидн үстә цә уунавидн.",
+          russian: "Мы пьем калмыцкий чай.",
+        },
+      ],
+      [
+        {
+          audio: "ch15/15-19.mp3",
+          kalmyk: "Чи үстә цә уунач.",
+          russian: "Ты пьешь калмыцкий чай.",
+        },
+        {
+          audio: "ch15/15-23.mp3",
+          kalmyk: "Тадн үстә цә уунат.",
+          russian: "Вы пьете калмыцкий чай.",
+        },
+      ],
+      [
+        {
+          audio: "ch15/15-20.mp3",
+          kalmyk: "Та үстә цә уунат.",
+          russian: "Вы пьете калмыцкий чай.",
+        },
+        {
+          audio: "",
+          kalmyk: "",
+          russian: "",
+        },
+      ],
+      [
+        {
+          audio: "ch15/15-21.mp3",
+          kalmyk: "Эн/Тер үстә цә ууна.",
+          russian: "Он пьет калмыцкий чай.",
+        },
+        {
+          audio: "ch15/15-24.mp3",
+          kalmyk: "Эдн/Тедн үстә цә ууна.",
+          russian: "Они пьют калмыцкий чай.",
+        },
+      ],
+    ],
+    memorizeType: "table2",
+    memorizeExtraTable: [
+      {
+        audio1: "ch15/15-25.mp3",
+        audio2: "ch15/15-26.mp3",
+        kalmyk: "уух",
+        russian: "Би уунав. (Я буду пить.)",
+      },
+      {
+        audio1: "ch15/15-27.mp3",
+        audio2: "ch15/15-28.mp3",
+        kalmyk: "идх",
+        russian: "Би иднәв. (Я буду есть.)",
+      },
+      {
+        audio1: "ch15/15-29.mp3",
+        audio2: "ch15/15-30.mp3",
+        kalmyk: "магтх",
+        russian: "Би магтнав. (Я похвалю.)",
+      },
+      {
+        audio1: "ch15/15-31.mp3",
+        audio2: "ch15/15-32.mp3",
+        kalmyk: "келх",
+        russian: "Чи ю келнәч? (Что ты скажешь?)",
+      },
+      {
+        audio1: "ch15/15-33.mp3",
+        audio2: "ch15/15-34.mp3",
+        kalmyk: "авх",
+        russian: "Чи ю авнач? (Что ты возьмешь?)",
+      },
+    ],
+    extras: {
+      items: [
+        "Настоящее время глагола образуется с помощью суффикса -на/нә.",
+        "Глагол настоящего времени с суффиксом -на/нә также используется для описания действий, которые будут происходить в будущем.",
+      ],
+    },
   },
   {
     chapter: 16,
@@ -1371,9 +1457,73 @@ var phraseBookPages = [
       { audio: "ch16/16-20.mp3", kalmyk: "чамаг", russian: "тебя" },
       { audio: "ch16/16-21.mp3", kalmyk: "серүлх", russian: "будить" },
     ],
-    memorize: [],
-    memorizeType: "",
-    extras: "",
+    memorize: [
+      [
+        { audio: "ch16/16-23.mp3", data: "Кен? Юн? / Кто? Что?" },
+        { audio: "ch16/16-24.mp3", data: "Кенә? Юуна? / Чей?" },
+        { audio: "ch16/16-25.mp3", data: "Кениг? Юуг? / Кого? Что?" },
+      ],
+      [
+        { audio: "ch16/16-29.mp3", kalmyk: "би ", russian: "(я)" },
+        { audio: "ch16/16-30.mp3", kalmyk: "мини ", russian: "(мой)" },
+        { audio: "ch16/16-31.mp3", kalmyk: "намаг ", russian: "(меня)" },
+      ],
+      [
+        { audio: "ch16/16-32.mp3", kalmyk: "чи, Та ", russian: "(ты, Вы)" },
+        {
+          audio: "ch16/16-33.mp3",
+          kalmyk: "чини, Тана ",
+          russian: "(твой, Ваш)",
+        },
+        {
+          audio: "ch16/16-34.mp3",
+          kalmyk: "чамаг, Таниг ",
+          russian: "(тебя, Вас)",
+        },
+      ],
+      [
+        {
+          audio: "ch16/16-35.mp3",
+          kalmyk: "эн, тер ",
+          russian: "(он/она/оно)",
+        },
+        {
+          audio: "ch16/16-36.mp3",
+          kalmyk: "энүнә/үүнә, терүнә/түүнә ",
+          russian: "(его/ее)",
+        },
+        {
+          audio: "ch16/16-37.mp3",
+          kalmyk: "энүг, терүг ",
+          russian: "(его/ее)",
+        },
+      ],
+      [
+        { audio: "ch16/16-38.mp3", kalmyk: "бидн, мадн ", russian: "(мы)" },
+        { audio: "ch16/16-39.mp3", kalmyk: "мана, мадна ", russian: "(наш)" },
+        { audio: "ch16/16-40.mp3", kalmyk: "мадниг ", russian: "(нас)" },
+      ],
+      [
+        { audio: "ch16/16-41.mp3", kalmyk: "тадн ", russian: "(вы)" },
+        { audio: "ch16/16-42.mp3", kalmyk: "тадна ", russian: "(ваш)" },
+        { audio: "ch16/16-43.mp3", kalmyk: "тадниг ", russian: "(вас)" },
+      ],
+      [
+        { audio: "ch16/16-44.mp3", kalmyk: "эдн, тедн ", russian: "(они)" },
+        { audio: "ch16/16-45.mp3", kalmyk: "эднә, теднә ", russian: "(их)" },
+        {
+          audio: "ch16/16-46.mp3",
+          kalmyk: "эдниг, тедниг ",
+          russian: "(их)",
+        },
+      ],
+    ],
+    memorizeType: "conjugation",
+    extras: {
+      items: [
+        "Местоимения в винительном падеже отвечают на вопрос Кениг? Юуг? Ю? (Кого? Что?) и окончиваются на суффиксы -иг/-аг/-г.",
+      ],
+    },
   },
   {
     chapter: 17,
@@ -1433,9 +1583,63 @@ var phraseBookPages = [
       { audio: "ch17/17-15.mp3", kalmyk: "нөкд", russian: "помощник" },
       { audio: "ch17/17-16.mp3", kalmyk: "нөкд болх", russian: "помогать" },
     ],
-    memorize: [],
-    memorizeType: "",
-    extras: "",
+    memorize: [
+      {
+        audio1: "ch17/17-18.mp3",
+        kalmyk1: "мини һар",
+        kalmyk2: "һарм",
+        audio2: "ch17/17-19.mp3",
+        russian: "моя рука",
+      },
+      {
+        audio1: "ch17/17-20-1.mp3",
+        kalmyk1: "чини һар",
+        kalmyk2: "һарчн",
+        audio2: "ch17/17-20-2.mp3",
+        russian: "твоя рука",
+      },
+      {
+        audio1: "ch17/17-21-1.mp3",
+        kalmyk1: "Тана һар",
+        kalmyk2: "һартн",
+        audio2: "ch17/17-21-2.mp3",
+        russian: "Ваша рука",
+      },
+      {
+        audio1: "ch17/17-22.mp3",
+        kalmyk1: "энүнә һар",
+        kalmyk2: "һарнь",
+        audio2: "ch17/17-23.mp3",
+        russian: "его (ее) рука",
+      },
+      {
+        audio1: "ch17/17-24.mp3",
+        kalmyk1: "мадна һар",
+        kalmyk2: "һармдн",
+        audio2: "ch17/17-25.mp3",
+        russian: "наши руки",
+      },
+      {
+        audio1: "ch17/17-26.mp3",
+        kalmyk1: "тадна һар",
+        kalmyk2: "һартн",
+        audio2: "ch17/17-27.mp3",
+        russian: "ваши руки",
+      },
+      {
+        audio1: "ch17/17-28.mp3",
+        kalmyk1: "теднә һар",
+        kalmyk2: "һарнь",
+        audio2: "ch17/17-29.mp3",
+        russian: "их руки",
+      },
+    ],
+    memorizeType: "simpleConjugation",
+    extras: {
+      items: [
+        "Лично-притяжательные частицы добавляются к существительным и указывают на принадлежность чего-то лицу. ",
+      ],
+    },
   },
   {
     chapter: 18,

@@ -94,9 +94,11 @@ function numberTable(data) {
           <tr>
             {row.map((entry) => (
               <>
-                <td>{entry.number}</td>
                 {renderPlayButton(entry.audio)}
                 <td>{entry.kalmyk}</td>
+                <td>
+                  <b>{entry.number}</b>
+                </td>
               </>
             ))}
           </tr>
@@ -128,6 +130,63 @@ function horizontalTable(data) {
   );
 }
 
+function conjugationTable(data) {
+  var header = data[0];
+  var items = data.slice(1);
+  return (
+    <Table bordered>
+      <thead>
+        <tr
+          style={{
+            verticalAlign: "top",
+          }}
+        >
+          {header.map((item) => (
+            <>
+              <td>{renderPlayButton(item.audio)}</td>
+              <td>
+                <b>{item.data}</b>
+              </td>
+            </>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {items.map((row) => (
+          <tr>
+            {row.map((item) => (
+              <>
+                <td>{renderPlayButton(item.audio)}</td>
+                <td>
+                  {item.kalmyk} {item.russian}
+                </td>
+              </>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </Table>
+  );
+}
+
+function simpleConjugation(data) {
+  return (
+    <Table bordered>
+      <tbody>
+        {data.map((row) => (
+          <tr>
+            <td>{renderPlayButton(row.audio1)}</td>
+            <td>{row.kalmyk1}</td>
+            <td>{renderPlayButton(row.audio2)}</td>
+            <td>{row.kalmyk2}</td>
+            <td>{row.russian}</td>
+          </tr>
+        ))}
+      </tbody>
+    </Table>
+  );
+}
+
 function displayText(data) {
   return <pre>{data}</pre>;
 }
@@ -142,7 +201,10 @@ function memorizeSwitch(data, type) {
       return numberTable(data);
     case "horizontalTable":
       return horizontalTable(data);
-    case "list":
+    case "conjugation":
+      return conjugationTable(data);
+    case "simpleConjugation":
+      return simpleConjugation(data);
     case "text":
       return displayText(data);
     default:
@@ -150,15 +212,18 @@ function memorizeSwitch(data, type) {
   }
 }
 
-export default function displayMemorize(data, type) {
+export default function displayMemorize(data, type, duplicate = false) {
   if (!data || data.length == 0) {
     return;
   }
+  if (duplicate) {
+    return <div className="memorize">{memorizeSwitch(data, type)}</div>;
+  }
+
   return (
     <>
       <span>Тодлтн / Запомните</span>
-      <div className="memorize"></div>
-      {memorizeSwitch(data, type)}
+      <div className="memorize">{memorizeSwitch(data, type)}</div>
     </>
   );
 

@@ -7,7 +7,7 @@ function Main() {
   return (
     <div className="main-body">
       <div className="header">
-        <span className="main-title">Хальмг келән өрк-бүлдән дасий</span>
+        <span className="main-title">Хальмг келән өрк-бүлдән сурий</span>
       </div>
       <Book bookData={phraseBookPages} />
       {/* <div className="footer">

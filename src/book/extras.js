@@ -67,22 +67,23 @@ export default function displayExtras(data) {
   return (
     <>
       <span>Примечания:</span>
-      <div className="extras"></div>
-      <ol>
-        {items.map((item, index) => {
-          if (index == tableIndex - 1) {
-            return (
-              <>
-                <li>
-                  <p>{item}</p>
-                </li>
-                {displayExtraTable(data.table)}
-              </>
-            );
-          }
-          return <li>{item}</li>;
-        })}
-      </ol>
+      <div className="extras">
+        <ol>
+          {items.map((item, index) => {
+            if (index == tableIndex - 1) {
+              return (
+                <>
+                  <li>
+                    <p>{item}</p>
+                  </li>
+                  {displayExtraTable(data.table)}
+                </>
+              );
+            }
+            return <li>{item}</li>;
+          })}
+        </ol>
+      </div>
     </>
   );
 }
