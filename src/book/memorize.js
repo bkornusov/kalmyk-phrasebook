@@ -170,6 +170,43 @@ function conjugationTable(data) {
 }
 
 function simpleConjugation(data) {
+  if (data[0].kalmyk1.includes("?")) {
+    var header = data[0];
+    var body = data.slice(1);
+    return (
+      <Table bordered>
+        <thead>
+          <tr>
+            <th>{renderPlayButton(header.audio1)}</th>
+            <th>
+              <b>{header.kalmyk1}</b>
+            </th>
+            <th>
+              <b>{renderPlayButton(header.audio2)}</b>
+            </th>
+            <th>
+              <b>
+                {header.kalmyk2}
+                {header.russian}
+              </b>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {body.map((row) => (
+            <tr>
+              <td>{renderPlayButton(row.audio1)}</td>
+              <td>{row.kalmyk1}</td>
+              <td>{renderPlayButton(row.audio2)}</td>
+              <td>
+                {row.kalmyk2} {row.russian}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </Table>
+    );
+  }
   return (
     <Table bordered>
       <tbody>
@@ -191,6 +228,38 @@ function displayText(data) {
   return <pre>{data}</pre>;
 }
 
+function displayChapter24(data) {
+  return (
+    <Table>
+      {data.map((section) => (
+        <>
+          <thead>
+            <tr>
+              <th></th>
+              <th colSpan={2}>{section.headers[0]}</th>
+              <th></th>
+              <th colSpan={2}>{section.headers[1]}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {section.items.map((row) => (
+              <tr>
+                {row.map((item) => (
+                  <>
+                    <td>{renderPlayButton(item.audio)}</td>
+                    <td>{item.kalmyk}</td>
+                    <td>{item.russian}</td>
+                  </>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </>
+      ))}
+    </Table>
+  );
+}
+
 function memorizeSwitch(data, type) {
   switch (type) {
     case "table1":
@@ -207,6 +276,8 @@ function memorizeSwitch(data, type) {
       return simpleConjugation(data);
     case "text":
       return displayText(data);
+    case "chapter24":
+      return displayChapter24(data);
     default:
       return;
   }

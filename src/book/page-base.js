@@ -12,6 +12,10 @@ function PageBase(pageData) {
     playAudio();
   }, []);
 
+  if (page == undefined) {
+    return <div className="page-base">Error</div>;
+  }
+
   function boldenSpeaker(line) {
     var splitLine = line.split(":");
     return (

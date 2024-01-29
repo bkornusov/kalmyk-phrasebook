@@ -11,18 +11,20 @@ export default function Book(bookDataRaw) {
     newPage < 1
       ? setPageNumber(1)
       : newPage > bookData.length
-      ? setPageNumber(bookData.length)
+      ? setPageNumber(bookData.length - 1)
       : setPageNumber(newPage);
   }
 
   function pageBack() {
-    pageNumber <= 1 ? setPageNumber(1) : setPageNumber(pageNumber - 1);
+    pageNumber <= 1
+      ? setPageNumber(1)
+      : setPageNumber(parseInt(pageNumber) - 1);
   }
 
   function pageForward() {
     pageNumber >= bookData.length
-      ? setPageNumber(bookData.length)
-      : setPageNumber(pageNumber + 1);
+      ? setPageNumber(bookData.length - 1)
+      : setPageNumber(parseInt(pageNumber) + 1);
   }
 
   return (
