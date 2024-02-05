@@ -11,7 +11,7 @@ export default function Book(bookDataRaw) {
     newPage < 1
       ? setPageNumber(1)
       : newPage > bookData.length
-      ? setPageNumber(bookData.length - 1)
+      ? setPageNumber(pageNumber)
       : setPageNumber(newPage);
   }
 

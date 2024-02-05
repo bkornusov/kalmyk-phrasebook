@@ -3,13 +3,17 @@
   font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 12pt;
+  font-size: 13pt;
   text-align: center;
   width: 900px;
   height: 885px;
   background-color: white;
   padding: 1.5em;
   overflow-y: scroll;
+}
+
+text {
+  padding: 0 !important;
 }
 
 Table {
@@ -20,12 +24,23 @@ Table {
 Table * {
   line-height: 20px;
   text-align: start;
-  padding: 0.1em !important;
   text-wrap: unset;
 }
 
 .audio-column {
   vertical-align: middle;
+}
+
+th {
+  padding: 0.1em !important;
+}
+
+td {
+  padding: 0.1em !important;
+}
+
+td button {
+  padding: 0.1em !important;
 }
 
 span {
@@ -58,6 +73,14 @@ ol {
   text-align: start;
   font-weight: 500;
   font-size: 13pt;
+}
+
+#red {
+  color: red;
+}
+
+#blue {
+  color: blue;
 }
 
 @media (max-width: 800px) {

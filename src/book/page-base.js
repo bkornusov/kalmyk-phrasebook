@@ -1,7 +1,6 @@
 import "./book.css";
 import { Table } from "react-bootstrap";
 import displayMemorize from "./memorize";
-import displayExtraMemorizeTable from "./memorize";
 import { useEffect } from "react";
 import displayExtras from "./extras";
 
@@ -12,18 +11,8 @@ function PageBase(pageData) {
     playAudio();
   }, []);
 
-  if (page == undefined) {
+  if (page === undefined) {
     return <div className="page-base">Error</div>;
-  }
-
-  function boldenSpeaker(line) {
-    var splitLine = line.split(":");
-    return (
-      <td>
-        <b>{splitLine[0]}:</b>
-        {splitLine[1]}
-      </td>
-    );
   }
 
   async function playAudio(location) {
@@ -38,21 +27,76 @@ function PageBase(pageData) {
     }
   }
 
+  function boldenSpeaker(line) {
+    var splitLine = line.split(":");
+    return (
+      <td>
+        <b>{splitLine[0]}: </b>
+        {highlight(splitLine[1], "dialog")}
+      </td>
+    );
+  }
+
+  // function highLightRed(substring) {
+  //   return <font color="red">{substring}</font>;
+  // }
+
+  // function highLightBlue(substring) {
+  //   return <font color="blue">{substring}</font>;
+  // }
+
+  function highlight(string, section) {
+    if (!page.highlights || page.highlights.length === 0) {
+      return string;
+    }
+    const words = string.split(" ");
+
+    switch (section) {
+      case "dialog":
+        let result = string;
+        const reds = page.highlights.dialog.red;
+        const blues = page.highlights.dialog.blue;
+
+        if (reds) {
+          reds.forEach((substring) => {
+            const regex = new RegExp(substring, "gi");
+            const replacement = `<span style="color: red;">${substring}</span>`;
+            result = result.replace(regex, replacement);
+          });
+        }
+
+        if (blues) {
+          blues.forEach((substring) => {
+            const regex = new RegExp(substring, "gi");
+            const replacement = `<span style="color: blue;">${substring}</span>`;
+            result = result.replace(regex, replacement);
+          });
+        }
+
+        return <text dangerouslySetInnerHTML={{ __html: result }}></text>;
+
+      case "vocabulary":
+      case "memorize":
+      case "extras":
+      default:
+    }
+  }
+
   function renderPlayButton(fileName) {
-    if (fileName == "") {
+    if (fileName === "") {
       return <td></td>;
     }
     return (
       <td className="audio-column">
         <button className="play-button" onClick={() => playAudio(fileName)}>
-          <img className="play-button-icon" src="./media/play.png" />
+          <img alt="play" className="play-button-icon" src="./media/play.png" />
         </button>
       </td>
     );
   }
 
   function displayExtraMemorizeTable(data) {
-    if (!data || data.length == 0) {
+    if (!data || data.length === 0) {
       return;
     }
     return displayMemorize(data, "table1", true);
@@ -65,7 +109,7 @@ function PageBase(pageData) {
       const mid = Math.ceil(data.length / 2);
       const column1 = data.slice(0, mid);
       const column2 = data.slice(mid);
-      if (data.length % 2 == 1) {
+      if (data.length % 2 === 1) {
         column2.push({ audio: "", kalmyk: "", russian: "" });
       }
       return (
