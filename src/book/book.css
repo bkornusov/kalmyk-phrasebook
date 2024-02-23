@@ -83,6 +83,50 @@ ol {
   color: blue;
 }
 
+.animation-wrapper {
+  transform: translateX(0%);
+}
+
+.swipeRight {
+  position: static;
+  animation: swipeRight 0.5s ease-out infinite;
+  overflow-x: hidden;
+}
+
+.swipeLeft {
+  position: static;
+  animation: swipeLeft 0.5s ease-out infinite;
+  overflow-x: hidden;
+}
+
+@keyframes swipeRight {
+  50% {
+    transform: translateX(-200vw);
+  }
+
+  50.001% {
+    transform: translateX(200vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes swipeLeft {
+  50% {
+    transform: translateX(200vw);
+  }
+
+  50.001% {
+    transform: translateX(-200vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
 @media (max-width: 800px) {
   .page-base {
     width: 100vw;

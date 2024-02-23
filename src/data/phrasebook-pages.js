@@ -75,7 +75,7 @@ var phraseBookPages = [
     ],
     memorize: [
       [
-        { audio: "ch1/1-14.mp3", kalmyk: "би", russian: "я" },
+        { audio: "ch1/1-14.mp3", kalmyk: "би ", russian: "я" },
         { audio: "ch1/1-15.mp3", kalmyk: "мини", russian: "мой / моя / мое" },
       ],
       [
@@ -139,7 +139,7 @@ var phraseBookPages = [
           },
           {
             audio: "ch1/1-33.mp3",
-            kalmyk: "Тадн багшт",
+            kalmyk: "Тадн багшнрт",
             russian: "Вы - учителя",
           },
         ],
@@ -162,8 +162,25 @@ var phraseBookPages = [
       tableIndex: 2,
     },
     highlights: {
-      dialog: { red: ["мини"], blue: ["нр"] },
-      memorize: { red: "би", blue: "мини" },
+      dialog: { red: ["Мини", "мини"], blue: ["нр"] },
+      memorize: { red: ["би ", "мини"], blue: [] },
+      extras: {
+        red: [
+          "Би ",
+          "Чи",
+          "Та ",
+          "Эн",
+          "Бидн",
+          "Тадн",
+          "Тедн",
+          { word: "багшв", substring: "end" },
+          { word: "багшч", substring: "end" },
+          { word: "багшт", substring: "end" },
+          { word: "багшнрт", substring: "end" },
+          "видн",
+        ],
+        blue: ["нр"],
+      },
     },
   },
   {
@@ -262,8 +279,9 @@ var phraseBookPages = [
     memorizeType: "numberTable",
     extras: { tableHead: ["", "Ед.ч", "", "", "Мн.ч", ""], table: [] },
     highlights: {
-      dialog: { red: ["дөрвн"] },
-      memorize: {},
+      dialog: { red: ["дөрвн"], blue: [] },
+      memorize: { red: [], blue: [] },
+      extras: { red: [], blue: [] },
     },
   },
   {
@@ -305,6 +323,11 @@ var phraseBookPages = [
     ],
     memorizeType: "text",
     extras: "",
+    highlights: {
+      dialog: { red: [], blue: [] },
+      memorize: { red: ["Әә", "Һһ", "Җҗ", "Ңң", "Өө", "Үү"], blue: [] },
+      extras: { red: [], blue: [] },
+    },
   },
   {
     chapter: 4,
@@ -423,6 +446,55 @@ var phraseBookPages = [
       ],
       tableIndex: 4,
     },
+    highlights: {
+      dialog: {
+        red: [
+          "сер",
+          { word: "Хонув", substring: "в" },
+          { word: "Серүв", substring: "в" },
+          "ч",
+        ],
+        blue: [],
+      },
+      memorize: {
+        red: [
+          "Би",
+          "Чи",
+          { word: "хонх", substring: "end" },
+          { word: "серх", substring: "end" },
+          { word: "серүв", substring: "в" },
+          { word: "хонув", substring: "в" },
+          { word: "сервч", substring: "ч" },
+          { word: "хонвч", substring: "ч" },
+        ],
+        blue: [],
+      },
+      extras: {
+        red: [
+          "Би ",
+          "Бидн",
+          "Чи",
+          "Та ",
+          "Тадн",
+          "Эн/Тер",
+          "Эдн/Тедн",
+          "видн",
+          { word: "хонх", substring: "end" },
+          { word: "серх", substring: "end" },
+          { word: "серүв", substring: "в" },
+          { word: "хонув", substring: "в" },
+          { word: "сервч", substring: "end" },
+          { word: "сервт", substring: "end" },
+        ],
+        blue: [
+          "-в",
+          "-у/ү",
+          "«в»",
+          { word: "серв", substring: "end" },
+          { word: "серү", substring: "end" },
+        ],
+      },
+    },
   },
   {
     chapter: 5,
@@ -480,6 +552,18 @@ var phraseBookPages = [
       { audio: "ch5/5-17.mp3", kalmyk: "күцх", russian: "сбываться" },
     ],
     extras: "",
+    highlights: {
+      dialog: {
+        red: [
+          { word: "үзвч", substring: "ч" },
+          { word: "Үзүв", substring: "в" },
+          { word: "давшув", substring: "end" },
+        ],
+        blue: [],
+      },
+      memorize: { red: [], blue: [] },
+      extras: { red: [], blue: [] },
+    },
   },
   {
     chapter: 6,
@@ -561,6 +645,11 @@ var phraseBookPages = [
         "Суффикс -чк обозначает завершенность дейстия.",
       ],
     },
+    highlights: {
+      dialog: { red: ["тн", { word: "чкув", substring: "чк" }], blue: [] },
+      memorize: { red: ["х", "тн", "чк"], blue: [] },
+      extras: { red: ["-тн", "-чк"], blue: [] },
+    },
   },
   {
     chapter: 7,
@@ -612,49 +701,49 @@ var phraseBookPages = [
       {
         audio1: "ch7/7-18.mp3",
         audio2: "ch7/7-19.mp3",
-        kalmyk: "цеврлх",
+        kalmyk: "цеврлх ",
         russian: "Шүдән цеврлҗәнәв. (Зубы чищу.)",
       },
       {
         audio1: "ch7/7-20.mp3",
         audio2: "ch7/7-21.mp3",
-        kalmyk: "самлх",
+        kalmyk: "самлх ",
         russian: "Үсән самлҗанав. (Волосы расчесываю.)",
       },
       {
         audio1: "ch7/7-22.mp3",
         audio2: "ch7/7-23.mp3",
-        kalmyk: "күләх",
-        russian: "Бидн күләжәнәвидн. (Мы ждем.)",
+        kalmyk: "күләх ",
+        russian: "Бидн күләҗәнәвидн. (Мы ждем.)",
       },
       {
         audio1: "ch7/7-24.mp3",
         audio2: "ch7/7-25.mp3",
-        kalmyk: "кех",
+        kalmyk: "кех  ",
         russian: "Ю кеҗәнәч? (Что делаешь?)",
       },
       {
         audio1: "ch7/7-26.mp3",
         audio2: "ch7/7-27.mp3",
-        kalmyk: "ясх",
+        kalmyk: "ясх ",
         russian: "Тедн оран ясчана. (Они заправляю кровати.)",
       },
       {
         audio1: "ch7/7-28.mp3",
         audio2: "ch7/7-29.mp3",
-        kalmyk: "уһах",
+        kalmyk: "уһах ",
         russian: "Эгч һаран уһаҗана. (Сестра моет руки.)",
       },
       {
         audio1: "ch7/7-30.mp3",
         audio2: "ch7/7-31.mp3",
-        kalmyk: "давшх",
+        kalmyk: "давшх ",
         russian: "Аав уул давшҗана. (Папа поднимается на гору.)",
       },
       {
         audio1: "ch7/7-32.mp3",
         audio2: "ch7/7-33.mp3",
-        kalmyk: "үзх",
+        kalmyk: "үзх ",
         russian: "Тадн уул үзҗәнәт. (Вы видите горы.)",
       },
     ],
@@ -663,6 +752,14 @@ var phraseBookPages = [
       items: [
         "Когда мы говорим о действии, которое происходит сейчас, к основе глагола добавляют суффиксы -җана/-җәнә/-чана/-чәнә",
       ],
+    },
+    highlights: {
+      dialog: {
+        red: ["җәнә", "җә"],
+        blue: [],
+      },
+      memorize: { red: ["х ", "җана", "чана", "җәнә"], blue: [] },
+      extras: { red: ["х ", "-җана", "-чана", "-җәнә", "-чәнә"], blue: [] },
     },
   },
   {
@@ -759,6 +856,11 @@ var phraseBookPages = [
       },
     ],
     memorizeType: "table1",
+    highlights: {
+      dialog: { red: ["Хальмг"], blue: [] },
+      memorize: { red: [], blue: [] },
+      extras: { red: [], blue: [] },
+    },
   },
   {
     chapter: 9,
@@ -860,6 +962,20 @@ var phraseBookPages = [
         "Суффикс -ан/ән выражает принадлежность и означает «свой».",
       ],
     },
+    highlights: {
+      dialog: { red: ["т ", "д "], blue: [] },
+      memorize: {
+        red: [
+          "д ",
+          "т ",
+          { word: "дан ", substring: "д" },
+          { word: "дән ", substring: "д" },
+          { word: "тан ", substring: "т" },
+        ],
+        blue: ["ән ", "ан"],
+      },
+      extras: { red: ["-д/т"], blue: ["-ан/ән"] },
+    },
   },
   {
     chapter: 10,
@@ -909,7 +1025,7 @@ var phraseBookPages = [
     ],
     memorize: [
       [
-        { audio: "ch10/10-18.mp3", kalmyk: "серх", russian: "(просыпаться)" },
+        { audio: "ch10/10-18.mp3", kalmyk: "серх ", russian: "(просыпаться)" },
         {
           audio: "ch10/10-19.mp3",
           kalmyk: "чи сервч ",
@@ -922,7 +1038,7 @@ var phraseBookPages = [
         },
       ],
       [
-        { audio: "ch10/10-21.mp3", kalmyk: "давшх", russian: "(подниматься)" },
+        { audio: "ch10/10-21.mp3", kalmyk: "давшх ", russian: "(подниматься)" },
         {
           audio: "ch10/10-22.mp3",
           kalmyk: "тадн давшвт ",
@@ -935,7 +1051,7 @@ var phraseBookPages = [
         },
       ],
       [
-        { audio: "ch10/10-24.mp3", kalmyk: "уух", russian: "(пить)" },
+        { audio: "ch10/10-24.mp3", kalmyk: "уух ", russian: "(пить)" },
         { audio: "ch10/10-25.mp3", kalmyk: "чи уувч ", russian: "(ты выпил)" },
         {
           audio: "ch10/10-26.mp3",
@@ -944,7 +1060,7 @@ var phraseBookPages = [
         },
       ],
       [
-        { audio: "ch10/10-27.mp3", kalmyk: "идх", russian: "(есть)" },
+        { audio: "ch10/10-27.mp3", kalmyk: "идх ", russian: "(есть)" },
         { audio: "ch10/10-28.mp3", kalmyk: "тадн идвт ", russian: "(вы ели)" },
         {
           audio: "ch10/10-29.mp3",
@@ -953,7 +1069,7 @@ var phraseBookPages = [
         },
       ],
       [
-        { audio: "ch10/10-30.mp3", kalmyk: "өмсх", russian: "(одеваться)" },
+        { audio: "ch10/10-30.mp3", kalmyk: "өмсх ", russian: "(одеваться)" },
         {
           audio: "ch10/10-31.mp3",
           kalmyk: "чи өмсвч ",
@@ -966,7 +1082,7 @@ var phraseBookPages = [
         },
       ],
       [
-        { audio: "ch10/10-33.mp3", kalmyk: "шарх", russian: "(жарить)" },
+        { audio: "ch10/10-33.mp3", kalmyk: "шарх ", russian: "(жарить)" },
         {
           audio: "ch10/10-34.mp3",
           kalmyk: "тадн шарвт ",
@@ -985,6 +1101,47 @@ var phraseBookPages = [
         "Недавнопрошедшее время глагола образуется с помощью суффикса -в. ",
         "Вопросительная частица -в добавляетя после суффикса -в недавнопрошедшего времени. В некоторых случаях -в заменяется на -у/ү, если подряд идут две или три буквы «в». Если основа глагола оканчивается на гласную букву, две буквы «в» сохраняются (уу – уувв, ууввч, ууввт).",
       ],
+    },
+    highlights: {
+      dialog: {
+        red: [{ word: "вч", substring: "в" }],
+        blue: [
+          { word: "Белдүв.", substring: "ү" },
+          { word: "вув.", substring: "у" },
+        ],
+      },
+      memorize: {
+        red: [
+          "х ",
+          { word: "увт", substring: "в" },
+          { word: "үвт", substring: "в" },
+          { word: "үвч", substring: "в" },
+          { word: "вв", substring: "end" },
+        ],
+        blue: [
+          { word: "вт ", substring: "в" },
+          { word: "вч ", substring: "в" },
+          { word: "серү", substring: "end" },
+          { word: "давшу", substring: "end" },
+          { word: "уув", substring: "end" },
+          { word: "идү", substring: "end" },
+          { word: "өмсү", substring: "end" },
+          { word: "шару", substring: "end" },
+        ],
+      },
+      extras: {
+        red: [
+          { word: "частица -в", substring: "end" },
+          { word: "две буквы «в»", substring: "«в»" },
+          { word: "уувв", substring: "end" },
+        ],
+        blue: [
+          "-в",
+          "-у/ү",
+          { word: "три буквы «в»", substring: "«в»" },
+          { word: "уув", substring: "end" },
+        ],
+      },
     },
   },
   {
@@ -1053,6 +1210,11 @@ var phraseBookPages = [
         "Существительные, окончавающиеся на суффикс совместного падежа -та/тә, отвечают на вопросы с кем? с чем? ",
       ],
     },
+    highlights: {
+      dialog: { red: ["та"], blue: [] },
+      memorize: { red: ["та", "тә"], blue: [] },
+      extras: { red: ["-та/тә"], blue: [] },
+    },
   },
   {
     chapter: 12,
@@ -1115,6 +1277,11 @@ var phraseBookPages = [
     memorizeType: "table1",
     extras: {
       items: ["Суффикс -ан/ән выражает принадлежность и означает «свой». "],
+    },
+    highlights: {
+      dialog: { red: [], blue: [] },
+      memorize: { red: ["ән"], blue: [] },
+      extras: { red: [], blue: ["-ан/ән"] },
     },
   },
   {
@@ -1217,6 +1384,31 @@ var phraseBookPages = [
         "Вопросительное местоимение «яһсн» употребляется в риторическом вопросе.",
         "В таких вопросах конечная буква -н у существительных (махн, шөлн, күүкн) превращается в -м перед вопросительной частицей -в, а сама частица -в превращается в -б (махн – махмб, шөлн – шөлмб, күүкн - күүкмб).  ",
       ],
+    },
+    highlights: {
+      dialog: { red: ["Яһсн", "мб"], blue: [] },
+      memorize: {
+        red: [
+          { word: "күүкдв", substring: "end" },
+          { word: "дегтрв", substring: "end" },
+          "мб",
+        ],
+        blue: [],
+      },
+      extras: {
+        red: [
+          "-н",
+          "-в",
+          "-м",
+          "-б",
+          "н ",
+          "мб",
+          { word: "махн", substring: "end" },
+          { word: "шөлн", substring: "end" },
+          { word: "күүкн", substring: "end" },
+        ],
+        blue: [],
+      },
     },
   },
   {
@@ -1333,6 +1525,20 @@ var phraseBookPages = [
       ],
     ],
     memorizeType: "horizontalTable",
+    highlights: {
+      dialog: { red: [{ word: "магтв", substring: "end" }], blue: [] },
+      memorize: {
+        red: [
+          "х ",
+          { word: "магтв", substring: "end" },
+          { word: "давшв", substring: "end" },
+          { word: "унтв", substring: "end" },
+          { word: "ясв", substring: "end" },
+        ],
+        blue: [],
+      },
+      extras: { red: [], blue: [] },
+    },
   },
   {
     chapter: 15,
@@ -1451,31 +1657,31 @@ var phraseBookPages = [
       {
         audio1: "ch15/15-25.mp3",
         audio2: "ch15/15-26.mp3",
-        kalmyk: "уух",
+        kalmyk: "уух ",
         russian: "Би уунав. (Я буду пить.)",
       },
       {
         audio1: "ch15/15-27.mp3",
         audio2: "ch15/15-28.mp3",
-        kalmyk: "идх",
+        kalmyk: "идх ",
         russian: "Би иднәв. (Я буду есть.)",
       },
       {
         audio1: "ch15/15-29.mp3",
         audio2: "ch15/15-30.mp3",
-        kalmyk: "магтх",
+        kalmyk: "магтх ",
         russian: "Би магтнав. (Я похвалю.)",
       },
       {
         audio1: "ch15/15-31.mp3",
         audio2: "ch15/15-32.mp3",
-        kalmyk: "келх",
+        kalmyk: "келх ",
         russian: "Чи ю келнәч? (Что ты скажешь?)",
       },
       {
         audio1: "ch15/15-33.mp3",
         audio2: "ch15/15-34.mp3",
-        kalmyk: "авх",
+        kalmyk: "авх ",
         russian: "Чи ю авнач? (Что ты возьмешь?)",
       },
     ],
@@ -1484,6 +1690,11 @@ var phraseBookPages = [
         "Настоящее время глагола образуется с помощью суффикса -на/нә.",
         "Глагол настоящего времени с суффиксом -на/нә также используется для описания действий, которые будут происходить в будущем.",
       ],
+    },
+    highlights: {
+      dialog: { red: ["нә", "на"], blue: [] },
+      memorize: { red: ["на", "нә", "х "], blue: [] },
+      extras: { red: ["-на/нә"], blue: [] },
     },
   },
   {
@@ -1612,6 +1823,23 @@ var phraseBookPages = [
         "Местоимения в винительном падеже отвечают на вопрос Кениг? Юуг? Ю? (Кого? Что?) и окончиваются на суффиксы -иг/-аг/-г.",
       ],
     },
+    highlights: {
+      dialog: { red: ["чамаг"], blue: [] },
+      memorize: {
+        red: [
+          "аг",
+          "иг",
+          { word: "энүг", substring: "end" },
+          { word: "терүг", substring: "end" },
+          { word: "Юуг", substring: "end" },
+        ],
+        blue: [],
+      },
+      extras: {
+        red: ["-иг/-аг/-г", "иг", { word: "Юуг", substring: "end" }],
+        blue: [],
+      },
+    },
   },
   {
     chapter: 17,
@@ -1675,49 +1903,49 @@ var phraseBookPages = [
       {
         audio1: "ch17/17-18.mp3",
         kalmyk1: "мини һар",
-        kalmyk2: "һарм",
+        kalmyk2: "һарм ",
         audio2: "ch17/17-19.mp3",
         russian: "моя рука",
       },
       {
         audio1: "ch17/17-20-1.mp3",
         kalmyk1: "чини һар",
-        kalmyk2: "һарчн",
+        kalmyk2: "һарчн ",
         audio2: "ch17/17-20-2.mp3",
         russian: "твоя рука",
       },
       {
         audio1: "ch17/17-21-1.mp3",
         kalmyk1: "Тана һар",
-        kalmyk2: "һартн",
+        kalmyk2: "һартн ",
         audio2: "ch17/17-21-2.mp3",
         russian: "Ваша рука",
       },
       {
         audio1: "ch17/17-22.mp3",
         kalmyk1: "энүнә һар",
-        kalmyk2: "һарнь",
+        kalmyk2: "һарнь ",
         audio2: "ch17/17-23.mp3",
         russian: "его (ее) рука",
       },
       {
         audio1: "ch17/17-24.mp3",
         kalmyk1: "мадна һар",
-        kalmyk2: "һармдн",
+        kalmyk2: "һармдн ",
         audio2: "ch17/17-25.mp3",
         russian: "наши руки",
       },
       {
         audio1: "ch17/17-26.mp3",
         kalmyk1: "тадна һар",
-        kalmyk2: "һартн",
+        kalmyk2: "һартн ",
         audio2: "ch17/17-27.mp3",
         russian: "ваши руки",
       },
       {
         audio1: "ch17/17-28.mp3",
         kalmyk1: "теднә һар",
-        kalmyk2: "һарнь",
+        kalmyk2: "һарнь ",
         audio2: "ch17/17-29.mp3",
         russian: "их руки",
       },
@@ -1727,6 +1955,29 @@ var phraseBookPages = [
       items: [
         "Лично-притяжательные частицы добавляются к существительным и указывают на принадлежность чего-то лицу. ",
       ],
+    },
+    highlights: {
+      dialog: { red: ["мдн"], blue: [] },
+      memorize: {
+        red: [
+          "мини ",
+          "чини ",
+          "Тана ",
+          "энүнә ",
+          "мадна ",
+          "тадна ",
+          "теднә ",
+          "м ",
+          "чн ",
+          "тн ",
+          "нь ",
+          "мдн ",
+          "тн ",
+          "нь ",
+        ],
+        blue: [],
+      },
+      extras: { red: [], blue: [] },
     },
   },
   {
@@ -1870,6 +2121,39 @@ var phraseBookPages = [
         "Местоимение в дательно-местном падеже отвечате на вопросы Кенд? Юунд? (Кому? Чему? У кого?) .",
       ],
     },
+    highlights: {
+      dialog: {
+        red: [
+          { word: "нд ", substring: "д" },
+          { word: "мд ", substring: "д" },
+        ],
+        blue: [],
+      },
+      memorize: {
+        red: [
+          "нә",
+          "аг",
+          "иг",
+          "үг",
+          { word: "Юуна", substring: "на" },
+          { word: "Юуг", substring: "г" },
+          { word: "мини", substring: "ни" },
+          { word: "чини", substring: "ни" },
+          { word: "Тана", substring: "на" },
+          { word: "мана", substring: "на" },
+          { word: "дна", substring: "на" },
+          { word: "нд", substring: "д" },
+        ],
+        blue: [],
+      },
+      extras: {
+        red: [
+          { word: "Кенд", substring: "end" },
+          { word: "Юунд", substring: "end" },
+        ],
+        blue: [],
+      },
+    },
   },
   {
     chapter: 19,
@@ -1940,43 +2224,43 @@ var phraseBookPages = [
       {
         audio1: "ch19/19-21.mp3",
         audio2: "ch19/19-22.mp3",
-        kalmyk: "авх",
+        kalmyk: "авх ",
         russian: "авхш (не берет)",
       },
       {
         audio1: "ch19/19-23.mp3",
         audio2: "ch19/19-24.mp3",
-        kalmyk: "келх",
+        kalmyk: "келх ",
         russian: "келхш (не говорит)",
       },
       {
         audio1: "ch19/19-25.mp3",
         audio2: "ch19/19-26.mp3",
-        kalmyk: "идх",
+        kalmyk: "идх ",
         russian: "идхш (не ест)",
       },
       {
         audio1: "ch19/19-27.mp3",
         audio2: "ch19/19-28.mp3",
-        kalmyk: "уух",
+        kalmyk: "уух ",
         russian: "уухш (не пьет)",
       },
       {
         audio1: "ch19/19-29.mp3",
         audio2: "ch19/19-30.mp3",
-        kalmyk: "суух",
+        kalmyk: "суух ",
         russian: "суухш (не сидит)",
       },
       {
         audio1: "ch19/19-31.mp3",
         audio2: "ch19/19-32.mp3",
-        kalmyk: "серх",
+        kalmyk: "серх ",
         russian: "серхш (не просыпается)",
       },
       {
         audio1: "ch19/19-33.mp3",
         audio2: "ch19/19-34.mp3",
-        kalmyk: "босх",
+        kalmyk: "босх ",
         russian: "босхш (не встает)",
       },
     ],
@@ -1985,6 +2269,11 @@ var phraseBookPages = [
       items: [
         "В калмыцком языке существуют различные способы отрицания. Бичә- используется для запрета действия: Шаман бичә унтра. (Свет не гаси). Отрицательная частица -ш добавляется к неопределенной форме глагола и является у се ченной формой отрицательного слова биш.",
       ],
+    },
+    highlights: {
+      dialog: { red: ["хш", "бичә"], blue: [] },
+      memorize: { red: ["х ", "ш "], blue: [] },
+      extras: { red: ["Бичә", "бичә", "-ш", "биш"], blue: [] },
     },
   },
   {
@@ -2047,6 +2336,11 @@ var phraseBookPages = [
       { audio: "ch20/20-17.mp3", kalmyk: "ода", russian: "сейчас" },
       { audio: "ch20/20-18.mp3", kalmyk: "зүүд бәрх", russian: "видеть сны" },
     ],
+    highlights: {
+      dialog: { red: [], blue: [] },
+      memorize: { red: [], blue: [] },
+      extras: { red: [], blue: [] },
+    },
   },
   {
     chapter: 21,
@@ -2247,6 +2541,20 @@ var phraseBookPages = [
         "Числительные, называющие возраст, образуются с помощью суффикса – та/-тә, который добавляется к усеченной основе количественного числительного (без конечной согласной буквы ‘н’).",
       ],
     },
+    highlights: {
+      dialog: {
+        red: [
+          "та ",
+          { word: "тач", substring: "та" },
+          { word: "тав", substring: "та" },
+          { word: "тәч", substring: "тә" },
+          { word: "тәв", substring: "тә" },
+        ],
+        blue: [],
+      },
+      memorize: { red: ["тә ", "та "], blue: ["н "] },
+      extras: { red: ["– та/-тә"], blue: ["‘н’"] },
+    },
   },
   {
     chapter: 22,
@@ -2320,6 +2628,31 @@ var phraseBookPages = [
         "Глаголы с суффиксом -тха/-тхә выражают пожелание совершить действие. Например өлзәтә болтха – пусть будет благословенным, ут наста болтха – пусть будет долгожителем, цә уутха – пусть выпьет чай, манад иртхә – пусть придет к нам.",
         "У калмыков есть традиция произносить благопожелания в разных жизненных ситуациях: рождение ребенка, стрижка волос, приобретение новой вещи, отправление в дорогу, переезд в новый дом и т.д. Традиционно благопожелание произносит старший по возрасту.",
       ],
+    },
+    highlights: {
+      dialog: {
+        red: [
+          "тхә",
+          "тха",
+          { word: "хулдҗ", substring: "җ" },
+          { word: "болҗ", substring: "җ" },
+          { word: "мөӊкрҗ", substring: "җ" },
+          { word: "элҗ", substring: "җ" },
+        ],
+        blue: [],
+      },
+      memorize: { red: [], blue: [] },
+      extras: {
+        red: [
+          "-тха/-тхә",
+          "-җ",
+          "тхә",
+          "тха",
+          { word: "орҗ", substring: "җ" },
+          { word: "сууҗ", substring: "җ" },
+        ],
+        blue: [],
+      },
     },
   },
   {
@@ -2420,8 +2753,13 @@ var phraseBookPages = [
     ],
     extras: {
       items: [
-        "Напоминаем, что в калмыцком языке есть разные показатели множественного числа существительных. Чтобы образовать множественное число существительных, называющих профессии и родство, надо к основе слова добавить суффикс -нр: багш – багшнр (учителя), бичәч – бичәчнр (писатели) авһ - авһнр (дядя по отцу), бөл – бөлнр (двоюродные братья и сестры по матери), үйнр – үйнр (двоюродные братья и сестры по отцу) и т.д.",
+        "Напоминаем, что в калмыцком языке есть разные показатели множественного числа существительных. Чтобы образовать множественное число существительных, называющих профессии и родство, надо к основе слова добавить суффикс -нр: багш – багшнр (учителя), бичәч – бичәчнр (писатели) авһ - авһнр (дядя по отцу), бөл – бөлнр (двоюродные братья и сестры по матери), үй – үйнр (двоюродные братья и сестры по отцу) и т.д.",
       ],
+    },
+    highlights: {
+      dialog: { red: ["нр"], blue: [] },
+      memorize: { red: [], blue: [] },
+      extras: { red: ["нр"], blue: [] },
     },
   },
   {
@@ -2674,6 +3012,11 @@ var phraseBookPages = [
       },
     ],
     memorizeType: "chapter24",
+    highlights: {
+      dialog: { red: [], blue: [] },
+      memorize: { red: [], blue: [] },
+      extras: { red: [], blue: [] },
+    },
   },
   {
     chapter: 25,
@@ -2807,6 +3150,38 @@ var phraseBookPages = [
         "Значение множественности в именах существительных передается при помощи специальных суффиксов множественного числа. Вот некоторые из них: (-д, -уд/-үд, -муд/-мүд,-нр). Суффикс -д прибавляется к основе слова, оканчивающегося на согласный «н»: одн (звезда) – одд (звезды), нерн (имя) – нерд (имена). Конечный согласный «н» при этом выпадает. Суффикс -уд/-үд – прибавляется к основе слова, оканчивающегося на согласный «г»: һарг (планета)-һаргуд (планеты); суффикс -муд/-мүд – прибавляется к основе слова, оканчивающегося на другие согласный: өдр (день) - өдрмүд (дни).",
       ],
     },
+    highlights: {
+      dialog: {
+        red: [
+          "мүд",
+          "уд",
+          { word: "одд", substring: "end" },
+          { word: "нерднь", substring: "д" },
+        ],
+        blue: [],
+      },
+      memorize: { red: [], blue: [] },
+      extras: {
+        red: [
+          "-д",
+          "-д, -уд/-үд, -муд/-мүд,-нр",
+          "-уд/-үд",
+          "-муд/-мүд",
+          "уд",
+          "мүд",
+          { word: "одд", substring: "end" },
+          { word: "нерд", substring: "end" },
+        ],
+        blue: [
+          "«н»",
+          "«г»",
+          { word: "одн", substring: "end" },
+          { word: "нерн", substring: "end" },
+          { word: "өдр", substring: "end" },
+          { word: "һарг", substring: "end" },
+        ],
+      },
+    },
   },
 ];
 export default phraseBookPages;
@@ -2823,3 +3198,11 @@ export default phraseBookPages;
 //     extras: "",
 //   },
 // ];
+
+var highlights_template = {
+  highlights: {
+    dialog: { red: [], blue: [] },
+    memorize: { red: [], blue: [] },
+    extras: { red: [], blue: [] },
+  },
+};

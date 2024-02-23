@@ -1,4 +1,5 @@
 import { Table } from "react-bootstrap";
+import highlight from "./highlighter";
 
 async function playAudio(location) {
   var audio = new Audio("./media/" + location);
@@ -25,7 +26,7 @@ function renderPlayButton(fileName) {
   );
 }
 
-function displayExtraTable(table) {
+function displayExtraTable(table, highlights) {
   return (
     <Table bordered>
       <thead>
@@ -44,7 +45,7 @@ function displayExtraTable(table) {
             {row.map((entry) => (
               <>
                 {renderPlayButton(entry.audio)}
-                <td>{entry.kalmyk}</td>
+                <td>{highlight(entry.kalmyk, highlights)}</td>
                 <td>{entry.russian}</td>
               </>
             ))}
@@ -55,7 +56,7 @@ function displayExtraTable(table) {
   );
 }
 
-export default function displayExtras(data) {
+export default function displayExtras(data, highlights) {
   if (!data || data.length == 0) {
     return;
   }
@@ -74,13 +75,13 @@ export default function displayExtras(data) {
               return (
                 <>
                   <li>
-                    <p>{item}</p>
+                    <p>{highlight(item, highlights)}</p>
                   </li>
-                  {displayExtraTable(data.table)}
+                  {displayExtraTable(data.table, highlights)}
                 </>
               );
             }
-            return <li>{item}</li>;
+            return <li>{highlight(item, highlights)}</li>;
           })}
         </ol>
       </div>
