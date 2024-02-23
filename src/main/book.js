@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import PageBase from "../book/page-base";
 import { Button } from "react-bootstrap";
-import Slide from "../book/slide";
 
 export default function Book(bookDataRaw) {
   const [pageNumber, setPageNumber] = useState(1);
@@ -51,7 +50,7 @@ export default function Book(bookDataRaw) {
         setPageNumber(parseInt(pageNumber) - 1);
         setTimeout(() => {
           setLeftSwipe(false);
-        }, 100);
+        }, 50);
       }, 400);
     }
   }
@@ -65,7 +64,7 @@ export default function Book(bookDataRaw) {
         setPageNumber(parseInt(pageNumber) + 1);
         setTimeout(() => {
           setRightSwipe(false);
-        }, 100);
+        }, 50);
       }, 400);
     }
   }
