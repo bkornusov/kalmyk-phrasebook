@@ -9,7 +9,7 @@ export default function Book(bookDataRaw) {
   const [rightSwipe, setRightSwipe] = useState(false);
   const [leftSwipe, setLeftSwipe] = useState(false);
 
-  const minSwipeDistance = 50;
+  const minSwipeDistance = 125;
 
   const onTouchStart = (e) => {
     setTouchEnd(null); // otherwise the swipe is fired even with usual touch events

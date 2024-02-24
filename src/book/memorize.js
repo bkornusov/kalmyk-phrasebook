@@ -112,7 +112,7 @@ export default function memorize(data, type, duplicate = false, highlights) {
 
   function horizontalTable(data) {
     return (
-      <Table bordered>
+      <Table bordered className="horizontal">
         <tbody>
           {data.map((row) => (
             <tr>
@@ -137,7 +137,7 @@ export default function memorize(data, type, duplicate = false, highlights) {
     var header = data[0];
     var items = data.slice(1);
     return (
-      <Table bordered>
+      <Table bordered className="conjugation">
         <thead>
           <tr
             style={{
@@ -233,7 +233,7 @@ export default function memorize(data, type, duplicate = false, highlights) {
 
   function displayChapter24(data) {
     return (
-      <Table>
+      <Table bordered className="horizontal">
         {data.map((section) => (
           <>
             <thead>

@@ -127,6 +127,14 @@ ol {
   }
 }
 
+/* .horizontal {
+  display: block;
+} */
+
+.horizontal td {
+  word-break: break-word;
+}
+
 @media (max-width: 800px) {
   .page-base {
     width: 100vw;
