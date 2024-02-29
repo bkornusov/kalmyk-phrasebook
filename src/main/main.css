@@ -15,7 +15,6 @@
 .header {
   background-color: antiquewhite;
   padding: 0.25em;
-  border-bottom: 2px solid;
   text-align: center;
 }
 
@@ -43,6 +42,56 @@
   align-items: center;
   align-content: end;
   background-color: darkblue;
+}
+
+.contents {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 80vh;
+  width: 400px;
+  z-index: 5;
+  display: flex;
+  top: 64px;
+}
+
+.list-group {
+  border-radius: 0 0.375em 0.375em 0 !important;
+  color: blue;
+  transition: all ease;
+}
+
+.list-group-item-action {
+  padding: 0.4em !important;
+  vertical-align: middle;
+  overflow-y: show;
+  text-align: start !important;
+  font-size: 15px;
+}
+
+.hidden {
+  overflow: hidden;
+  position: absolute;
+  height: 80vh;
+  visibility: hidden;
+  transition: all ease;
+}
+
+.show-content-button {
+  position: absolute;
+  margin: 0.1em;
+  min-width: 50px;
+  height: 50px;
+  border: black 2px solid;
+  border-radius: 5px;
+}
+
+.show-content-button img {
+  position: relative;
+  top: 3px;
+  color: white;
+  width: 30px;
+  height: 40px;
 }
 
 Button {

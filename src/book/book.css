@@ -12,8 +12,77 @@
   overflow-y: scroll;
 }
 
-text {
-  padding: 0 !important;
+.book-display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation-button {
+  align-items: center;
+  align-content: center;
+  position: relative;
+  height: 100%;
+  width: 400px;
+  opacity: 0.5;
+  background: linear-gradient(.25turn, rgba(255, 255, 255, 0.8), 50%, rgba(255, 255, 255, 0));
+  transition: 0.2s ease-in-out;
+}
+
+.navigation-button img {
+  opacity: 60%;
+  top: 40%;
+  height: 150px;
+  width: 80px;
+  position: absolute;
+  left: 0px;
+}
+
+.navigation-button:hover {
+  opacity: 1;
+}
+
+.mirror {
+  transform: scaleX(-1);
+}
+
+@media (max-width: 1050px) {
+  .navigation-button {
+    display: none;
+  }
+
+  .book-display {
+    width: 100%;
+  }
+}
+
+.page-indicator {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  top: 75px;
+  right: 40px;
+  z-index: 10;
+  border-radius: 5px;
+  position: absolute;
+  background-color: black;
+  align-content: center;
+  opacity: 60%;
+}
+
+.page-number {
+  color: white;
+  opacity: 100% !important;
+}
+
+.page-number * {
+  font-size: 25px;
+  position: relative;
+}
+
+@media (max-width: 750px) {
+  .page-indicator {
+    display: none;
+  }
 }
 
 Table {
@@ -61,11 +130,10 @@ span {
   width: 20px;
 }
 
-.vocabulary {}
-
 pre {
-  font-size: 1.25em !important;
+  font-size: 1.15em !important;
   text-align: start;
+  overflow-x: hidden;
 }
 
 ol {
@@ -89,23 +157,24 @@ ol {
 
 .swipeRight {
   position: static;
-  animation: swipeRight 0.5s ease-out infinite;
+  animation: swipeRight 0.4s ease-out infinite;
   overflow-x: hidden;
 }
 
 .swipeLeft {
   position: static;
-  animation: swipeLeft 0.5s ease-out infinite;
+  animation: swipeLeft 0.4s ease-out infinite;
   overflow-x: hidden;
 }
 
+
 @keyframes swipeRight {
   50% {
-    transform: translateX(-200vw);
+    transform: translateX(-100vw);
   }
 
   50.001% {
-    transform: translateX(200vw);
+    transform: translateX(100vw);
   }
 
   100% {
@@ -115,11 +184,11 @@ ol {
 
 @keyframes swipeLeft {
   50% {
-    transform: translateX(200vw);
+    transform: translateX(100vw);
   }
 
   50.001% {
-    transform: translateX(-200vw);
+    transform: translateX(-100vw);
   }
 
   100% {
@@ -138,5 +207,13 @@ ol {
 @media (max-width: 800px) {
   .page-base {
     width: 100vw;
+    padding: 0.5em;
+  }
+}
+
+@media (max-width: 500px) {
+  .page-base {
+    padding: 0.5em;
+    padding-right: 0em;
   }
 }

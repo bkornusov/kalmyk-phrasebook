@@ -1147,7 +1147,7 @@ var phraseBookPages = [
   {
     chapter: 11,
     pageNumber: 13,
-    title: "11. Аав ээҗ хойр ин күүн длһн / Разговор п апа и мама",
+    title: "11. Аав ээҗ хойр ин күүн длһн / Разговор папа и мама",
     dialog: [
       {
         audio: "ch11/11-02.mp3",

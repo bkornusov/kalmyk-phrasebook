@@ -9,6 +9,8 @@ export default function Book(bookDataRaw) {
   const [rightSwipe, setRightSwipe] = useState(false);
   const [leftSwipe, setLeftSwipe] = useState(false);
 
+  const bookData = bookDataRaw.bookData;
+
   const minSwipeDistance = 125;
 
   const onTouchStart = (e) => {
@@ -31,8 +33,6 @@ export default function Book(bookDataRaw) {
     }
   };
 
-  const bookData = bookDataRaw.bookData;
-
   function handleSetPage(newPage) {
     newPage < 1
       ? setPageNumber(1)
@@ -51,7 +51,7 @@ export default function Book(bookDataRaw) {
         setTimeout(() => {
           setLeftSwipe(false);
         }, 50);
-      }, 400);
+      }, 300);
     }
   }
 
@@ -65,7 +65,7 @@ export default function Book(bookDataRaw) {
         setTimeout(() => {
           setRightSwipe(false);
         }, 50);
-      }, 400);
+      }, 300);
     }
   }
 
@@ -76,16 +76,42 @@ export default function Book(bookDataRaw) {
       onTouchEnd={onTouchEnd}
       className="book-body"
     >
-      <div
-        className={
-          rightSwipe
-            ? "swipeRight"
-            : leftSwipe
-            ? "swipeLeft"
-            : "animation-wrapper"
-        }
-      >
-        <PageBase pageData={bookData[pageNumber - 1]} />
+      <div className="book-display">
+        <div className="page-indicator">
+          <div className="page-number">
+            <span
+            // contenteditable="true"
+            // onInput={(e) => handleSetPage(e.target.value)}
+            >
+              {pageNumber}
+            </span>
+            <br />
+            <span style={{ bottom: "75px", fontSize: "60px" }}>_</span>
+            <br />
+            <span style={{ bottom: "90px" }}>{bookData.length}</span>
+          </div>
+        </div>
+        <div
+          className="navigation-button mirror"
+          onClick={pageBack}
+          role="button"
+        >
+          <img src="angle-bracket.png" alt="Предыдущая Страница"></img>
+        </div>
+        <div
+          className={
+            rightSwipe
+              ? "swipeRight"
+              : leftSwipe
+              ? "swipeLeft"
+              : "animation-wrapper"
+          }
+        >
+          <PageBase pageData={bookData[pageNumber - 1]} />
+        </div>
+        <div className="navigation-button" onClick={pageForward} role="button">
+          <img src="angle-bracket.png" alt="Следующая Страница"></img>
+        </div>
       </div>
 
       <div className="controls">
@@ -93,7 +119,7 @@ export default function Book(bookDataRaw) {
           &lt;
         </Button>
         <input
-          style={{ width: "5%" }}
+          style={{ width: "40px" }}
           type="text"
           value={pageNumber}
           onChange={(e) => handleSetPage(e.target.value)}
