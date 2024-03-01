@@ -8,10 +8,15 @@ export default function Book(bookDataRaw) {
   const [touchEnd, setTouchEnd] = useState(null);
   const [rightSwipe, setRightSwipe] = useState(false);
   const [leftSwipe, setLeftSwipe] = useState(false);
+  const [showContents, setShowContents] = useState(false);
 
   const bookData = bookDataRaw.bookData;
 
   const minSwipeDistance = 125;
+
+  function displayContents() {
+    setShowContents(!showContents);
+  }
 
   const onTouchStart = (e) => {
     setTouchEnd(null); // otherwise the swipe is fired even with usual touch events
@@ -34,11 +39,27 @@ export default function Book(bookDataRaw) {
   };
 
   function handleSetPage(newPage) {
-    newPage < 1
-      ? setPageNumber(1)
-      : newPage > bookData.length
-      ? setPageNumber(pageNumber)
-      : setPageNumber(newPage);
+    if (newPage < 1) {
+      setPageNumber(1);
+      if (newPage > bookData.length) {
+        setPageNumber(pageNumber);
+      }
+    } else {
+      if (newPage === pageNumber) {
+      } else if (newPage < pageNumber) {
+        setLeftSwipe(true);
+        setTimeout(() => {
+          setPageNumber(newPage - 2);
+          setLeftSwipe(false);
+        }, 300);
+      } else {
+        setRightSwipe(true);
+        setTimeout(() => {
+          setPageNumber(newPage - 2);
+          setRightSwipe(false);
+        }, 300);
+      }
+    }
   }
 
   async function pageBack() {
@@ -76,6 +97,28 @@ export default function Book(bookDataRaw) {
       onTouchEnd={onTouchEnd}
       className="book-body"
     >
+      <div
+        className="show-content-button"
+        role="button"
+        onClick={displayContents}
+      >
+        <img alt="Список глав" src="hamburger.png"></img>
+      </div>
+      <div className={showContents ? "contents" : "contents hidden"}>
+        <ul className="list-group">
+          {bookData.map((chapter) => (
+            <a
+              onClick={() => {
+                console.log("Jumping to chapter: ", chapter.pageNumber);
+                handleSetPage(chapter.pageNumber);
+              }}
+              className="list-group-item list-group-item-action list-group-item-primary"
+            >
+              {chapter.title}
+            </a>
+          ))}
+        </ul>
+      </div>
       <div className="book-display">
         <div className="page-indicator">
           <div className="page-number">
@@ -114,6 +157,7 @@ export default function Book(bookDataRaw) {
         </div>
       </div>
 
+      {/* Saving this for debugging purposes
       <div className="controls">
         <Button onClick={pageBack} k>
           &lt;
@@ -126,7 +170,7 @@ export default function Book(bookDataRaw) {
         />
         <span style={{ color: "white" }}> / {bookData.length}</span>
         <Button onClick={pageForward}>&gt;</Button>
-      </div>
+      </div> */}
     </div>
   );
 }

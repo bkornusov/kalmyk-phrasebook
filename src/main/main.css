@@ -10,18 +10,23 @@
   display: block;
   align-items: top;
   justify-content: center;
+  background-color: darkgrey;
+  min-height: 100vh;
 }
 
 .header {
-  background-color: antiquewhite;
+  background: linear-gradient(.5turn,
+      #6E8DE2, #8fa4df);
+  height: 7vh;
   padding: 0.25em;
+  padding-bottom: 0.4em;
   text-align: center;
 }
 
 .footer {
   height: auto;
   position: fixed;
-  background-color: antiquewhite;
+  background-color: #6E8DE2;
   border-top: 2px solid;
   text-align: left;
   padding: 1em;
@@ -30,29 +35,36 @@
 }
 
 .book-body {
-  height: 100%;
   display: grid;
   flex-flow: column;
   justify-content: center;
-  background-color: darkgrey;
 }
 
 .controls {
   height: 40px;
   align-items: center;
   align-content: end;
-  background-color: darkblue;
+  background-color: #6E8DE2;
 }
 
 .contents {
+  overflow-x: hidden;
   top: 0;
   left: 0;
   position: absolute;
-  height: 80vh;
   width: 400px;
+  height: 95vh;
   z-index: 5;
   display: flex;
-  top: 64px;
+  top: 66px;
+  transition: 0.4s ease-in-out all;
+}
+
+.contents.hidden {
+  position: absolute;
+  transition: none;
+  transform: translateX(-100%);
+  transition: 0.4s ease-in-out all;
 }
 
 .list-group {
@@ -62,6 +74,7 @@
 }
 
 .list-group-item-action {
+  cursor: pointer;
   padding: 0.4em !important;
   vertical-align: middle;
   overflow-y: show;
@@ -69,24 +82,27 @@
   font-size: 15px;
 }
 
-.hidden {
-  overflow: hidden;
-  position: absolute;
-  height: 80vh;
-  visibility: hidden;
-  transition: all ease;
-}
-
 .show-content-button {
   position: absolute;
-  margin: 0.1em;
+  top: 0;
+  margin: 0.4em;
   min-width: 50px;
   height: 50px;
-  border: black 2px solid;
+  border: #E2C36E 2px solid;
   border-radius: 5px;
+  transition: all 0.3s;
+  z-index: 5;
+}
+
+.show-content-button:hover {
+  filter: brightness(110%);
+  transition: all 0.3s;
+  box-shadow: 0.2em;
+  background-color: #4a68bc;
 }
 
 .show-content-button img {
+  filter: invert(82%) sepia(40%) saturate(478%) hue-rotate(356deg) brightness(92%) contrast(92%);
   position: relative;
   top: 3px;
   color: white;
