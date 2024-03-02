@@ -28,31 +28,33 @@ function renderPlayButton(fileName) {
 
 function displayExtraTable(table, highlights) {
   return (
-    <Table bordered>
-      <thead>
-        <tr>
-          <th></th>
-          <th>Ед. ч</th>
-          <th></th>
-          <th></th>
-          <th>Мн. ч</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        {table.map((row) => (
+    <div>
+      <Table bordered>
+        <thead>
           <tr>
-            {row.map((entry) => (
-              <>
-                {renderPlayButton(entry.audio)}
-                <td>{highlight(entry.kalmyk, highlights)}</td>
-                <td>{entry.russian}</td>
-              </>
-            ))}
+            <th></th>
+            <th>Ед. ч</th>
+            <th></th>
+            <th></th>
+            <th>Мн. ч</th>
+            <th></th>
           </tr>
-        ))}
-      </tbody>
-    </Table>
+        </thead>
+        <tbody>
+          {table.map((row) => (
+            <tr>
+              {row.map((entry) => (
+                <>
+                  {renderPlayButton(entry.audio)}
+                  <td>{highlight(entry.kalmyk, highlights)}</td>
+                  <td>{entry.russian}</td>
+                </>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </Table>
+    </div>
   );
 }
 

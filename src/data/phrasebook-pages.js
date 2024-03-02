@@ -1,7 +1,7 @@
 var phraseBookPages = [
   {
     chapter: 1,
-    pageNumber: 3,
+    pageNumber: 1,
     title: "1. Мендллһн. Таньлдлһн / Приветствие. Знакомство",
     dialog: [
       {
@@ -185,7 +185,7 @@ var phraseBookPages = [
   },
   {
     chapter: 2,
-    pageNumber: 4,
+    pageNumber: 2,
     title: "2. Мана өрк-бүл / Наша семья",
     dialog: [
       {
@@ -286,7 +286,7 @@ var phraseBookPages = [
   },
   {
     chapter: 3,
-    pageNumber: 5,
+    pageNumber: 3,
     title: "3. Хальмг алфавит / Калмыцкий алфавит",
     dialog: [
       {
@@ -331,7 +331,7 @@ var phraseBookPages = [
   },
   {
     chapter: 4,
-    pageNumber: 6,
+    pageNumber: 4,
     title: "4. Серлһн / Пробуждение",
     dialog: [
       {
@@ -498,7 +498,7 @@ var phraseBookPages = [
   },
   {
     chapter: 5,
-    pageNumber: 7,
+    pageNumber: 5,
     title: "5. Зүүдн / Сновидение",
     dialog: [
       {
@@ -567,7 +567,7 @@ var phraseBookPages = [
   },
   {
     chapter: 6,
-    pageNumber: 8,
+    pageNumber: 6,
     title: "6. Нүр-һаран уһалһн / Умывание",
     dialog: [
       {
@@ -653,7 +653,7 @@ var phraseBookPages = [
   },
   {
     chapter: 7,
-    pageNumber: 9,
+    pageNumber: 7,
     title: "7. Өрүн бийән ахуллһн / Утренние процедуры",
     dialog: [
       {
@@ -764,7 +764,7 @@ var phraseBookPages = [
   },
   {
     chapter: 8,
-    pageNumber: 10,
+    pageNumber: 8,
     title: "8. Хальмг цә / Калмыцкий чай",
     dialog: [
       {
@@ -864,7 +864,7 @@ var phraseBookPages = [
   },
   {
     chapter: 9,
-    pageNumber: 11,
+    pageNumber: 9,
     title: "9. Өрүн хот / Завтрак",
     dialog: [
       {
@@ -979,7 +979,7 @@ var phraseBookPages = [
   },
   {
     chapter: 10,
-    pageNumber: 12,
+    pageNumber: 10,
     title: "10. Сурһульдан белд лһн / Подготовка к школе",
     dialog: [
       {
@@ -1146,7 +1146,7 @@ var phraseBookPages = [
   },
   {
     chapter: 11,
-    pageNumber: 13,
+    pageNumber: 11,
     title: "11. Аав ээҗ хойр ин күүн длһн / Разговор папа и мама",
     dialog: [
       {
@@ -1218,7 +1218,7 @@ var phraseBookPages = [
   },
   {
     chapter: 12,
-    pageNumber: 14,
+    pageNumber: 12,
     title: "12. Сурһульдан йовҗ йовад / По дороге в школу",
     dialog: [
       {
@@ -1286,7 +1286,7 @@ var phraseBookPages = [
   },
   {
     chapter: 13,
-    pageNumber: 15,
+    pageNumber: 13,
     title: "13. Аавин д урта хот / Любимая еда папы",
     dialog: [
       {
@@ -1413,7 +1413,7 @@ var phraseBookPages = [
   },
   {
     chapter: 14,
-    pageNumber: 16,
+    pageNumber: 14,
     title: "14. Сурһулин хөөн / После школы",
     dialog: [
       {
@@ -1542,7 +1542,7 @@ var phraseBookPages = [
   },
   {
     chapter: 15,
-    pageNumber: 17,
+    pageNumber: 15,
     title: "15. Үдин хот / Обед",
     dialog: [
       {
@@ -1699,7 +1699,7 @@ var phraseBookPages = [
   },
   {
     chapter: 16,
-    pageNumber: 18,
+    pageNumber: 16,
     title: "16. Үдин хөөн / После обеда",
     dialog: [
       {
@@ -1843,7 +1843,7 @@ var phraseBookPages = [
   },
   {
     chapter: 17,
-    pageNumber: 19,
+    pageNumber: 17,
     title: "17. Боорцг кех / Готовка борцогов",
     dialog: [
       {
@@ -1982,7 +1982,7 @@ var phraseBookPages = [
   },
   {
     chapter: 18,
-    pageNumber: 20,
+    pageNumber: 18,
     title: "18. Герин даалһвр / Домашнее задание",
     dialog: [
       {
@@ -2157,7 +2157,7 @@ var phraseBookPages = [
   },
   {
     chapter: 19,
-    pageNumber: 21,
+    pageNumber: 19,
     title: "19. Унтхин өмн / Перед сном",
     dialog: [
       {
@@ -2278,7 +2278,7 @@ var phraseBookPages = [
   },
   {
     chapter: 20,
-    pageNumber: 22,
+    pageNumber: 20,
     title: "20. Сән зүүд бәрҗ хон / Хороших тебе сновидений",
     dialog: [
       {
@@ -2344,7 +2344,7 @@ var phraseBookPages = [
   },
   {
     chapter: 21,
-    pageNumber: 23,
+    pageNumber: 21,
     title: "21. Зул / Зул (калмыцкий праздник)",
     dialog: [
       {
@@ -2558,7 +2558,7 @@ var phraseBookPages = [
   },
   {
     chapter: 22,
-    pageNumber: 24,
+    pageNumber: 22,
     title: "22. Шин хувцн а йөрәл / Благопожелание по поводу новой одежды",
     dialog: [
       {
@@ -2657,7 +2657,7 @@ var phraseBookPages = [
   },
   {
     chapter: 23,
-    pageNumber: 25,
+    pageNumber: 23,
     title: "23. Һарсн өдрин байр / Праздник дня рождения",
     dialog: [
       {
@@ -2764,7 +2764,7 @@ var phraseBookPages = [
   },
   {
     chapter: 24,
-    pageNumber: 26,
+    pageNumber: 24,
     title: "24. Цаһан Сарин белг / Подарки на Цаһан Сар",
     dialog: [
       {
@@ -3020,7 +3020,7 @@ var phraseBookPages = [
   },
   {
     chapter: 25,
-    pageNumber: 27,
+    pageNumber: 25,
     title: "25. Теӊгрин одд / Небесные светила",
     dialog: [
       {

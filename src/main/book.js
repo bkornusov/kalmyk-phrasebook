@@ -12,7 +12,7 @@ export default function Book(bookDataRaw) {
 
   const bookData = bookDataRaw.bookData;
 
-  const minSwipeDistance = 125;
+  const minSwipeDistance = 130;
 
   function displayContents() {
     setShowContents(!showContents);
@@ -49,17 +49,18 @@ export default function Book(bookDataRaw) {
       } else if (newPage < pageNumber) {
         setLeftSwipe(true);
         setTimeout(() => {
-          setPageNumber(newPage - 2);
+          setPageNumber(newPage);
           setLeftSwipe(false);
-        }, 300);
+        }, 325);
       } else {
         setRightSwipe(true);
         setTimeout(() => {
-          setPageNumber(newPage - 2);
+          setPageNumber(newPage);
           setRightSwipe(false);
-        }, 300);
+        }, 325);
       }
     }
+    setShowContents(false);
   }
 
   async function pageBack() {
