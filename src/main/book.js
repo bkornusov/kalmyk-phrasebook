@@ -130,9 +130,9 @@ export default function Book(bookDataRaw) {
               {pageNumber}
             </span>
             <br />
-            <span style={{ bottom: "75px", fontSize: "60px" }}>_</span>
+            <span className="page-indicator-separator">_</span>
             <br />
-            <span style={{ bottom: "90px" }}>{bookData.length}</span>
+            <span className="page-indicator-total">{bookData.length}</span>
           </div>
         </div>
         <div
