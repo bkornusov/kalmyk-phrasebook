@@ -56,8 +56,6 @@
   transform: scaleX(-1);
 }
 
-
-
 .page-indicator {
   width: 80px;
   height: 80px;
@@ -137,8 +135,12 @@ span {
 }
 
 @media (max-width: 1050px) {
-  .navigation-button {
-    display: none;
+  .page-base {
+    width: 750px;
+  }
+
+  .navigation-button img {
+    left: -10px;
   }
 
   .book-display {
@@ -146,10 +148,44 @@ span {
   }
 
   .page-indicator {
+    width: 60px;
+    height: 70px;
+    text-align: center;
+    top: 70px;
+    right: 0;
+    margin: 0.5em;
+    align-content: center;
+  }
+
+  .page-number * {
+    font-size: 20px !important;
+    position: relative;
+  }
+
+  .page-indicator-separator {
+    font-size: 40px !important;
+    bottom: 50px;
+  }
+
+  .page-indicator-total {
+    bottom: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .page-base {
+    width: 100vw;
+  }
+
+  .navigation-button img {
+    display: none;
+  }
+
+  .page-indicator {
     width: 40px;
     height: 50px;
     text-align: center;
-    top: 0;
+    top: 65px;
     right: 0;
     margin: 0.5em;
     align-content: center;
@@ -167,6 +203,18 @@ span {
 
   .page-indicator-total {
     bottom: 60px;
+  }
+}
+
+@media (max-width: 650px) {
+  .page-indicator {
+    top: 45px;
+  }
+}
+
+@media(max-width: 445px) {
+  .page-indicator {
+    top: 0px;
   }
 }
 
@@ -270,10 +318,4 @@ ol {
 
 .horizontal td {
   word-break: break-word;
-}
-
-@media (max-width: 800px) {
-  .page-base {
-    width: 100vw;
-  }
 }

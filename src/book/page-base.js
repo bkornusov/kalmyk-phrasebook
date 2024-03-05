@@ -33,7 +33,7 @@ function PageBase(pageData) {
     return (
       <td>
         <b>{splitLine[0]}: </b>
-        {highlight(splitLine[1], page.highlights.dialog)}
+        {highlight(splitLine.slice(1).join(":"), page.highlights.dialog)}
       </td>
     );
   }
