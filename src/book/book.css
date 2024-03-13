@@ -95,6 +95,7 @@ Table {
 }
 
 Table * {
+  border-width: 1px !important;
   line-height: 20px;
   text-align: start;
   text-wrap: unset;
@@ -109,7 +110,6 @@ th {
 }
 
 td {
-  border-width: 1px;
   padding: 0.1em !important;
 }
 
