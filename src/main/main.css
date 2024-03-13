@@ -36,7 +36,6 @@
   .contents {
     top: 45px;
     width: 100vw;
-    max-height: 84vh;
     font-size: 14px;
   }
 
@@ -87,12 +86,9 @@
 }
 
 .contents {
-  overflow-x: hidden;
   top: 66px;
   left: 0;
   position: absolute;
-  width: 400px;
-  height: 95vh;
   z-index: 5;
   display: flex;
   transition: 0.3s ease-in-out all;

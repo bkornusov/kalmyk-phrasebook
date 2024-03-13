@@ -1,7 +1,8 @@
 import "./book.css";
 import { Table } from "react-bootstrap";
-import displayMemorize from "./memorize";
 import { useEffect } from "react";
+import vocabularyPage from "./vocabulary";
+import displayMemorize from "./memorize";
 import displayExtras from "./extras";
 import highlight from "./highlighter";
 
@@ -118,48 +119,52 @@ function PageBase(pageData) {
     );
   }
 
-  return (
-    <div className="page-base">
-      <span className="page-title">{page.title}</span>
-      <br />
-      <br />
-      <div className="dialog">
-        <Table bordered>
-          <thead>
-            <tr>
-              <th></th>
-              <th>Хальмг</th>
-              <th>Русский</th>
-            </tr>
-          </thead>
-          <tbody>
-            {page.dialog.map((row) => (
+  if (page.chapter === "vocabulary") {
+    return vocabularyPage(page.items);
+  } else {
+    return (
+      <div className="page-base">
+        <span className="page-title">{page.title}</span>
+        <br />
+        <br />
+        <div className="dialog">
+          <Table bordered>
+            <thead>
               <tr>
-                {renderPlayButton(row.audio)}
-                {boldenSpeaker(row.kalmyk)}
-                {boldenSpeaker(row.russian)}
+                <th></th>
+                <th>Хальмг</th>
+                <th>Русский</th>
               </tr>
-            ))}
-          </tbody>
-        </Table>
-      </div>
+            </thead>
+            <tbody>
+              {page.dialog.map((row) => (
+                <tr>
+                  {renderPlayButton(row.audio)}
+                  {boldenSpeaker(row.kalmyk)}
+                  {boldenSpeaker(row.russian)}
+                </tr>
+              ))}
+            </tbody>
+          </Table>
+        </div>
 
-      <span>Толь бичг / Словарь</span>
-      <div className="vocabulary">
-        <Table className="dictionary" bordered>
-          {displayVocabulary()}
-        </Table>
+        <span>Толь бичг / Словарь</span>
+        <div className="vocabulary">
+          <Table className="dictionary" bordered>
+            {displayVocabulary()}
+          </Table>
+        </div>
+        {displayMemorize(
+          page.memorize,
+          page.memorizeType,
+          false,
+          page.highlights.memorize
+        )}
+        {displayExtraMemorizeTable(page.memorizeExtraTable)}
+        {displayExtras(page.extras, page.highlights.extras)}
       </div>
-      {displayMemorize(
-        page.memorize,
-        page.memorizeType,
-        false,
-        page.highlights.memorize
-      )}
-      {displayExtraMemorizeTable(page.memorizeExtraTable)}
-      {displayExtras(page.extras, page.highlights.extras)}
-    </div>
-  );
+    );
+  }
 }
 
 export default PageBase;
