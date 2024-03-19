@@ -161,7 +161,9 @@ export default function memorize(data, type, duplicate = false, highlights) {
                 <>
                   <td>{renderPlayButton(item.audio)}</td>
                   <td>
-                    {highlight(item.kalmyk, highlights)} {item.russian}
+                    {highlight(item.kalmyk, highlights)}
+                    <br />
+                    {item.russian}
                   </td>
                 </>
               ))}

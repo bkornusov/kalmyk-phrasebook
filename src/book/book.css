@@ -236,7 +236,10 @@ span {
     padding: 0.1em;
     padding-top: 0.3em;
   }
+}
 
+.dialog {
+  white-space: pre-line;
 }
 
 .audio-column {
