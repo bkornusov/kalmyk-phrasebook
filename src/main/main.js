@@ -1,7 +1,6 @@
 import "./main.css";
 import Book from "./book";
 import phraseBookPages from "../data/phrasebook-pages";
-import { useState, useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Main() {

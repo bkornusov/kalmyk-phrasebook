@@ -242,6 +242,10 @@ span {
   white-space: pre-line;
 }
 
+.extras text {
+  white-space: pre-line;
+}
+
 .audio-column {
   width: 20px;
 }

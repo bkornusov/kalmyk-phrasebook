@@ -15,13 +15,13 @@ export default function memorize(data, type, duplicate = false, highlights) {
   }
 
   function renderPlayButton(fileName) {
-    if (fileName == "") {
+    if (fileName === "") {
       return <td></td>;
     }
     return (
       <td className="audio-column">
         <button className="play-button" onClick={() => playAudio(fileName)}>
-          <img className="play-button-icon" src="./media/play.png" />
+          <img alt="play" className="play-button-icon" src="./media/play.png" />
         </button>
       </td>
     );
@@ -288,7 +288,7 @@ export default function memorize(data, type, duplicate = false, highlights) {
     }
   }
 
-  if (!data || data.length == 0) {
+  if (!data || data.length === 0) {
     return;
   }
   if (duplicate) {
