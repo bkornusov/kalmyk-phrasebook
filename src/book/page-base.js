@@ -8,6 +8,7 @@ import highlight from "./highlighter";
 
 function PageBase(pageData) {
   var page = pageData.pageData;
+  var audio_;
 
   useEffect(() => {
     playAudio();
@@ -18,8 +19,9 @@ function PageBase(pageData) {
   }
 
   async function playAudio(location) {
-    var audio = new Audio("./media/" + location);
-    var audioPromise = audio.play();
+    if (audio_) audio_.pause();
+    audio_ = new Audio("./media/" + location);
+    var audioPromise = audio_.play();
     if (audioPromise !== undefined) {
       audioPromise
         .then(function () {})
