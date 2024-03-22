@@ -71,6 +71,7 @@
 }
 
 .page-number {
+  margin-top: 84px;
   color: white;
   opacity: 100% !important;
 }
@@ -152,6 +153,10 @@ span {
     right: 0;
     margin: 0.5em;
     align-content: center;
+  }
+
+  .page-number {
+    margin-top: 56px;
   }
 
   .page-number * {
