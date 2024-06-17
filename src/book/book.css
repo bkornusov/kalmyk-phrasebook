@@ -71,7 +71,6 @@
 }
 
 .page-number {
-  margin-top: 84px;
   color: white;
   opacity: 100% !important;
 }
@@ -155,9 +154,9 @@ span {
     align-content: center;
   }
 
-  .page-number {
+  /* .page-number {
     margin-top: 56px;
-  }
+  } */
 
   .page-number * {
     font-size: 20px !important;
@@ -200,7 +199,7 @@ span {
 
   .page-indicator-separator {
     font-size: 40px !important;
-    bottom: 46px;
+    /* bottom: 46px; */
   }
 
   .page-indicator-total {

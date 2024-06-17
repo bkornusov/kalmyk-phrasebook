@@ -2,160 +2,168 @@ var phraseBookPages = [
   {
     chapter: 1,
     pageNumber: 1,
-    title: "1. Мендллһн. Таньлдлһн / Приветствие. Знакомство",
+    title: "1. Мендллһн. Таньлдлһн / Greetings. Acquaintance",
     dialog: [
       {
         audio: "ch1/1-02.mp3",
         kalmyk: "Амулң: Мендвт! Мини нерн Амулң.",
-        russian: "Амуланга: Здравствуйте! Меня зовут Амуланга.",
+        russian: "Amulanga: Hello! My name is Amulanga.",
       },
       {
         audio: "ch1/1-03.mp3",
         kalmyk: "Амулң: Таньлдтн! Эн мини дү күүкн Саглр.",
-        russian: "Амуланга: Знакомьтесь. Это моя сестренка Саглара.",
+        russian: "Amulanga: Meet my little sister Saglara.",
       },
       {
         audio: "ch1/1-04.mp3",
         kalmyk: "Саглр: Мендвт! Амулң – мини эгч.",
-        russian: "Саглара: Здравствуйте! Амуланга – моя сестра.",
+        russian: "Saglara: Hello! Amulanga is my sister.",
       },
       {
         audio: "ch1/1-05.mp3",
         kalmyk: "Амулң: Бидн – сурһульчнрвидн.",
-        russian: "Амуланга: Мы – школьницы.",
+        russian: "Amulanga: We are students.",
       },
       {
         audio: "ch1/1-06.mp3",
         kalmyk: "Саглр: Мана эк – багш.",
-        russian: "Саглара: Наша мама – учительница.",
+        russian: "Saglara: Our mother is a teacher.",
       },
       {
         audio: "ch1/1-07.mp3",
         kalmyk: "Амулң: Мана эцк – номт.",
-        russian: "Амуланга: Наш папа – ученый.",
+        russian: "Amulanga: Our father is a scientist.",
       },
     ],
     vocabulary: [
-      { audio: "ch1/1-08.mp3", kalmyk: "мендвт", russian: "здравствуйте" },
-      { audio: "ch1/1-09.mp3", kalmyk: "менд", russian: "здравствуй" },
+      { audio: "ch1/1-08.mp3", kalmyk: "мендвт", russian: "hello" },
+      { audio: "ch1/1-09.mp3", kalmyk: "менд", russian: "hello (casual)" },
       {
         audio: "ch1/1-10.mp3",
         kalmyk: "мини нерн ....",
-        russian: "мое имя ......",
+        russian: "my name is ......",
       },
       {
         audio: "ch1/1-11.mp3",
         kalmyk: "таньлдх",
-        russian: "знакомиться",
+        russian: "to meet",
       },
       {
         audio: "ch1/1-12.mp3",
         kalmyk: "эгч",
-        russian: "сестра",
+        russian: "sister",
       },
       {
         audio: "ch1/1-13.mp3",
         kalmyk: "дү күүкн",
-        russian: "сестренка",
+        russian: "little sister",
       },
       {
         audio: "ch1/эн.mp3",
         kalmyk: "эн",
-        russian: "это",
+        russian: "this",
       },
       {
         audio: "ch1/сургульч.mp3",
         kalmyk: "сурһульч",
-        russian: "школьник, ученик",
+        russian: "student",
       },
-      { audio: "ch1/эк.mp3", kalmyk: "эк", russian: "мать" },
-      { audio: "ch1/эцк.mp3", kalmyk: "эцк", russian: "отец" },
-      { audio: "ch1/багш.mp3", kalmyk: "багш", russian: "учитель" },
-      { audio: "ch1/номт.mp3", kalmyk: "номт", russian: "ученый" },
+      { audio: "ch1/эк.mp3", kalmyk: "эк", russian: "mother" },
+      { audio: "ch1/эцк.mp3", kalmyk: "эцк", russian: "father" },
+      { audio: "ch1/багш.mp3", kalmyk: "багш", russian: "teacher" },
+      { audio: "ch1/номт.mp3", kalmyk: "номт", russian: "scientist" },
     ],
     memorize: [
       [
-        { audio: "ch1/1-14.mp3", kalmyk: "би ", russian: "я" },
-        { audio: "ch1/1-15.mp3", kalmyk: "мини", russian: "мой / моя / мое" },
+        { audio: "ch1/1-14.mp3", kalmyk: "би ", russian: "I" },
+        { audio: "ch1/1-15.mp3", kalmyk: "мини", russian: "my / mine" },
       ],
       [
-        { audio: "ch1/1-16.mp3", kalmyk: "чи", russian: "ты" },
+        { audio: "ch1/1-16.mp3", kalmyk: "чи", russian: "you" },
         {
           audio: "ch1/1-17.mp3",
           kalmyk: "чини",
-          russian: "твой / твоя / твое",
+          russian: "your",
         },
       ],
       [
-        { audio: "ch1/1-18.mp3", kalmyk: "Та", russian: "Вы (уважительное)" },
-        { audio: "ch1/1-19.mp3", kalmyk: "Тана", russian: "Ваш" },
+        { audio: "ch1/1-18.mp3", kalmyk: "Та", russian: "You (respectful)" },
+        { audio: "ch1/1-19.mp3", kalmyk: "Тана", russian: "Your (respectful)" },
       ],
       [
         {
           audio: "ch1/1-20.mp3",
           kalmyk: "эн, тер",
-          russian: "он / она / оно",
+          russian: "he / she / it",
         },
         {
           audio: "ch1/1-21.mp3",
           kalmyk: "энүнә / үүнә, терүнә / түүнә",
-          russian: "его / ее",
+          russian: "his / her",
         },
       ],
       [
-        { audio: "ch1/1-22.mp3", kalmyk: "бидн, мадн", russian: "мы" },
-        { audio: "ch1/1-23.mp3", kalmyk: "мана, мадна", russian: "наш" },
+        { audio: "ch1/1-22.mp3", kalmyk: "бидн, мадн", russian: "we" },
+        { audio: "ch1/1-23.mp3", kalmyk: "мана, мадна", russian: "our" },
       ],
       [
-        { audio: "ch1/1-24.mp3", kalmyk: "тадн", russian: "вы" },
-        { audio: "ch1/1-25.mp3", kalmyk: "тадна", russian: "ваш" },
+        { audio: "ch1/1-24.mp3", kalmyk: "тадн", russian: "you (plural)" },
+        { audio: "ch1/1-25.mp3", kalmyk: "тадна", russian: "your (plural)" },
       ],
       [
-        { audio: "ch1/1-26.mp3", kalmyk: "эдн, тедн", russian: "они" },
-        { audio: "ch1/1-27.mp3", kalmyk: "эднә, теднә", russian: "их" },
+        { audio: "ch1/1-26.mp3", kalmyk: "эдн, тедн", russian: "they" },
+        { audio: "ch1/1-27.mp3", kalmyk: "эднә, теднә", russian: "theirs" },
       ],
     ],
     memorizeType: "table2",
     extras: {
       items: [
-        "В калмыцком языке есть разные показатели множественного числа существительных. Чтобы образовать множественное число существительных, называющих профессии и родство, надо к основе слова добавить суффикс -нр: багш – багшнр (учителя), эгч – эгчнр (сестры), номт – номтнр (ученые), сурһульч –сурһульчнр (школьники, ученики).",
-        "Сказуемым в предложении может быть существительное, прилагательное, числительное и глагол. Личная частица сказуемого в предложении зависит от лица местоимения, выступающего в роли подлежащего:",
-        "Традиционно калмыки к родителям обращались: ээҗ, аав. Позже так стали называть бабушку и дедушку, а родителей - аак, баав, бааҗа.",
+        "The Kalmyk language has different indicators of noun pluralization. To form the plural of nouns naming professions and kinship, the suffix -нр must be added to the base of the word: багш - багшнр (teachers), эгч - эгчнр (sisters), номт - номтнр (scientists), сурһульч - сурһульчнр (schoolchildren, pupils).",
+        "The predicate in a sentence can be a noun, adjective, numeral, and verb. The personal particle of the predicate in a sentence depends on the person of the pronoun acting as the subject:",
+        "Traditionally, Kalmyks addressed their parents as ээҗ, аав. Later, these words were used to describe grandmother and grandfather, and parents were called аак, баав, бааҗа.",
       ],
       table: [
         [
-          { audio: "ch1/1-28.mp3", kalmyk: "Би багшв", russian: "Я - учитель" },
+          {
+            audio: "ch1/1-28.mp3",
+            kalmyk: "Би багшв",
+            russian: "I am a teacher",
+          },
           {
             audio: "ch1/1-32.mp3",
             kalmyk: "Бидн багшнрвидн",
-            russian: "Мы - учителя",
+            russian: "We are teachers",
           },
         ],
         [
           {
             audio: "ch1/1-29.mp3",
             kalmyk: "Чи багшч",
-            russian: "Ты - учитель",
+            russian: "You are a teacher",
           },
           {
             audio: "ch1/1-33.mp3",
             kalmyk: "Тадн багшнрт",
-            russian: "Вы - учителя",
+            russian: "You are teachers",
           },
         ],
         [
           {
             audio: "ch1/1-30.mp3",
             kalmyk: "Та багшт",
-            russian: "Вы - учитель",
+            russian: "You are a teacher (respectful)",
           },
         ],
         [
-          { audio: "ch1/1-31.mp3", kalmyk: "Эн багш", russian: "Он - учитель" },
+          {
+            audio: "ch1/1-31.mp3",
+            kalmyk: "Эн багш",
+            russian: "He / She is a teacher",
+          },
           {
             audio: "ch1/1-34.mp3",
             kalmyk: "Тедн багшнр",
-            russian: "Они - учителя",
+            russian: "They are teachers",
           },
         ],
       ],
@@ -186,32 +194,32 @@ var phraseBookPages = [
   {
     chapter: 2,
     pageNumber: 2,
-    title: "2. Мана өрк-бүл / Наша семья",
+    title: "2. Мана өрк-бүл / Our family",
     dialog: [
       {
         audio: "ch2/2.mp3",
         kalmyk: "Амулң: Мана өрк-бүл бичкн.",
-        russian: "Амуланга: Наша семья маленькая.",
+        russian: "Amulanga: Our family is small.",
       },
       {
         audio: "ch2/3.mp3",
         kalmyk: "Саглр: Мана өрк-бүлд дөрвн күн бәәнә.",
-        russian: "Саглара: В нашей семье 4 человека.",
+        russian: "Saglara: Our family has 4 people.",
       },
       {
         audio: "ch2/4.mp3",
         kalmyk: "Амулң: Аав, ээҗ, би болн мини дү күүкн.",
-        russian: "Амуланга: Папа, мама, я и моя сестренка.",
+        russian: "Amulanga: Father, mother, and my little sister.",
       },
     ],
     vocabulary: [
-      { audio: "ch2/6.mp3", kalmyk: "өрк-бүл", russian: "семья" },
-      { audio: "ch2/7.mp3", kalmyk: "бичкн", russian: "маленький" },
-      { audio: "ch2/8.mp3", kalmyk: "күн", russian: "человек" },
-      { audio: "ch2/9.mp3", kalmyk: "бәәх", russian: "быть; есть" },
-      { audio: "ch2/10.mp3", kalmyk: "аав", russian: "папа" },
-      { audio: "ch2/11.mp3", kalmyk: "ээҗ", russian: "мама" },
-      { audio: "ch2/12.mp3", kalmyk: "болн", russian: "и" },
+      { audio: "ch2/6.mp3", kalmyk: "өрк-бүл", russian: "family" },
+      { audio: "ch2/7.mp3", kalmyk: "бичкн", russian: "small" },
+      { audio: "ch2/8.mp3", kalmyk: "күн", russian: "person" },
+      { audio: "ch2/9.mp3", kalmyk: "бәәх", russian: "to be" },
+      { audio: "ch2/10.mp3", kalmyk: "аав", russian: "father" },
+      { audio: "ch2/11.mp3", kalmyk: "ээҗ", russian: "mother" },
+      { audio: "ch2/12.mp3", kalmyk: "болн", russian: "and" },
     ],
     memorize: [
       [
@@ -287,34 +295,34 @@ var phraseBookPages = [
   {
     chapter: 3,
     pageNumber: 3,
-    title: "3. Хальмг алфавит / Калмыцкий алфавит",
+    title: "3. Хальмг алфавит / Kalmyk Alphabet",
     dialog: [
       {
         audio: "ch3/3-02.mp3",
         kalmyk: "Саглр: Хальмг алфавитд кедү үзг бәәнә?",
-        russian: "Саглара: В калмыцком алфавите сколько букв?",
+        russian: "Saglara: How many letters are there in the kalmyk alphabet?",
       },
       {
         audio: "ch3/3-03.mp3",
         kalmyk: "Амулң: 39 (һучн йисн).",
-        russian: "Амуланга: 39",
+        russian: "Amulanga: 39",
       },
       {
         audio: "ch3/3-04.mp3",
         kalmyk: "Саглр: Ямаран хальмг үзгүд бәәнә?",
-        russian: "Саглара: Какие калмыцкие буквы есть?",
+        russian: "Saglara: What are the kalmyk letters?",
       },
       {
         audio: "ch3/3-05.mp3",
         kalmyk: "Амулң: Ә, Ө, Ү, Һ, Җ, Ң.",
-        russian: "Амуланга: Ә, Ө, Ү, Һ, Җ, Ң.",
+        russian: "Amulanga: Ә, Ө, Ү, Һ, Җ, Ң.",
       },
     ],
     vocabulary: [
-      { audio: "ch3/3-07.mp3", kalmyk: "хальмг", russian: "калмыцкий" },
-      { audio: "ch3/3-08.mp3", kalmyk: "кедү", russian: "сколько" },
-      { audio: "ch3/3-09.mp3", kalmyk: "үзг", russian: "буква" },
-      { audio: "ch3/3-10.mp3", kalmyk: "ямаран", russian: "какой" },
+      { audio: "ch3/3-07.mp3", kalmyk: "хальмг", russian: "kalmyk" },
+      { audio: "ch3/3-08.mp3", kalmyk: "кедү", russian: "how many" },
+      { audio: "ch3/3-09.mp3", kalmyk: "үзг", russian: "letter" },
+      { audio: "ch3/3-10.mp3", kalmyk: "ямаран", russian: "which; what" },
     ],
     memorize: [
       "Аа Әә Бб Вв Гг Һһ Дд Ее Ее Жж Җҗ Зз Ии Йи \n" +
@@ -332,115 +340,123 @@ var phraseBookPages = [
   {
     chapter: 4,
     pageNumber: 4,
-    title: "4. Серлһн / Пробуждение",
+    title: "4. Серлһн / Waking up",
     dialog: [
       {
         audio: "ch4/4-02.mp3",
         kalmyk: "Аав: Кукн, сер.",
-        russian: "Папа: Дитя мое, просыпайся.",
+        russian: "Father: Wake up my child.",
       },
       {
         audio: "ch4/4-03.mp3",
         kalmyk: "Саглр: Серүв.",
-        russian: "Саглара: Проснулась.",
+        russian: "Saglara: I'm awake.",
       },
       {
         audio: "ch4/4-04.mp3",
         kalmyk: "Аав: Сән хонвч?",
-        russian: "Папа: Хорошо спала?",
+        russian: "Father: Did you sleep well?",
       },
       {
         audio: "ch4/4-05.mp3",
         kalmyk: "Саглр: Хонув, аава.",
-        russian: "Саглара: Спала, папа.",
+        russian: "Saglara: I did, dad.",
       },
     ],
     vocabulary: [
-      { audio: "ch4/4-07.mp3", kalmyk: "кукн", russian: "дитя мое" },
-      { audio: "ch4/4-08.mp3", kalmyk: "серх", russian: "просыпаться" },
-      { audio: "ch4/4-09.mp3", kalmyk: "сән", russian: "хорошо" },
-      { audio: "ch4/4-10.mp3", kalmyk: "хонх", russian: "спать; ночевать" },
+      { audio: "ch4/4-07.mp3", kalmyk: "кукн", russian: "my child" },
+      { audio: "ch4/4-08.mp3", kalmyk: "серх", russian: "to wake up" },
+      { audio: "ch4/4-09.mp3", kalmyk: "сән", russian: "good" },
+      {
+        audio: "ch4/4-10.mp3",
+        kalmyk: "хонх",
+        russian: "to sleep; to stay over",
+      },
     ],
     memorize: [
       [
-        { audio: "ch4/4-12.mp3", kalmyk: "серх", russian: "(просыпаться)" },
-        { audio: "ch4/4-13.mp3", kalmyk: "Сер!", russian: "(Просыпайся!)" },
+        { audio: "ch4/4-12.mp3", kalmyk: "серх", russian: "(to wake up)" },
+        { audio: "ch4/4-13.mp3", kalmyk: "Сер!", russian: "(Wake up!)" },
         {
           audio: "ch4/4-14.mp3",
           kalmyk: "Би серүв.",
-          russian: "(Я проснулся / проснулась.)",
+          russian: "(I woke up.)",
         },
         {
           audio: "ch4/4-15.mp3",
           kalmyk: "Чи сервч.",
-          russian: "(Ты проснулся / проснулась.)",
+          russian: "(You woke up.)",
         },
       ],
       [
-        { audio: "ch4/4-16.mp3", kalmyk: "хонх", russian: "(спать; ночевать)" },
-        { audio: "ch4/4-17.mp3", kalmyk: "Хон! ", russian: "(Ночуй!)" },
+        {
+          audio: "ch4/4-16.mp3",
+          kalmyk: "хонх",
+          russian: "(to sleep; to stay over)",
+        },
+        { audio: "ch4/4-17.mp3", kalmyk: "Хон! ", russian: "(Sleep!)" },
         {
           audio: "ch4/4-18.mp3",
           kalmyk: "Би сән хонув. ",
-          russian: "(Я хорошо спал / спала.)",
+          russian: "(I slept well.)",
         },
         {
           audio: "ch4/4-19.mp3",
           kalmyk: "Чи сән хонвч.",
-          russian: "(Ты хорошо спал / спала.)",
+          russian: "(You slept well.)",
         },
       ],
     ],
     memorizeType: "horizontalTable",
     extras: {
       items: [
-        "В калмыцком языке можно сказать «Би серүв» (Я проснулась) или «Серүв» (Проснулась), «Би сән хонув» (Я хорошо спала) или «Сән хонув» (Хорошо спала). Предложение может строиться без местоимения «би».",
-        "Неопределенная форма глагола имеет окончание -х: серх, хонх.",
-        "Повелительная форма образуется от неопределенной формы без окончания -х: Сер! (Просыпайся!), Хон! (Ночуй!). ",
-        "Недавнопрошедшее время глагола образуется с помощью суффикса -в. В некоторых случаях -в заменяется на -у/ү, если подряд идут две или три буквы «в». ",
+        "In Kalmyk, you can say «Би серүв» (I woke up) or «Серүв» (I woke up), «Би сән хонув» (I slept well) or «Сән хонув» (I slept well). The sentence can be constructed without the pronoun «би».",
+        "The indefinite form of the verb has an ending -х: серх, хонх",
+        "The imperative form is formed from the indefinite form without an ending -х: Сер! (Wake up!), Хон! (Sleep!).",
+        "The recent past tense of a verb is formed with the suffix -в. In some cases, -в is replaced by -у/ү if there are two or three letters «в» in a row.",
       ],
       table: [
         [
           {
             audio: "ch4/4-20.mp3",
             kalmyk: "Би эрт серүв.",
-            russian: "Я рано проснулся.",
+            russian: "I woke up early.",
           },
           {
             audio: "ch4/4-24.mp3",
             kalmyk: "Бидн эрт серүвидн.",
-            russian: "Мы рано проснулись.",
+            russian: "We woke up early.",
           },
         ],
         [
           {
             audio: "ch4/4-21.mp3",
             kalmyk: "Чи эрт сервч.",
-            russian: "Ты рано проснулся.",
+            russian: "You woke up early.",
           },
           {
             audio: "ch4/4-25.mp3",
             kalmyk: "Тадн эрт сервт.",
-            russian: "Вы рано проснулись.",
+            russian: "You (plural) woke up early.",
           },
         ],
         [
           {
             audio: "ch4/4-22.mp3",
             kalmyk: "Та эрт сервт.",
-            russian: "Вы рано проснулись.",
+            russian: "Вы (respectful) woke up early.",
           },
         ],
         [
           {
             audio: "ch4/4-23.mp3",
             kalmyk: "Эн/Тер эрт серв.",
-            russian: "Он рано проснулся.",
+            russian: "He woke up early.",
           },
           {
             audio: "ch4/4-26.mp3",
             kalmyk: "Эдн/Тедн эрт серв.",
-            russian: "Они рано проснулись.",
+            russian: "They woke up early.",
           },
         ],
       ],
@@ -499,57 +515,57 @@ var phraseBookPages = [
   {
     chapter: 5,
     pageNumber: 5,
-    title: "5. Зүүдн / Сновидение",
+    title: "5. Зүүдн / Dreaming",
     dialog: [
       {
         audio: "ch5/5-02.mp3",
         kalmyk: "Аав: Зүүд үзүвч?",
-        russian: "Папа: Видела сон?",
+        russian: "Father: Did you have a dream?",
       },
       {
         audio: "ch5/5-03.mp3",
         kalmyk: "Саглр: Үзүв.",
-        russian: "Саглара: Видела.",
+        russian: "Saglara: I did (saw it).",
       },
       {
         audio: "ch5/5-04.mp3",
         kalmyk: "Аав: Ю үзүвч?",
-        russian: "Папа: А что видела?",
+        russian: "Father: What did you see?",
       },
       {
         audio: "ch5/5-05.mp3",
         kalmyk: "Саглр: Уул давшув.",
-        russian: "Саглара: Поднималась в гору.",
+        russian: "Saglara: I went up a mountain.",
       },
       {
         audio: "ch5/5-06.mp3",
         kalmyk: "Аав: Сән зүүдн!",
-        russian: "Папа: Хороший сон!",
+        russian: "Father: Good dream!",
       },
       {
         audio: "ch5/5-07.mp3",
         kalmyk: "Саглр: Үнәрий?",
-        russian: "Саглара: Правда?",
+        russian: "Saglara: Really?",
       },
       {
         audio: "ch5/5-08.mp3",
         kalmyk: "Аав: Санан күцх.",
-        russian: "Папа: Желание сбудется.",
+        russian: "Father: Your wish will come true.",
       },
     ],
     vocabulary: [
-      { audio: "ch5/5-10.mp3", kalmyk: "зүүдн", russian: "сновидение; сон" },
-      { audio: "ch5/5-11.mp3", kalmyk: "үзх", russian: "видеть" },
-      { audio: "ch5/5-12.mp3", kalmyk: "юн", russian: "что" },
-      { audio: "ch5/5-13.mp3", kalmyk: "уул", russian: "гора" },
+      { audio: "ch5/5-10.mp3", kalmyk: "зүүдн", russian: "dream" },
+      { audio: "ch5/5-11.mp3", kalmyk: "үзх", russian: "to see" },
+      { audio: "ch5/5-12.mp3", kalmyk: "юн", russian: "what" },
+      { audio: "ch5/5-13.mp3", kalmyk: "уул", russian: "mountain" },
       {
         audio: "ch5/5-14.mp3",
         kalmyk: "давшх",
-        russian: "взбираться, подниматься вверх",
+        russian: "to climb, ascend",
       },
-      { audio: "ch5/5-15.mp3", kalmyk: "үнәр", russian: "по правде" },
-      { audio: "ch5/5-16.mp3", kalmyk: "санан", russian: "желание; намерение" },
-      { audio: "ch5/5-17.mp3", kalmyk: "күцх", russian: "сбываться" },
+      { audio: "ch5/5-15.mp3", kalmyk: "үнәр", russian: "in reality, real" },
+      { audio: "ch5/5-16.mp3", kalmyk: "санан", russian: "wish; intention" },
+      { audio: "ch5/5-17.mp3", kalmyk: "күцх", russian: "to come true" },
     ],
     extras: {
       items: [
@@ -574,81 +590,101 @@ var phraseBookPages = [
   {
     chapter: 6,
     pageNumber: 6,
-    title: "6. Нүр-һаран уһалһн / Умывание",
+    title: "6. Нүр-һаран уһалһн / Washing up",
     dialog: [
       {
         audio: "ch6/6-02.mp3",
         kalmyk: "Ээҗ: Күүкд, оран ястн.",
-        russian: "Мама: Девочки, заправьте кровати.",
+        russian: "Mother: Girls, make your beds.",
       },
       {
         audio: "ch6/6-03.mp3",
         kalmyk: "Амулӊ: Ясчкув.",
-        russian: "Амуланга: Я заправила.",
+        russian: "Amulanga: I made the bed.",
       },
       {
         audio: "ch6/6-04.mp3",
         kalmyk: "Саглр: Би бас ясчкув.",
-        russian: "Саглара: Я тоже заправила.",
+        russian: "Saglara: I also made the bed.",
       },
       {
         audio: "ch6/6-05.mp3",
         kalmyk: "Ээҗ: Нүр-һаран уһатн.",
-        russian: "Мама: Умывайтесь.",
+        russian: "Mother: Wash up.",
       },
       {
         audio: "ch6/6-06.mp3",
         kalmyk: "Амулӊ: Уһачкув.",
-        russian: "Амуланга: Я умылась.",
+        russian: "Amulanga: I washed up.",
       },
       {
         audio: "ch6/6-07.mp3",
         kalmyk: "Саглр: Би бас уһачкув.",
-        russian: "Саглара: Я тоже умылась.",
+        russian: "Saglara: I also washed up.",
       },
     ],
     vocabulary: [
       {
         audio: "ch6/6-09.mp3",
         kalmyk: "күүкн",
-        russian: "девочка; дочь; дитя",
+        russian: "girl; daughter; child",
       },
       {
         audio: "ch6/6-10.mp3",
         kalmyk: "күүкд",
-        russian: "девочки; дочери; дети",
+        russian: "girls; daughters; children",
       },
-      { audio: "ch6/6-11.mp3", kalmyk: "орн", russian: "кровать; постель" },
-      { audio: "ch6/6-12.mp3", kalmyk: "ясх", russian: "заправлять" },
-      { audio: "ch6/6-13.mp3", kalmyk: "нүр", russian: "лицо" },
-      { audio: "ch6/6-14.mp3", kalmyk: "һар", russian: "рука" },
-      { audio: "ch6/6-15.mp3", kalmyk: "уһах", russian: "мыть" },
+      { audio: "ch6/6-11.mp3", kalmyk: "орн", russian: "bed; bedding" },
+      { audio: "ch6/6-12.mp3", kalmyk: "ясх", russian: "to make (the bed)" },
+      { audio: "ch6/6-13.mp3", kalmyk: "нүр", russian: "face" },
+      { audio: "ch6/6-14.mp3", kalmyk: "һар", russian: "hand (arm?)" },
+      { audio: "ch6/6-15.mp3", kalmyk: "уһах", russian: "wash" },
       {
         audio: "ch6/6-16.mp3",
         kalmyk: "нүр-һаран уһах",
-        russian: "умываться (мыть лицо и руки)",
+        russian: "to wash up (one's face and hands)",
       },
-      { audio: "ch6/6-17.mp3", kalmyk: "бас", russian: "тоже" },
+      { audio: "ch6/6-17.mp3", kalmyk: "бас", russian: "also" },
     ],
     memorize: [
       [
-        { audio: "ch6/6-19.mp3", kalmyk: "ясх ", russian: "(заправлять)" },
-        { audio: "ch6/6-21.mp3", kalmyk: "ястн", russian: "(заправьте)" },
-        { audio: "ch6/6-23.mp3", kalmyk: "уһах", russian: "(мыть)" },
-        { audio: "ch6/6-25.mp3", kalmyk: "уһатн", russian: "(мойте)" },
+        { audio: "ch6/6-19.mp3", kalmyk: "ясх ", russian: "(to make the bed)" },
+        {
+          audio: "ch6/6-21.mp3",
+          kalmyk: "ястн",
+          russian: "(make the bed (imperative, respectful))",
+        },
+        { audio: "ch6/6-23.mp3", kalmyk: "уһах", russian: "(to wash)" },
+        {
+          audio: "ch6/6-25.mp3",
+          kalmyk: "уһатн",
+          russian: "(wash (respectful))",
+        },
       ],
       [
-        { audio: "ch6/6-20.mp3", kalmyk: "яс ", russian: "(заправь)" },
-        { audio: "ch6/6-22.mp3", kalmyk: "ясчкув", russian: "(я заправила)" },
-        { audio: "ch6/6-24.mp3", kalmyk: "уһа", russian: "(мой)" },
-        { audio: "ch6/6-26.mp3", kalmyk: "уһачкув", russian: "(я помыла)" },
+        {
+          audio: "ch6/6-20.mp3",
+          kalmyk: "яс ",
+          russian: "(make the bed (imperative, casual))",
+        },
+        {
+          audio: "ch6/6-22.mp3",
+          kalmyk: "ясчкув",
+          russian: "(I made the bed)",
+        },
+        {
+          audio: "ch6/6-24.mp3",
+          kalmyk: "уһа",
+          russian: "(wash (imperative, casual))",
+        },
+        { audio: "ch6/6-26.mp3", kalmyk: "уһачкув", russian: "(I washed)" },
       ],
     ],
     memorizeType: "horizontalTable",
     extras: {
       items: [
-        "Повелительная форма, обращенная к нескольким людям, и уважительная повелительная форма, образуются с помощью окончания -тн: Оран ястн. (Заправьте кровати.). Нүр-һаран уһатн. (Умывайтесь.).",
-        "Суффикс -чк обозначает завершенность дейстия.",
+        "The imperative form addressed to several people and the respectful imperative form are formed with the ending -тн: Оран ястн. (Make the beds.). Нүр-һаран уһатн. (Wash up.).",
+        "Suffix -чк denotes the completion of an action. ",
       ],
     },
     highlights: {
@@ -660,103 +696,111 @@ var phraseBookPages = [
   {
     chapter: 7,
     pageNumber: 7,
-    title: "7. Өрүн бийән ахуллһн / Утренние процедуры",
+    title: "7. Өрүн бийән ахуллһн / Morning routine",
     dialog: [
       {
         audio: "ch7/7-02.mp3",
         kalmyk: "Саглр: Амуля, үсим самл.",
-        russian: "Саглара: Амуля, расчеши мне волосы.",
+        russian: "Saglara: Amulya, comb my hair.",
       },
       {
         audio: "ch7/7-03.mp3",
         kalmyk: "Амулӊ: Невчк күләҗә.",
-        russian: "Амуланга: Немного подожди.",
+        russian: "Amulanga: Wait a second.",
       },
       {
         audio: "ch7/7-04.mp3",
         kalmyk: "Саглр: Ю кеҗәнәч?",
-        russian: "Саглара: А что ты делаешь?",
+        russian: "Saglara: What are you doing?",
       },
       {
         audio: "ch7/7-05.mp3",
         kalmyk: "Амулӊ: Би шүдән цеврлҗәнәв.",
-        russian: "Амуланга: Я чищу зубы.",
+        russian: "Amulanga: I am brushing my teeth.",
       },
       {
         audio: "ch7/7-06.mp3",
         kalmyk: "Саглр: Күләҗәнәв.",
-        russian: "Саглара: Я жду.",
+        russian: "Saglara: I'm waiting.",
       },
       {
         audio: "ch7/7-07.mp3",
         kalmyk: "Амулӊ: Аашнав.",
-        russian: "Амуланга: Я иду (к тебе).",
+        russian: "Amulanga: I'm coming (to you).",
       },
     ],
     vocabulary: [
-      { audio: "ch7/7-09.mp3", kalmyk: "үсн", russian: "волосы" },
-      { audio: "ch7/7-10.mp3", kalmyk: "самлх", russian: "расчесывать" },
-      { audio: "ch7/7-11.mp3", kalmyk: "невчк", russian: "немного" },
-      { audio: "ch7/7-12.mp3", kalmyk: "күләх", russian: "ждать" },
-      { audio: "ch7/7-13.mp3", kalmyk: "кех", russian: "делать" },
-      { audio: "ch7/7-14.mp3", kalmyk: "шүдн", russian: "зубы" },
-      { audio: "ch7/7-15.mp3", kalmyk: "цеврлх", russian: "чистить" },
-      { audio: "ch7/7-16.mp3", kalmyk: "аашх", russian: "приближаться; идти" },
+      { audio: "ch7/7-09.mp3", kalmyk: "үсн", russian: "hair" },
+      { audio: "ch7/7-10.mp3", kalmyk: "самлх", russian: "to comb" },
+      { audio: "ch7/7-11.mp3", kalmyk: "невчк", russian: "a little" },
+      { audio: "ch7/7-12.mp3", kalmyk: "күләх", russian: "to wait" },
+      { audio: "ch7/7-13.mp3", kalmyk: "кех", russian: "to do" },
+      { audio: "ch7/7-14.mp3", kalmyk: "шүдн", russian: "teeth" },
+      {
+        audio: "ch7/7-15.mp3",
+        kalmyk: "цеврлх",
+        russian: "to clean; to brush",
+      },
+      {
+        audio: "ch7/7-16.mp3",
+        kalmyk: "аашх",
+        russian: "to approach; to come",
+      },
     ],
     memorize: [
       {
         audio1: "ch7/7-18.mp3",
         audio2: "ch7/7-19.mp3",
         kalmyk: "цеврлх ",
-        russian: "Шүдән цеврлҗәнәв. (Зубы чищу.)",
+        russian: "Шүдән цеврлҗәнәв. (Brushing my teeth.)",
       },
       {
         audio1: "ch7/7-20.mp3",
         audio2: "ch7/7-21.mp3",
         kalmyk: "самлх ",
-        russian: "Үсән самлҗанав. (Волосы расчесываю.)",
+        russian: "Үсән самлҗанав. (Combing my hair.)",
       },
       {
         audio1: "ch7/7-22.mp3",
         audio2: "ch7/7-23.mp3",
         kalmyk: "күләх ",
-        russian: "Бидн күләҗәнәвидн. (Мы ждем.)",
+        russian: "Бидн күләҗәнәвидн. (We are waiting.)",
       },
       {
         audio1: "ch7/7-24.mp3",
         audio2: "ch7/7-25.mp3",
         kalmyk: "кех  ",
-        russian: "Ю кеҗәнәч? (Что делаешь?)",
+        russian: "Ю кеҗәнәч? (What are you doing?)",
       },
       {
         audio1: "ch7/7-26.mp3",
         audio2: "ch7/7-27.mp3",
         kalmyk: "ясх ",
-        russian: "Тедн оран ясчана. (Они заправляю кровати.)",
+        russian: "Тедн оран ясчана. (They are making their beds.)",
       },
       {
         audio1: "ch7/7-28.mp3",
         audio2: "ch7/7-29.mp3",
         kalmyk: "уһах ",
-        russian: "Эгч һаран уһаҗана. (Сестра моет руки.)",
+        russian: "Эгч һаран уһаҗана. (Sister is washing her hands.)",
       },
       {
         audio1: "ch7/7-30.mp3",
         audio2: "ch7/7-31.mp3",
         kalmyk: "давшх ",
-        russian: "Аав уул давшҗана. (Папа поднимается на гору.)",
+        russian: "Аав уул давшҗана. (Dad is climbing the mountain.)",
       },
       {
         audio1: "ch7/7-32.mp3",
         audio2: "ch7/7-33.mp3",
         kalmyk: "үзх ",
-        russian: "Тадн уул үзҗәнәт. (Вы видите горы.)",
+        russian: "Тадн уул үзҗәнәт. (You see mountains.)",
       },
     ],
     memorizeType: "table1",
     extras: {
       items: [
-        "Когда мы говорим о действии, которое происходит сейчас, к основе глагола добавляют суффиксы -җана/-җәнә/-чана/-чәнә",
+        "When we talk about an action that is happening right now, suffixes -җана/-җәнә/-чана/-чәнә are added to the base of the verb",
       ],
     },
     highlights: {
@@ -776,32 +820,32 @@ var phraseBookPages = [
       {
         audio: "ch8/8-02.mp3",
         kalmyk: "Ээҗ: Цәәһән уутн.",
-        russian: "Мама: Пейте (свой) чай.",
+        russian: "Mother: Пейте (свой) чай.",
       },
       {
         audio: "ch8/8-03.mp3",
         kalmyk: "Аав: Хальмг цәй?",
-        russian: "Папа: Калмыцкий чай?",
+        russian: "Father: Калмыцкий чай?",
       },
       {
         audio: "ch8/8-04.mp3",
         kalmyk: "Ээҗ: Хальмг бәәнә, орс бәәнә.",
-        russian: "Мама: Есть калмыцкий, есть русский.",
+        russian: "Mother: Есть калмыцкий, есть русский.",
       },
       {
         audio: "ch8/8-05.mp3",
         kalmyk: "Аав: Хальмг үстә цә ке.",
-        russian: "Папа: Налей молочный калмыцкий чай.",
+        russian: "Father: Налей молочный калмыцкий чай.",
       },
       {
         audio: "ch8/8-06.mp3",
         kalmyk: "Саглр: Нанд бас.",
-        russian: "Саглара: Мне тоже.",
+        russian: "Saglara: Мне тоже.",
       },
       {
         audio: "ch8/8-07.mp3",
         kalmyk: "Амулӊ: Нанд орс хар цә.",
-        russian: "Амуланга: Мне русский черный чай.",
+        russian: "Amulanga: Мне русский черный чай.",
       },
     ],
     vocabulary: [
@@ -876,32 +920,32 @@ var phraseBookPages = [
       {
         audio: "ch9/9-02.mp3",
         kalmyk: "Саглр: Ээжә, эн ямаран хаш?",
-        russian: "Саглара: Мама, это какая каша?",
+        russian: "Saglara: Мама, это какая каша?",
       },
       {
         audio: "ch9/9-03.mp3",
         kalmyk: "Ээҗ: Тутрһин хаш.",
-        russian: "Мама: Рисовая каша.",
+        russian: "Mother: Рисовая каша.",
       },
       {
         audio: "ch9/9-04.mp3",
         kalmyk: "Амулӊ: Би хашт дуртав.",
-        russian: "Амуланга: Я кашу люблю.",
+        russian: "Amulanga: Я кашу люблю.",
       },
       {
         audio: "ch9/9-05.mp3",
         kalmyk: "Саглр: Би өндгт дуртав.",
-        russian: "Саглара: Я люблю яйца.",
+        russian: "Saglara: Я люблю яйца.",
       },
       {
         audio: "ch9/9-06.mp3",
         kalmyk: "Ээҗ: Чамд өндг шарнав.",
-        russian: "Мама: Тебе я пожарю яйца.",
+        russian: "Mother: Тебе я пожарю яйца.",
       },
       {
         audio: "ch9/9-07.mp3",
         kalmyk: "Саглр: Йир сән. Би өндг иднәв.",
-        russian: "Саглара: Очень хорошо. Буду есть яйца.",
+        russian: "Saglara: Очень хорошо. Буду есть яйца.",
       },
     ],
     vocabulary: [
@@ -991,32 +1035,32 @@ var phraseBookPages = [
       {
         audio: "ch10/10-02.mp3",
         kalmyk: "Амулӊ: Чи дорван белдүвч?",
-        russian: "Амуланга: Ты сумку приготовила?",
+        russian: "Amulanga: Ты сумку приготовила?",
       },
       {
         audio: "ch10/10-03.mp3",
         kalmyk: "Саглр: Белдүв.",
-        russian: "Саглара: Приготовила.",
+        russian: "Saglara: Приготовила.",
       },
       {
         audio: "ch10/10-04.mp3",
         kalmyk: "Амулӊ: Дегтр, девтр, үзг авувч?",
-        russian: "Амуланга: Книги, тетради, ручку взяла?",
+        russian: "Amulanga: Книги, тетради, ручку взяла?",
       },
       {
         audio: "ch10/10-05.mp3",
         kalmyk: "Саглр: Авув.",
-        russian: "Саглара: Взяла.",
+        russian: "Saglara: Взяла.",
       },
       {
         audio: "ch10/10-06.mp3",
         kalmyk: "Амулӊ: Хувцан өмс.",
-        russian: "Амуланга: Надевай свою одежду.",
+        russian: "Amulanga: Надевай свою одежду.",
       },
       {
         audio: "ch10/10-07.mp3",
         kalmyk: "Саглр: Өмсчәнәв.",
-        russian: "Саглара: Надеваю.",
+        russian: "Saglara: Надеваю.",
       },
     ],
     vocabulary: [
@@ -1158,32 +1202,32 @@ var phraseBookPages = [
       {
         audio: "ch11/11-02.mp3",
         kalmyk: "Ээҗ: Үдин хотдан ир.",
-        russian: "Мама: Приходи на обед.",
+        russian: "Mother: Приходи на обед.",
       },
       {
         audio: "ch11/11-03.mp3",
         kalmyk: "Аав: Ирнәв.",
-        russian: "Папа: Приду.",
+        russian: "Father: Приду.",
       },
       {
         audio: "ch11/11-04.mp3",
         kalmyk: "Ээҗ: Ю чанхм?",
-        russian: "Мама: Что сварить?",
+        russian: "Mother: Что сварить?",
       },
       {
         audio: "ch11/11-05.mp3",
         kalmyk: "Аав: Хөөнә мах.",
-        russian: "Папа: Баранину.",
+        russian: "Father: Баранину.",
       },
       {
         audio: "ch11/11-06.mp3",
         kalmyk: "Ээҗ: Боднцгтай?",
-        russian: "Мама: С картошкой.",
+        russian: "Mother: С картошкой.",
       },
       {
         audio: "ch11/11-07.mp3",
         kalmyk: "Аав: Уга, һуйрта.",
-        russian: "Папа: Нет, с тестом.",
+        russian: "Father: Нет, с тестом.",
       },
     ],
     vocabulary: [
@@ -1234,32 +1278,32 @@ var phraseBookPages = [
       {
         audio: "ch12/12-02.mp3",
         kalmyk: "Аав: Күүкд, кичәлән дасвт?",
-        russian: "Папа: Девочки, уроки выучили?",
+        russian: "Father: Девочки, уроки выучили?",
       },
       {
         audio: "ch12/12-03.mp3",
         kalmyk: "Амулӊ: Дасувидн.",
-        russian: "Амуланга: Выучили.",
+        russian: "Amulanga: Выучили.",
       },
       {
         audio: "ch12/12-04.mp3",
         kalmyk: "Аав: Саглр, шүлгән дасвч?",
-        russian: "Папа: Саглара, стихотворение свое выучила?",
+        russian: "Father: Саглара, стихотворение свое выучила?",
       },
       {
         audio: "ch12/12-05.mp3",
         kalmyk: "Саглр: Дасув. Тав авхв.",
-        russian: "Саглара: Выучила. Пять получу.",
+        russian: "Saglara: Выучила. Пять получу.",
       },
       {
         audio: "ch12/12-06.mp3",
         kalmyk: "Аав: Намий?",
-        russian: "Папа: Даже так?",
+        russian: "Father: Даже так?",
       },
       {
         audio: "ch12/12-07.mp3",
         kalmyk: "Саглр: Сән зүүд үзләв.",
-        russian: "Саглара: Хороший сон видела.",
+        russian: "Saglara: Хороший сон видела.",
       },
     ],
     vocabulary: [
@@ -1308,47 +1352,47 @@ var phraseBookPages = [
       {
         audio: "ch13/13-02.mp3",
         kalmyk: "Ээҗ: Сууһад хотан у.",
-        russian: "Мама: Садись кушать.",
+        russian: "Mother: Садись кушать.",
       },
       {
         audio: "ch13/13-03.mp3",
         kalmyk: "Аав: О, мини дурта хөөнә махн!",
-        russian: "Папа: О, моя любимая баранина!",
+        russian: "Father: О, моя любимая баранина!",
       },
       {
         audio: "ch13/13-04.mp3",
         kalmyk: "Ээҗ: Махн шөлтәһән, һуйрта.",
-        russian: "Мама: Мясо с бульоном, с тестом.",
+        russian: "Mother: Мясо с бульоном, с тестом.",
       },
       {
         audio: "ch13/13-05.mp3",
         kalmyk: "Аав: Яһсн шимтә махмб!",
-        russian: "Папа: Какое сочное мясо!",
+        russian: "Father: Какое сочное мясо!",
       },
       {
         audio: "ch13/13-06.mp3",
         kalmyk: "Ээҗ: Һуйр бас сән болҗ.",
-        russian: "Мама: Тесто тоже получилось хорошее.",
+        russian: "Mother: Тесто тоже получилось хорошее.",
       },
       {
         audio: "ch13/13-07.mp3",
         kalmyk: "Аав: Шөлн нигт.",
-        russian: "Папа: Бульон наваристый.",
+        russian: "Father: Бульон наваристый.",
       },
       {
         audio: "ch13/13-08.mp3",
         kalmyk: "Ээҗ: Цадтлан у.",
-        russian: "Мама: Пей досыта.",
+        russian: "Mother: Пей досыта.",
       },
       {
         audio: "ch13/13-09.mp3",
         kalmyk: "Аав: Аршан болтха!",
-        russian: "Папа: Пусть (пища) станет нектаром!",
+        russian: "Father: Пусть (пища) станет нектаром!",
       },
       {
         audio: "ch13/13-10.mp3",
         kalmyk: "Ээҗ: Тиигтхә!",
-        russian: "Мама: Пусть будет так!",
+        russian: "Mother: Пусть будет так!",
       },
     ],
     vocabulary: [
@@ -1435,37 +1479,37 @@ var phraseBookPages = [
       {
         audio: "ch14/14-02.mp3",
         kalmyk: "Саглр: Ээжә, би тав авув.",
-        russian: "Саглара: Мама, я получила пять.",
+        russian: "Saglara: Мама, я получила пять.",
       },
       {
         audio: "ch14/14-03.mp3",
         kalmyk: "Ээҗ: Яһсн сән зәӊгв!",
-        russian: "Мама: Какая хорошая новость!",
+        russian: "Mother: Какая хорошая новость!",
       },
       {
         audio: "ch14/14-04.mp3",
         kalmyk: "Саглр: Шүлг келүв.",
-        russian: "Саглара: Я рассказала стихотворение.",
+        russian: "Saglara: Я рассказала стихотворение.",
       },
       {
         audio: "ch14/14-05.mp3",
         kalmyk: "Амулӊ: Намаг багш бас магтв.",
-        russian: "Амуланга: Меня учитель тоже похвалил.",
+        russian: "Amulanga: Меня учитель тоже похвалил.",
       },
       {
         audio: "ch14/14-06.mp3",
         kalmyk: "Ээҗ: О, хойр сән зәӊг!",
-        russian: "Мама: О, две хорошие новости!",
+        russian: "Mother: О, две хорошие новости!",
       },
       {
         audio: "ch14/14-07.mp3",
         kalmyk: "Амулӊ: Келврин шинҗлт кевв.",
-        russian: "Амуланга: Сделала анализ рассказа.",
+        russian: "Amulanga: Сделала анализ рассказа.",
       },
       {
         audio: "ch14/14-08.mp3",
         kalmyk: "Ээҗ: Тадниг ачлад, боорцг шарнав.",
-        russian: "Мама: Вам в награду пожарю борцоки.",
+        russian: "Mother: Вам в награду пожарю борцоки.",
       },
     ],
     vocabulary: [
@@ -1564,52 +1608,52 @@ var phraseBookPages = [
       {
         audio: "ch15/15-02.mp3",
         kalmyk: "Амулӊ: Ээҗә, гесм өлсчәнә.",
-        russian: "Амуланга: Мама, я проголодалась",
+        russian: "Amulanga: Мама, я проголодалась",
       },
       {
         audio: "ch15/15-03.mp3",
         kalmyk: "Саглр: Мини бас.",
-        russian: "Саглара: Я тоже.",
+        russian: "Saglara: Я тоже.",
       },
       {
         audio: "ch15/15-04.mp3",
         kalmyk: "Ээҗ: Сууһад хотан уутн!",
-        russian: "Мама: Садитесь кущать.",
+        russian: "Mother: Садитесь кущать.",
       },
       {
         audio: "ch15/15-05.mp3",
         kalmyk: "Саглр: Ямаран хот бәәнә?",
-        russian: "Саглара: Какая есть еда?",
+        russian: "Saglara: Какая есть еда?",
       },
       {
         audio: "ch15/15-06.mp3",
         kalmyk: "Ээҗ: Бөөрг бәәнә. Булмг бәәнә.",
-        russian: "Мама: Есть бериги. Есть булмук.",
+        russian: "Mother: Есть бериги. Есть булмук.",
       },
       {
         audio: "ch15/15-07.mp3",
         kalmyk: "Саглр: Би бөөрг иднәв.",
-        russian: "Саглара: Я буду есть бериги.",
+        russian: "Saglara: Я буду есть бериги.",
       },
       {
         audio: "ch15/15-08.mp3",
         kalmyk: "Амулӊ: Би булмг иднәв.",
-        russian: "Амуланга: Я буду есть булмук.",
+        russian: "Amulanga: Я буду есть булмук.",
       },
       {
         audio: "ch15/15-09.mp3",
         kalmyk: "Ээҗ: Ямаран цә уунат?",
-        russian: "Мама: Какой чай будете пить?",
+        russian: "Mother: Какой чай будете пить?",
       },
       {
         audio: "ch15/15-10.mp3",
         kalmyk: "Саглр: Би үстә цә уунав.",
-        russian: "Саглара: Я буду пить молочный чай.",
+        russian: "Saglara: Я буду пить молочный чай.",
       },
       {
         audio: "ch15/15-11.mp3",
         kalmyk: "Амулӊ: Би хар цә уунав.",
-        russian: "Амуланга: Я буду пить черный чай.",
+        russian: "Amulanga: Я буду пить черный чай.",
       },
     ],
     vocabulary: [
@@ -1721,42 +1765,42 @@ var phraseBookPages = [
       {
         audio: "ch16/16-02.mp3",
         kalmyk: "Саглр: Сурһульдан би цуцрув.",
-        russian: "Саглара: Я в школе устала.",
+        russian: "Saglara: Я в школе устала.",
       },
       {
         audio: "ch16/16-03.mp3",
         kalmyk: "Амулӊ: Кевтәд амр.",
-        russian: "Амуланга: Полежи отдохни.",
+        russian: "Amulanga: Полежи отдохни.",
       },
       {
         audio: "ch16/16-04.mp3",
         kalmyk: "Саглр: Ээҗ кезә боорцг шарх?",
-        russian: "Саглара: Когда мама будет жарить борцоки?",
+        russian: "Saglara: Когда мама будет жарить борцоки?",
       },
       {
         audio: "ch16/16-05.mp3",
         kalmyk: "Амулӊ: Һуйр элдҗәнә.",
-        russian: "Амуланга: Она месит тесто.",
+        russian: "Amulanga: Она месит тесто.",
       },
       {
         audio: "ch16/16-06.mp3",
         kalmyk: "Саглр: Бидн хамдан боорцг кехм?",
-        russian: "Саглара: Мы вместе будеть делать борцоки?",
+        russian: "Saglara: Мы вместе будеть делать борцоки?",
       },
       {
         audio: "ch16/16-07.mp3",
         kalmyk: "Амулӊ: Хамдан.",
-        russian: "Амуланга: Вместе.",
+        russian: "Amulanga: Вместе.",
       },
       {
         audio: "ch16/16-08.mp3",
         kalmyk: "Саглр: Нөөрм күрчәнә.",
-        russian: "Саглара: Хочется спать.",
+        russian: "Saglara: Хочется спать.",
       },
       {
         audio: "ch16/16-09.mp3",
         kalmyk: "Амулӊ: Ээҗ дуудхла, чамаг серүлнәв.",
-        russian: "Амуланга: Когда мама позовет, я тебя разбужу.",
+        russian: "Amulanga: Когда мама позовет, я тебя разбужу.",
       },
     ],
     vocabulary: [
@@ -1865,37 +1909,37 @@ var phraseBookPages = [
       {
         audio: "ch17/17-02.mp3",
         kalmyk: "Ээҗ: Күүкд, һаран уһатн.",
-        russian: "Мама: Девочки, помойте руки.",
+        russian: "Mother: Девочки, помойте руки.",
       },
       {
         audio: "ch17/17-03.mp3",
         kalmyk: "Амулӊ: Уһачкувидн. Һармдн цевр.",
-        russian: "Амуланга: Помыли. Наши руки чистые.",
+        russian: "Amulanga: Помыли. Наши руки чистые.",
       },
       {
         audio: "ch17/17-04.mp3",
         kalmyk: "Саглр: Би хорха боорцг кенәв.",
-        russian: "Саглара: Я буду делать хорха борцоки.",
+        russian: "Saglara: Я буду делать хорха борцоки.",
       },
       {
         audio: "ch17/17-05.mp3",
         kalmyk: "Амулӊ: Би мошкмр кенәв.",
-        russian: "Амуланга: Я буду делать мошкмр.",
+        russian: "Amulanga: Я буду делать мошкмр.",
       },
       {
         audio: "ch17/17-06.mp3",
         kalmyk: "Ээҗ: Һуйриг утхар зүстн.",
-        russian: "Мама: Режьте тесто ножом на кусочки.",
+        russian: "Mother: Режьте тесто ножом на кусочки.",
       },
       {
         audio: "ch17/17-07.mp3",
         kalmyk: "Саглр: Бидн ээҗдән нөкд болҗанавидн.",
-        russian: "Саглара: Мы помогаем своей маме.",
+        russian: "Saglara: Мы помогаем своей маме.",
       },
       {
         audio: "ch17/17-08.mp3",
         kalmyk: "Ээҗ: Тадн мини бичкн нөкд.",
-        russian: "Мама: Вы мои маленькие помощницы.",
+        russian: "Mother: Вы мои маленькие помощницы.",
       },
     ],
     vocabulary: [
@@ -2004,37 +2048,37 @@ var phraseBookPages = [
       {
         audio: "ch18/18-02.mp3",
         kalmyk: "Амулӊ: Саглр, таднд ямаран герин даалһвр өглә?",
-        russian: "Амуланга: Саглара, вам какое домашнее задание дали.",
+        russian: "Amulanga: Саглара, вам какое домашнее задание дали.",
       },
       {
         audio: "ch18/18-03.mp3",
         kalmyk: "Саглр: Маднд нег эсв, нег үлгүр өглә.",
-        russian: "Саглара: Нам задали одну задачу, один пример.",
+        russian: "Saglara: Нам задали одну задачу, один пример.",
       },
       {
         audio: "ch18/18-04.mp3",
         kalmyk: "Амулӊ: Ю умшх кергтә?",
-        russian: "Амуланга: Что нужно читать?",
+        russian: "Amulanga: Что нужно читать?",
       },
       {
         audio: "ch18/18-05.mp3",
         kalmyk: "Саглр: Нанд ахр келвр умшх кергтә.",
-        russian: "Саглара: Мне надо прочитать короткий рассказ.",
+        russian: "Saglara: Мне надо прочитать короткий рассказ.",
       },
       {
         audio: "ch18/18-06.mp3",
         kalmyk: "Амулӊ: Чамд дәкәд ю кех кергтә?",
-        russian: "Амуланга: Что еще тебе нужно сделать?",
+        russian: "Amulanga: Что еще тебе нужно сделать?",
       },
       {
         audio: "ch18/18-07.mp3",
         kalmyk: "Саглр: Нег дамшлһ.",
-        russian: "Саглара: Одно упражнение.",
+        russian: "Saglara: Одно упражнение.",
       },
       {
         audio: "ch18/18-08.mp3",
         kalmyk: "Амулӊ: Нә, экләд ке.",
-        russian: "Амуланга: Ну, начинай делать.",
+        russian: "Amulanga: Ну, начинай делать.",
       },
     ],
     vocabulary: [
@@ -2184,37 +2228,37 @@ var phraseBookPages = [
       {
         audio: "ch19/19-02.mp3",
         kalmyk: "Амулӊ: Саглр, орндан ор.",
-        russian: "Амуланга: Саглара, ложись в кровать.",
+        russian: "Amulanga: Саглара, ложись в кровать.",
       },
       {
         audio: "ch19/19-03.mp3",
         kalmyk: "Саглр: Нөөрм күрчәхш.",
-        russian: "Саглара: Не хочется спать.",
+        russian: "Saglara: Не хочется спать.",
       },
       {
         audio: "ch19/19-04.mp3",
         kalmyk: "Амулӊ: Аав тууль келхлә, унтхч.",
-        russian: "Амуланга: Папа расскажет сказку и ты уснешь.",
+        russian: "Amulanga: Папа расскажет сказку и ты уснешь.",
       },
       {
         audio: "ch19/19-05.mp3",
         kalmyk: "Саглр: Чи бас кевт.",
-        russian: "Саглара: Ты тоже ложись.",
+        russian: "Saglara: Ты тоже ложись.",
       },
       {
         audio: "ch19/19-06.mp3",
         kalmyk: "Амулӊ: Хувцан тәәлчкәд кевтнәв.",
-        russian: "Амуланга: Сейчас разденусь и лягу.",
+        russian: "Amulanga: Сейчас разденусь и лягу.",
       },
       {
         audio: "ch19/19-07.mp3",
         kalmyk: "Саглр: Шаман бичә унтра.",
-        russian: "Саглара: Свет не гаси.",
+        russian: "Saglara: Свет не гаси.",
       },
       {
         audio: "ch19/19-08.mp3",
         kalmyk: "Амулӊ: Нә, аав ирәд, унтрах.",
-        russian: "Амуланга: Придет папа и погасит.",
+        russian: "Amulanga: Придет папа и погасит.",
       },
     ],
     vocabulary: [
@@ -2305,47 +2349,47 @@ var phraseBookPages = [
       {
         audio: "ch20/20-02.mp3",
         kalmyk: "Аав: Нә, күүкд, унттн.",
-        russian: "Папа: Ну, детки, спите.",
+        russian: "Father: Ну, детки, спите.",
       },
       {
         audio: "ch20/20-03.mp3",
         kalmyk: "Саглр: Аава, тууль маднд келҗ өг.",
-        russian: "Саглара: Папа, расскажи нам сказку.",
+        russian: "Saglara: Папа, расскажи нам сказку.",
       },
       {
         audio: "ch20/20-04.mp3",
         kalmyk: "Амулӊ: Цецн күүкнә туск тууль.",
-        russian: "Амуланга: Сказку про мудрую девушку.",
+        russian: "Amulanga: Сказку про мудрую девушку.",
       },
       {
         audio: "ch20/20-05.mp3",
         kalmyk: "Аав: Нә, сән. Соӊстн.",
-        russian: "Папа: Ну, хорошо. Слушайте.",
+        russian: "Father: Ну, хорошо. Слушайте.",
       },
       {
         audio: "ch20/20-06.mp3",
         kalmyk: "Амулӊ: Яһсн ухата күүкмб!",
-        russian: "Амуланга: Какая умная девушка!",
+        russian: "Amulanga: Какая умная девушка!",
       },
       {
         audio: "ch20/20-07.mp3",
         kalmyk: "Аав: Чи бас тиим ухатач. Ода унт.",
-        russian: "Папа: Ты тоже такая же умная. А сейчас спи.",
+        russian: "Father: Ты тоже такая же умная. А сейчас спи.",
       },
       {
         audio: "ch20/20-08.mp3",
         kalmyk: "Амулӊ: Саглр унтҗ одҗ.",
-        russian: "Амуланга: Саглара уже уснула.",
+        russian: "Amulanga: Саглара уже уснула.",
       },
       {
         audio: "ch20/20-09.mp3",
         kalmyk: "Аав: Сән зүүд бәрҗ хон.",
-        russian: "Папа: Хороших тебе сновидений.",
+        russian: "Father: Хороших тебе сновидений.",
       },
       {
         audio: "ch20/20-10.mp3",
         kalmyk: "Амулӊ: Тиигий.",
-        russian: "Амуланга: Пусть будет так.",
+        russian: "Amulanga: Пусть будет так.",
       },
     ],
     vocabulary: [
@@ -2371,72 +2415,72 @@ var phraseBookPages = [
       {
         audio: "ch21/21-02.mp3",
         kalmyk: "Аав: Эндр Зул өдр.",
-        russian: "Папа: Сегодня Зул.",
+        russian: "Father: Сегодня Зул.",
       },
       {
         audio: "ch21/21-03.mp3",
         kalmyk: "Амулӊ: Меднәв. Эн өдр нег җил немәд, хальмгуд нас авна.",
         russian:
-          "Амуланга: Знаю. В этот день калмыки прибавляют год к своему возрасту.",
+          "Amulanga: Знаю. В этот день калмыки прибавляют год к своему возрасту.",
       },
       {
         audio: "ch21/21-04.mp3",
         kalmyk: "Саглр: Аава, чи кедү наставч?",
-        russian: "Саглара: Папа, а тебе сколько лет?",
+        russian: "Saglara: Папа, а тебе сколько лет?",
       },
       {
         audio: "ch21/21-05.mp3",
         kalmyk:
           "Аав: Би дөчтәв. Хальмгар дөчн негтәв. Төрхләрн нилх күүкд нег наста болҗ тоолгдна.",
         russian:
-          "Папа: Мне сорок. По-калмыцки мне сорок один. Родившийся ребенок считается годовалым.",
+          "Father: Мне сорок. По-калмыцки мне сорок один. Родившийся ребенок считается годовалым.",
       },
       {
         audio: "ch21/21-06.mp3",
         kalmyk: "Амулӊ: Тиигхлә эндр дөчн хойрта болхч?",
-        russian: "Амуланга: Тогда тебе будет сорок два?",
+        russian: "Amulanga: Тогда тебе будет сорок два?",
       },
       {
         audio: "ch21/21-07.mp3",
         kalmyk: "Аав: Ээ, чик. Эндр би нег насн ах болхв.",
-        russian: "Папа: Да, правильно. Сегодня я стану старше на один год.",
+        russian: "Father: Да, правильно. Сегодня я стану старше на один год.",
       },
       {
         audio: "ch21/21-08.mp3",
         kalmyk: "Саглр: Би кедүтә болхв?",
-        russian: "Саглара: А сколько мне будет лет?",
+        russian: "Saglara: А сколько мне будет лет?",
       },
       {
         audio: "ch21/21-09.mp3",
         kalmyk: "Аав: Чи ода долатач, хальмгар нәәмтәч. Эндр йистә болхч.",
         russian:
-          "Папа: Тебе сейчас семь лет. По-калмыцки тебе восемь. А сегодня будет девять.",
+          "Father: Тебе сейчас семь лет. По-калмыцки тебе восемь. А сегодня будет девять.",
       },
       {
         audio: "ch21/21-10.mp3",
         kalmyk: "Ээҗ: Нә, насан йөрәһәд, боорцгта цә уухм.",
         russian:
-          "Мама: Ну что ж, произнесем благопожелания нашему возрасту и попьем чай с борцоками.",
+          "Mother: Ну что ж, произнесем благопожелания нашему возрасту и попьем чай с борцоками.",
       },
       {
         audio: "ch21/21-11.mp3",
         kalmyk: "Саглр: Насна оӊһц кехм?",
-        russian: "Саглара: Будем делать лампадные лодочки?",
+        russian: "Saglara: Будем делать лампадные лодочки?",
       },
       {
         audio: "ch21/21-12.mp3",
         kalmyk: "Ээҗ: Ээ, кехм.",
-        russian: "Мама: Да, будем делать.",
+        russian: "Mother: Да, будем делать.",
       },
       {
         audio: "ch21/21-13.mp3",
         kalmyk: "Амулӊ: Кезә зул өргхм?",
-        russian: "Амуланга: А когда будем делать подношение лампадой?",
+        russian: "Amulanga: А когда будем делать подношение лампадой?",
       },
       {
         audio: "ch21/21-14.mp3",
         kalmyk: "Ээҗ: Сөөдән, одн күцхлә.",
-        russian: "Мама: Ночью, когда взойдут все звезды.",
+        russian: "Mother: Ночью, когда взойдут все звезды.",
       },
     ],
     vocabulary: [
@@ -2585,44 +2629,44 @@ var phraseBookPages = [
       {
         audio: "ch22/22-02.mp3",
         kalmyk: "Саглр: Ээҗ нанд шин бүшмүд хулдҗ авв.",
-        russian: "Саглара: Мама купила мне новое платье.",
+        russian: "Saglara: Мама купила мне новое платье.",
       },
       {
         audio: "ch22/22-03.mp3",
         kalmyk: "Аав: Яһсн сәәхн бүшмүдв!",
-        russian: "Папа: Какое красивое платье!",
+        russian: "Father: Какое красивое платье!",
       },
       {
         audio: "ch22/22-04.mp3",
         kalmyk: "Ээҗ: Бүшмүдинь йөрәх кергтә.",
-        russian: "Мама: Надо произнести благопожелание.",
+        russian: "Mother: Надо произнести благопожелание.",
       },
       {
         audio: "ch22/22-05.mp3",
         kalmyk:
           "Аав: \nНә, өмссн бүшмднь\nӨлзәтә болҗ,\nЭднь элҗ,\nЭзнь мөӊкрҗ,\nХөөннь үүнәс сән\nХувц өмсх болтха!",
         russian:
-          "Папа: \nНу что же,\n Да будет платье счастливым,\nИ пусть ткань изнашивается,\nА хозяйка ее долго живет,\nИ пусть в будущем носит еще лучшую одежду!",
+          "Father: \nНу что же,\n Да будет платье счастливым,\nИ пусть ткань изнашивается,\nА хозяйка ее долго живет,\nИ пусть в будущем носит еще лучшую одежду!",
       },
       {
         audio: "ch22/22-06.mp3",
         kalmyk: "Ээҗ: Тиигтхә! Йөрәл бүттхә!",
-        russian: "Мама: Да будет так! Пусть благопожелание сбудется!",
+        russian: "Mother: Да будет так! Пусть благопожелание сбудется!",
       },
       {
         audio: "ch22/22-07.mp3",
         kalmyk: "Амулң: Йөрәл шиңгтхә!",
-        russian: "Амуланга: Пусть благопожелание воплотится!",
+        russian: "Amulanga: Пусть благопожелание воплотится!",
       },
       {
         audio: "ch22/22-08.mp3",
         kalmyk: "Аав: Хувцичнь йөрәһәд, чамд мөӊг өгчәнәв.",
-        russian: "Папа: Благославляя твою одежду, даю тебе деньги,",
+        russian: "Father: Благославляя твою одежду, даю тебе деньги,",
       },
       {
         audio: "ch22/22-09.mp3",
         kalmyk: "Саглр: Ханҗанав.",
-        russian: "Саглара: Спасибо!",
+        russian: "Saglara: Спасибо!",
       },
     ],
     vocabulary: [
@@ -2688,62 +2732,62 @@ var phraseBookPages = [
       {
         audio: "ch23/23-02.mp3",
         kalmyk: "Амулӊ: Эндр аавин һарсн өдр.",
-        russian: "Амуланга: Сегодня день рождения папы.",
+        russian: "Amulanga: Сегодня день рождения папы.",
       },
       {
         audio: "ch23/23-03.mp3",
         kalmyk: "Саглр: Меднәв. Йөрәл белдҗәнәв.",
-        russian: "Саглара: Знаю. Я готовлю благопожелание.",
+        russian: "Saglara: Знаю. Я готовлю благопожелание.",
       },
       {
         audio: "ch23/23-04.mp3",
         kalmyk: "Амулӊ: О, йир сән. Келәд өг нанд, соӊснав.",
-        russian: "Амуланга: О, очень хорошо. Расскажи мне, послушаю.",
+        russian: "Amulanga: О, очень хорошо. Расскажи мне, послушаю.",
       },
       {
         audio: "ch23/23-05.mp3",
         kalmyk:
           "Саглр: \nАвсн наснтн өлзәтә болҗ,\nУт наста, бат кишгтә болҗ,\nОньдин дөрвн цагт\nМенд амулӊ бәәхиг\nОлн деедс өршәтхә!",
         russian:
-          "Саглара: \nПусть годы будут счастливыми,\nЖизнь долгой, а здоровье крепким,\nИ пусть вас благословят божества\nНа спокойную жизнь в добром здравии во все времена!",
+          "Saglara: \nПусть годы будут счастливыми,\nЖизнь долгой, а здоровье крепким,\nИ пусть вас благословят божества\nНа спокойную жизнь в добром здравии во все времена!",
       },
       {
         audio: "ch23/23-06.mp3",
         kalmyk: "Амулӊ: Сәәхн йөрәл! Кен чамаг дасхв?",
-        russian: "Амуланга: Красивое благопожелание! Кто тебя научил?",
+        russian: "Amulanga: Красивое благопожелание! Кто тебя научил?",
       },
       {
         audio: "ch23/23-07.mp3",
         kalmyk: "Саглр: Дегтрт умшув.",
-        russian: "Саглара: В книге прочитала.",
+        russian: "Saglara: В книге прочитала.",
       },
       {
         audio: "ch23/23-08.mp3",
         kalmyk: "Амулӊ: Аав чамд икәр ханх. Гиичнр байрлх.",
         russian:
-          "Амуланга: Папа будет тебе очень благодарен. Гости будут рады.",
+          "Amulanga: Папа будет тебе очень благодарен. Гости будут рады.",
       },
       {
         audio: "ch23/23-09.mp3",
         kalmyk: "Саглр: Кен гиичд ирх?",
-        russian: "Саглара: Кто придет в гости?",
+        russian: "Saglara: Кто придет в гости?",
       },
       {
         audio: "ch23/23-10.mp3",
         kalmyk:
           "Амулӊ: Авһнр болн һаһа, наһцх болн наһц эгч, мана бөлнр, үйнр.",
         russian:
-          "Амуланга: Дяди и тетя (по отцу), дядя и тетя (по матери), наши двоюродные (по матери и отцу).",
+          "Amulanga: Дяди и тетя (по отцу), дядя и тетя (по матери), наши двоюродные (по матери и отцу).",
       },
       {
         audio: "ch23/23-11.mp3",
         kalmyk: "Саглр: Мана көгшн наһц ээҗ ирхий?",
-        russian: "Саглара: А наша старенькая бабушка (по матери) придет?",
+        russian: "Saglara: А наша старенькая бабушка (по матери) придет?",
       },
       {
         audio: "ch23/23-12.mp3",
         kalmyk: "Амулӊ: Эрк биш ирх.",
-        russian: "Амуланга: Непременно придет.",
+        russian: "Amulanga: Непременно придет.",
       },
     ],
     vocabulary: [
@@ -2797,48 +2841,48 @@ var phraseBookPages = [
         audio: "ch24/24-02.mp3",
         kalmyk: "Аав: Маӊһдур һаһад одҗ, цаһалх кергтә.",
         russian:
-          "Папа: Завтра на праздник Цаган Сар надо пойти поздравить тетю.",
+          "Father: Завтра на праздник Цаган Сар надо пойти поздравить тетю.",
       },
       {
         audio: "ch24/24-03.mp3",
         kalmyk: "Ээҗ: Меднәв. Белгән белдчкләв.",
-        russian: "Мама: Знаю. Я уже приготовила подарок.",
+        russian: "Mother: Знаю. Я уже приготовила подарок.",
       },
       {
         audio: "ch24/24-04.mp3",
         kalmyk: "Аав: Ямаран белг?",
-        russian: "Папа: Какой подарок?",
+        russian: "Father: Какой подарок?",
       },
       {
         audio: "ch24/24-05.mp3",
         kalmyk: "Ээҗ: Көк торһн эд.",
-        russian: "Мама: Синюю шелковую ткань.",
+        russian: "Mother: Синюю шелковую ткань.",
       },
       {
         audio: "ch24/24-06.mp3",
         kalmyk: "Аав: О, йир сән. Бас ю авч одхм?",
-        russian: "Папа: О, очень хорошо. А что еще понесем?",
+        russian: "Father: О, очень хорошо. А что еще понесем?",
       },
       {
         audio: "ch24/24-07.mp3",
         kalmyk: "Ээҗ: Боорцган. Делгүрт бас юм хулдҗ авх кергтә.",
-        russian: "Мама: Свои борцоки. Еще кое-что надо купить в магазине.",
+        russian: "Mother: Свои борцоки. Еще кое-что надо купить в магазине.",
       },
       {
         audio: "ch24/24-08.mp3",
         kalmyk: "Аав: Ю хулдҗ авхм?",
-        russian: "Папа:Что надо будет купить?",
+        russian: "Father: Что надо будет купить?",
       },
       {
         audio: "ch24/24-09.mp3",
         kalmyk: "Ээҗ: Цә, үс, цаһан тос, зать, шикр-балта, альм, уста үзм.",
         russian:
-          "Мама: Чай, молоко, сливочное масло, мускатный орех, сладости, яблоки, виноград.",
+          "Mother: Чай, молоко, сливочное масло, мускатный орех, сладости, яблоки, виноград.",
       },
       {
         audio: "ch24/24-10.mp3",
         kalmyk: "Аав: Тиигхлә одад хулдҗ авнав.",
-        russian: "Папа: Тогда пойду куплю.",
+        russian: "Father: Тогда пойду куплю.",
       },
     ],
     vocabulary: [
@@ -3053,70 +3097,70 @@ var phraseBookPages = [
       {
         audio: "ch25/25-02.mp3",
         kalmyk: "Амулӊ: Аав, хәлә, теӊгрт одд күцҗ.",
-        russian: "Амуланга: Папа, смотри, уже все звезды взошли.",
+        russian: "Amulanga: Папа, смотри, уже все звезды взошли.",
       },
       {
         audio: "ch25/25-03.mp3",
         kalmyk: "Саглр: Теднә тускар маднд келәд өгич.",
-        russian: "Саглара: Расскажи нам о них, пожалуйста.",
+        russian: "Saglara: Расскажи нам о них, пожалуйста.",
       },
       {
         audio: "ch25/25-04.mp3",
         kalmyk:
           "Аав: Нарнд өөрхн бәәх һаргуд – Үлмҗ, Басӊ, Һазр, Мигмр, цааранднь - Пүрвә, Бемб...",
         russian:
-          "Папа: Ближайшие к солнцу планеты – это Меркурий, Венера, Земля, Марс, далее -Юпитер, Сатурн...",
+          "Father: Ближайшие к солнцу планеты – это Меркурий, Венера, Земля, Марс, далее -Юпитер, Сатурн...",
       },
       {
         audio: "ch25/25-05.mp3",
         kalmyk:
           "Амулӊ: А, медгдҗәнә. Хальмгар долан хонгин өдрмүд һаргин нертә бәәҗ.",
         russian:
-          "Амуланга: А, поняла. Оказывается, у калмыков дни недели носят названия планет.",
+          "Amulanga: А, поняла. Оказывается, у калмыков дни недели носят названия планет.",
       },
       {
         audio: "ch25/25-06.mp3",
         kalmyk: "Аав: Тиим, өдрмүд һаргин, одна болн дахулин нертә.",
         russian:
-          "Папа: Да, это так. Дни недели имеют названия планет, звезды и спутника.",
+          "Father: Да, это так. Дни недели имеют названия планет, звезды и спутника.",
       },
       {
         audio: "ch25/25-07.mp3",
         kalmyk:
           "Амулӊ: Өдрмүдин нерднь: Нарн, Сарӊ, Мигмр, Үлмҗ, Пүрвә, Басң, Бемб.",
         russian:
-          "Амуланга: Названия дней недели: Солнце, Луна, Марс, Меркурий, Юпитер, Венера, Сатурн.",
+          "Amulanga: Названия дней недели: Солнце, Луна, Марс, Меркурий, Юпитер, Венера, Сатурн.",
       },
       {
         audio: "ch25/25-08.mp3",
         kalmyk: "Аав: Чик келвч.",
-        russian: "Папа: Ты все правильно сказала.",
+        russian: "Father: Ты все правильно сказала.",
       },
       {
         audio: "ch25/25-09.mp3",
         kalmyk: "Саглр: Эн цаһан хаалһ ямаран нертә?",
-        russian: "Саглара: А как называется эта белая дорожка?",
+        russian: "Saglara: А как называется эта белая дорожка?",
       },
       {
         audio: "ch25/25-10.mp3",
         kalmyk: "Аав: Энчн Теӊгрин уйдл.",
-        russian: "Папа: Это Млечный путь.",
+        russian: "Father: Это Млечный путь.",
       },
       {
         audio: "ch25/25-11.mp3",
         kalmyk: "Амулӊ: Би Алтн һас үзҗәнәв.",
-        russian: "Амуланга: Я вижу Полярную звезду.",
+        russian: "Amulanga: Я вижу Полярную звезду.",
       },
       {
         audio: "ch25/25-12.mp3",
         kalmyk: "Саглр: Терчн хаалһ заадг одн.",
-        russian: "Саглара: Это звезда, которая указывает путь.",
+        russian: "Saglara: Это звезда, которая указывает путь.",
       },
       {
         audio: "ch25/25-13.mp3",
         kalmyk: "Аав: Чик. Ормдан бәәдг төләднь Алтн һасн нер өгч.",
         russian:
-          "Папа: Правильно. Она находится в одном и том же месте, поэтому ее назвали Золотым колом.",
+          "Father: Правильно. Она находится в одном и том же месте, поэтому ее назвали Золотым колом.",
       },
     ],
     vocabulary: [

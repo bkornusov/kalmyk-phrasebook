@@ -77,10 +77,10 @@ function PageBase(pageData) {
             <tr>
               <th></th>
               <th>Хальмг</th>
-              <th>Русский</th>
+              <th>English</th>
               <th></th>
               <th>Хальмг</th>
-              <th>Русский</th>
+              <th>English</th>
             </tr>
           </thead>
           <tbody>
@@ -105,7 +105,7 @@ function PageBase(pageData) {
           <tr>
             <th></th>
             <th>Хальмг</th>
-            <th>Русский</th>
+            <th>English</th>
           </tr>
         </thead>
         <tbody>
@@ -135,7 +135,7 @@ function PageBase(pageData) {
               <tr>
                 <th></th>
                 <th>Хальмг</th>
-                <th>Русский</th>
+                <th>English</th>
               </tr>
             </thead>
             <tbody>
@@ -150,7 +150,7 @@ function PageBase(pageData) {
           </Table>
         </div>
 
-        <span>Толь бичг / Словарь</span>
+        <span>Толь бичг / Vocabulary</span>
         <div className="vocabulary">
           <Table className="dictionary" bordered>
             {displayVocabulary()}

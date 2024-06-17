@@ -9,7 +9,7 @@ export default function vocabularyPage(data) {
       <Table bordered>
         <tr>
           <th>Хальмг</th>
-          <th>Русский</th>
+          <th>English</th>
         </tr>
         {data.map((row) => (
           <tr>

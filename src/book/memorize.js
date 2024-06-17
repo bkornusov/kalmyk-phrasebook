@@ -66,10 +66,10 @@ export default function memorize(data, type, duplicate = false, highlights) {
           <tr>
             <th></th>
             <th>Хальмг</th>
-            <th>Русский</th>
+            <th>English</th>
             <th></th>
             <th>Хальмг</th>
-            <th>Русский</th>
+            <th>English</th>
           </tr>
         </thead>
         <tbody>
@@ -297,7 +297,7 @@ export default function memorize(data, type, duplicate = false, highlights) {
 
   return (
     <>
-      <span>Тодлтн / Запомните</span>
+      <span>Тодлтн / Memorize</span>
       <div className="memorize">{memorizeSwitch(data, type)}</div>
     </>
   );

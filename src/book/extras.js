@@ -33,10 +33,10 @@ function displayExtraTable(table, highlights) {
         <thead>
           <tr>
             <th></th>
-            <th>Ед. ч</th>
+            <th>Singular</th>
             <th></th>
             <th></th>
-            <th>Мн. ч</th>
+            <th>Plural</th>
             <th></th>
           </tr>
         </thead>
@@ -69,7 +69,7 @@ export default function displayExtras(data, highlights) {
   var tableIndex = data.tableIndex;
   return (
     <>
-      <span>Примечания:</span>
+      <span>Notes:</span>
       <div className="extras">
         <ol>
           {items.map((item, index) => {
