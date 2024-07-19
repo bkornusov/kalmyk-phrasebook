@@ -2714,78 +2714,78 @@ var phraseBookPages = [
   {
     chapter: 22,
     pageNumber: 22,
-    title: "22. Шин хувцна йөрәл / Благопожелание по поводу новой одежды",
+    title: "22. Шин хувцна йөрәл / Wishes for new clothes",
     dialog: [
       {
         audio: "ch22/22-02.mp3",
         kalmyk: "Саглр: Ээҗ нанд шин бүшмүд хулдҗ авв.",
-        russian: "Saglara: Мама купила мне новое платье.",
+        russian: "Saglara: Mom bought me a new dress.",
       },
       {
         audio: "ch22/22-03.mp3",
         kalmyk: "Аав: Яһсн сәәхн бүшмүдв!",
-        russian: "Father: Какое красивое платье!",
+        russian: "Father: What a pretty dress!",
       },
       {
         audio: "ch22/22-04.mp3",
         kalmyk: "Ээҗ: Бүшмүдинь йөрәх кергтә.",
-        russian: "Mother: Надо произнести благопожелание.",
+        russian: "Mother: You have to say blessing.",
       },
       {
         audio: "ch22/22-05.mp3",
         kalmyk:
           "Аав: \nНә, өмссн бүшмднь\nӨлзәтә болҗ,\nЭднь элҗ,\nЭзнь мөӊкрҗ,\nХөөннь үүнәс сән\nХувц өмсх болтха!",
         russian:
-          "Father: \nНу что же,\n Да будет платье счастливым,\nИ пусть ткань изнашивается,\nА хозяйка ее долго живет,\nИ пусть в будущем носит еще лучшую одежду!",
+          "Father: \nWell,\n May the dress bring happiness,\nAnd let the fabric fray,\nAs her owner lives a long life,\nSo she may wear even better clothes in the future!",
       },
       {
         audio: "ch22/22-06.mp3",
         kalmyk: "Ээҗ: Тиигтхә! Йөрәл бүттхә!",
-        russian: "Mother: Да будет так! Пусть благопожелание сбудется!",
+        russian: "Mother: Amen! May the wish come true!",
       },
       {
         audio: "ch22/22-07.mp3",
         kalmyk: "Амулң: Йөрәл шиңгтхә!",
-        russian: "Amulanga: Пусть благопожелание воплотится!",
+        russian: "Amulanga: May the wish come true!",
       },
       {
         audio: "ch22/22-08.mp3",
         kalmyk: "Аав: Хувцичнь йөрәһәд, чамд мөӊг өгчәнәв.",
-        russian: "Father: Благославляя твою одежду, даю тебе деньги,",
+        russian: "Father: Blessing your clothes, I give you money.",
       },
       {
         audio: "ch22/22-09.mp3",
         kalmyk: "Саглр: Ханҗанав.",
-        russian: "Saglara: Спасибо!",
+        russian: "Saglara: Thank you!",
       },
     ],
     vocabulary: [
-      { audio: "ch22/22-10.mp3", kalmyk: "бүтх", russian: "сбываться" },
-      { audio: "ch22/22-11.mp3", kalmyk: "бүшмүд", russian: "платье" },
-      { audio: "ch22/22-12.mp3", kalmyk: "йөрәл", russian: "благопожелание" },
-      { audio: "ch22/22-13.mp3", kalmyk: "мөӊкрх", russian: "долго жить" },
-      { audio: "ch22/22-14.mp3", kalmyk: "өлзәтә", russian: "благословенный" },
-      { audio: "ch22/22-15.mp3", kalmyk: "сәәхн", russian: "красивый" },
-      { audio: "ch22/22-16.mp3", kalmyk: "ханҗанав", russian: "благодарю" },
-      { audio: "ch22/22-17.mp3", kalmyk: "хөөннь", russian: "потом" },
-      { audio: "ch22/22-18.mp3", kalmyk: "хувцн", russian: "одежда" },
-      { audio: "ch22/22-19.mp3", kalmyk: "хулдҗ авх", russian: "покупать" },
-      { audio: "ch22/22-20.mp3", kalmyk: "хулдх", russian: "продавать" },
-      { audio: "ch22/22-21.mp3", kalmyk: "шин", russian: "новый" },
+      { audio: "ch22/22-10.mp3", kalmyk: "бүтх", russian: "to come true" },
+      { audio: "ch22/22-11.mp3", kalmyk: "бүшмүд", russian: "dress" },
+      { audio: "ch22/22-12.mp3", kalmyk: "йөрәл", russian: "blessing, wish" },
+      { audio: "ch22/22-13.mp3", kalmyk: "мөӊкрх", russian: "to live long" },
+      { audio: "ch22/22-14.mp3", kalmyk: "өлзәтә", russian: "blessed" },
+      { audio: "ch22/22-15.mp3", kalmyk: "сәәхн", russian: "pretty" },
+      { audio: "ch22/22-16.mp3", kalmyk: "ханҗанав", russian: "thank you" },
+      { audio: "ch22/22-17.mp3", kalmyk: "хөөннь", russian: "then, after" },
+      { audio: "ch22/22-18.mp3", kalmyk: "хувцн", russian: "clothes" },
+      { audio: "ch22/22-19.mp3", kalmyk: "хулдҗ авх", russian: "to buy" },
+      { audio: "ch22/22-20.mp3", kalmyk: "хулдх", russian: "to sell" },
+      { audio: "ch22/22-21.mp3", kalmyk: "шин", russian: "new" },
       {
         audio: "ch22/22-22.mp3",
         kalmyk: "шиңгх",
-        russian: "воплощаться, впитаться",
+        russian: "to become real, to absorb",
       },
-      { audio: "ch22/22-23.mp3", kalmyk: "эд", russian: "ткань" },
-      { audio: "ch22/22-24.mp3", kalmyk: "эзн", russian: "хозяин" },
-      { audio: "ch22/22-25.mp3", kalmyk: "элх", russian: "изнашиваться" },
+      { audio: "ch22/22-23.mp3", kalmyk: "эд", russian: "fabric" },
+      { audio: "ch22/22-24.mp3", kalmyk: "эзн", russian: "owner" },
+      { audio: "ch22/22-25.mp3", kalmyk: "элх", russian: "to wear out" },
     ],
     extras: {
       items: [
-        "Глагольная форма, оканчивающаяся на суффикс -җ означает действие, совершаемое почти одновременно с основным действием глагола: орҗ цә уух – войти попить чай, сууҗ дегтр умшх – сесть почитать книгу, орндан орҗ унтх – лечь в постель и заснуть.",
-        "Глаголы с суффиксом -тха/-тхә выражают пожелание совершить действие. Например өлзәтә болтха – пусть будет счастливым, ут наста болтха – пусть будет долгожителем, цә уутха – пусть выпьет чай, манад иртхә – пусть придет к нам.",
-        "У калмыков есть традиция произносить благопожелания в разных жизненных ситуациях: рождение ребенка, стрижка волос, приобретение новой вещи, отправление в дорогу, переезд в новый дом и т.д. Традиционно благопожелание произносит старший по возрасту.",
+        "Verb form ending in a suffix -җ means an action that occurs almost simultaneously with the main action of the verb: орҗ цә уух – come in to drink tea, сууҗ дегтр умшх – sit down to read a book, орндан орҗ унтх – lay in bed and fall asleep.",
+        "Verbs with a suffix -тха/-тхә express a wish to act. For example, өлзәтә болтха – may (it) be happy, ут наста болтха – may they live a long life, цә уутха – may they drink tea, манад иртхә – let them come to us.",
+        "Kalmyks have a tradition of saying good wishes in different life situations: the birth of a child, cutting hair, buying a new thing, going on a trip, moving to a new house, etc. Traditionally, a benediction is pronounced by the eldest in age.",
       ],
     },
     highlights: {
@@ -2817,103 +2817,103 @@ var phraseBookPages = [
   {
     chapter: 23,
     pageNumber: 23,
-    title: "23. Һарсн өдрин байр / Праздник дня рождения",
+    title: "23. Һарсн өдрин байр / Celebrating birthday",
     dialog: [
       {
         audio: "ch23/23-02.mp3",
         kalmyk: "Амулӊ: Эндр аавин һарсн өдр.",
-        russian: "Amulanga: Сегодня день рождения папы.",
+        russian: "Amulanga: Today is dad's birthday.",
       },
       {
         audio: "ch23/23-03.mp3",
         kalmyk: "Саглр: Меднәв. Йөрәл белдҗәнәв.",
-        russian: "Saglara: Знаю. Я готовлю благопожелание.",
+        russian: "Saglara: I know. I am preparing my wishes",
       },
       {
         audio: "ch23/23-04.mp3",
         kalmyk: "Амулӊ: О, йир сән. Келәд өг нанд, соӊснав.",
-        russian: "Amulanga: О, очень хорошо. Расскажи мне, послушаю.",
+        russian: "Amulanga: Oh, very good. tell me, I will listen.",
       },
       {
         audio: "ch23/23-05.mp3",
         kalmyk:
           "Саглр: \nАвсн наснтн өлзәтә болҗ,\nУт наста, бат кишгтә болҗ,\nОньдин дөрвн цагт\nМенд амулӊ бәәхиг\nОлн деедс өршәтхә!",
         russian:
-          "Saglara: \nПусть годы будут счастливыми,\nЖизнь долгой, а здоровье крепким,\nИ пусть вас благословят божества\nНа спокойную жизнь в добром здравии во все времена!",
+          "Saglara: \nMay the years be happy ones,\n Your life - long, and your health - strong,\nAnd may the deities bless you\nTo a life of peace in good health at all times!",
       },
       {
         audio: "ch23/23-06.mp3",
         kalmyk: "Амулӊ: Сәәхн йөрәл! Кен чамаг дасхв?",
-        russian: "Amulanga: Красивое благопожелание! Кто тебя научил?",
+        russian: "Amulanga: Beautiful blessing! Who taught you that?",
       },
       {
         audio: "ch23/23-07.mp3",
         kalmyk: "Саглр: Дегтрт умшув.",
-        russian: "Saglara: В книге прочитала.",
+        russian: "Saglara: I read it in a book.",
       },
       {
         audio: "ch23/23-08.mp3",
         kalmyk: "Амулӊ: Аав чамд икәр ханх. Гиичнр байрлх.",
         russian:
-          "Amulanga: Папа будет тебе очень благодарен. Гости будут рады.",
+          "Amulanga: Dad will be very thankful. The guests will be happy.",
       },
       {
         audio: "ch23/23-09.mp3",
         kalmyk: "Саглр: Кен гиичд ирх?",
-        russian: "Saglara: Кто придет в гости?",
+        russian: "Saglara: Who is coming?",
       },
       {
         audio: "ch23/23-10.mp3",
         kalmyk:
           "Амулӊ: Авһнр болн һаһа, наһцх болн наһц эгч, мана бөлнр, үйнр.",
         russian:
-          "Amulanga: Дяди и тетя (по отцу), дядя и тетя (по матери), наши двоюродные (по матери и отцу).",
+          "Amulanga: Uncle and aunt (father's side), uncle and aunt (mother's side), our cousins.",
       },
       {
         audio: "ch23/23-11.mp3",
         kalmyk: "Саглр: Мана көгшн наһц ээҗ ирхий?",
-        russian: "Saglara: А наша старенькая бабушка (по матери) придет?",
+        russian: "Saglara: Will our old grandmother (mother's side) come?",
       },
       {
         audio: "ch23/23-12.mp3",
         kalmyk: "Амулӊ: Эрк биш ирх.",
-        russian: "Amulanga: Непременно придет.",
+        russian: "Amulanga: She absolutely will.",
       },
     ],
     vocabulary: [
       {
         audio: "ch23/23-13.mp3",
         kalmyk: "амулӊ",
-        russian: "безмятежный, спокойный",
+        russian: "serene, tranquil",
       },
       {
         audio: "ch23/23-14.mp3",
         kalmyk: "белдх",
-        russian: "готовить (подарок)",
+        russian: "to prepare (a gift)",
       },
       {
         audio: "ch23/23-15.mp3",
         kalmyk: "һарсн өдр",
-        russian: "день рождения",
+        russian: "birthday",
       },
-      { audio: "ch23/23-16.mp3", kalmyk: "деедс", russian: "божества" },
+      { audio: "ch23/23-16.mp3", kalmyk: "деедс", russian: "deities" },
       {
         audio: "ch23/23-17.mp3",
         kalmyk: "менд амулң бәәх",
-        russian: "быть в добром здравии",
+        russian: "to be in good health",
       },
-      { audio: "ch23/23-18.mp3", kalmyk: "оньдин", russian: "всегда" },
+      { audio: "ch23/23-18.mp3", kalmyk: "оньдин", russian: "always" },
       {
         audio: "ch23/23-19.mp3",
         kalmyk: "өршәх",
-        russian: "миловать, проявлять милосердие",
+        russian: "to show mercy, to be charitable",
       },
-      { audio: "ch23/23-20.mp3", kalmyk: "соӊсх", russian: "слушать" },
-      { audio: "ch23/23-21.mp3", kalmyk: "цаг", russian: "время" },
+      { audio: "ch23/23-20.mp3", kalmyk: "соӊсх", russian: "to listen" },
+      { audio: "ch23/23-21.mp3", kalmyk: "цаг", russian: "time" },
     ],
     extras: {
       items: [
-        "Напоминаем, что в калмыцком языке есть разные показатели множественного числа существительных. Чтобы образовать множественное число существительных, называющих профессии и родство, надо к основе слова добавить суффикс -нр: багш – багшнр (учителя), бичәч – бичәчнр (писатели), авһ - авһнр (дяди по отцу), бөл – бөлнр (двоюродные братья и сестры по матери), үй – үйнр (двоюродные братья и сестры по отцу) и т.д.",
+        "Recall that Kalmyk has different indicators of the pluralization of nouns. To form the plural of nouns naming professions and kinship, you must add to the base of the word the suffix -нр: багш – багшнр (teachers), бичәч – бичәчнр (writers), авһ - авһнр (uncles (father's side)), бөл – бөлнр (cousins (monther's side)), үй – үйнр (cousins (father's side)), etc.",
       ],
     },
     highlights: {
