@@ -3648,8 +3648,8 @@ var phraseBookPages = [
       { kalmyk: "ээҗ (2)", russian: "mother" },
       { kalmyk: "юн (5)", russian: "what" },
       { kalmyk: "ямаран (3)", russian: "what kind" },
-      { kalmyk: "яһсн (13)", russian: "какой" },
-      { kalmyk: "ясх (6)", russian: "заправлять" },
+      { kalmyk: "яһсн (13)", russian: "such, what a ..." },
+      { kalmyk: "ясх (6)", russian: "to make the bed" },
     ],
   },
 ];
