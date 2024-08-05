@@ -2,7 +2,7 @@ var phraseBookPages = [
   {
     chapter: 1,
     pageNumber: 1,
-    title: "1. Мендллһн. Таньлдлһн / Greetings. Acquaintance",
+    title: "1. Мендллһн. Таньлдлһн / Getting acquainted",
     dialog: [
       {
         audio: "ch1/1-02.mp3",
@@ -12,17 +12,17 @@ var phraseBookPages = [
       {
         audio: "ch1/1-03.mp3",
         kalmyk: "Амулң: Таньлдтн! Эн мини дү күүкн Саглр.",
-        russian: "Amulanga: Meet my little sister Saglara.",
+        russian: "Amulanga: This is my little sister Saglara.",
       },
       {
         audio: "ch1/1-04.mp3",
         kalmyk: "Саглр: Мендвт! Амулң – мини эгч.",
-        russian: "Saglara: Hello! Amulanga is my sister.",
+        russian: "Saglara: Hello! Amulanga is my elder sister.",
       },
       {
         audio: "ch1/1-05.mp3",
         kalmyk: "Амулң: Бидн – сурһульчнрвидн.",
-        russian: "Amulanga: We are students.",
+        russian: "Amulanga: We are schoolchildren.",
       },
       {
         audio: "ch1/1-06.mp3",
@@ -51,7 +51,7 @@ var phraseBookPages = [
       {
         audio: "ch1/1-12.mp3",
         kalmyk: "эгч",
-        russian: "sister",
+        russian: "elder sister",
       },
       {
         audio: "ch1/1-13.mp3",
@@ -76,19 +76,23 @@ var phraseBookPages = [
     memorize: [
       [
         { audio: "ch1/1-14.mp3", kalmyk: "би ", russian: "I" },
-        { audio: "ch1/1-15.mp3", kalmyk: "мини", russian: "my / mine" },
+        { audio: "ch1/1-15.mp3", kalmyk: "мини", russian: "my/mine" },
       ],
       [
         { audio: "ch1/1-16.mp3", kalmyk: "чи", russian: "you" },
         {
           audio: "ch1/1-17.mp3",
           kalmyk: "чини",
-          russian: "your",
+          russian: "your/yours",
         },
       ],
       [
-        { audio: "ch1/1-18.mp3", kalmyk: "Та", russian: "You (respectful)" },
-        { audio: "ch1/1-19.mp3", kalmyk: "Тана", russian: "Your (respectful)" },
+        { audio: "ch1/1-18.mp3", kalmyk: "Та", russian: "you (respectful)" },
+        {
+          audio: "ch1/1-19.mp3",
+          kalmyk: "Тана",
+          russian: "your/yours (respectful)",
+        },
       ],
       [
         {
@@ -99,20 +103,28 @@ var phraseBookPages = [
         {
           audio: "ch1/1-21.mp3",
           kalmyk: "энүнә / үүнә, терүнә / түүнә",
-          russian: "his / her",
+          russian: "his / her / hers",
         },
       ],
       [
         { audio: "ch1/1-22.mp3", kalmyk: "бидн, мадн", russian: "we" },
-        { audio: "ch1/1-23.mp3", kalmyk: "мана, мадна", russian: "our" },
+        { audio: "ch1/1-23.mp3", kalmyk: "мана, мадна", russian: "our/ours" },
       ],
       [
         { audio: "ch1/1-24.mp3", kalmyk: "тадн", russian: "you (plural)" },
-        { audio: "ch1/1-25.mp3", kalmyk: "тадна", russian: "your (plural)" },
+        {
+          audio: "ch1/1-25.mp3",
+          kalmyk: "тадна",
+          russian: "your/yours (plural)",
+        },
       ],
       [
         { audio: "ch1/1-26.mp3", kalmyk: "эдн, тедн", russian: "they" },
-        { audio: "ch1/1-27.mp3", kalmyk: "эднә, теднә", russian: "theirs" },
+        {
+          audio: "ch1/1-27.mp3",
+          kalmyk: "эднә, теднә",
+          russian: "their/theirs",
+        },
       ],
     ],
     memorizeType: "table2",
@@ -204,7 +216,7 @@ var phraseBookPages = [
       {
         audio: "ch2/3.mp3",
         kalmyk: "Саглр: Мана өрк-бүлд дөрвн күн бәәнә.",
-        russian: "Saglara: Our family has 4 people.",
+        russian: "Saglara: There are four people in our family.",
       },
       {
         audio: "ch2/4.mp3",
@@ -300,7 +312,7 @@ var phraseBookPages = [
       {
         audio: "ch3/3-02.mp3",
         kalmyk: "Саглр: Хальмг алфавитд кедү үзг бәәнә?",
-        russian: "Saglara: How many letters are there in the kalmyk alphabet?",
+        russian: "Saglara: How many letters are there in the Kalmyk alphabet?",
       },
       {
         audio: "ch3/3-03.mp3",
@@ -310,7 +322,7 @@ var phraseBookPages = [
       {
         audio: "ch3/3-04.mp3",
         kalmyk: "Саглр: Ямаран хальмг үзгүд бәәнә?",
-        russian: "Saglara: What are the kalmyk letters?",
+        russian: "Saglara: What are the Kalmyk letters?",
       },
       {
         audio: "ch3/3-05.mp3",
@@ -319,8 +331,8 @@ var phraseBookPages = [
       },
     ],
     vocabulary: [
-      { audio: "ch3/3-07.mp3", kalmyk: "хальмг", russian: "kalmyk" },
-      { audio: "ch3/3-08.mp3", kalmyk: "кедү", russian: "how many" },
+      { audio: "ch3/3-07.mp3", kalmyk: "хальмг", russian: "Kalmyk" },
+      { audio: "ch3/3-08.mp3", kalmyk: "кедү", russian: "how many / how much" },
       { audio: "ch3/3-09.mp3", kalmyk: "үзг", russian: "letter" },
       { audio: "ch3/3-10.mp3", kalmyk: "ямаран", russian: "which; what" },
     ],
@@ -345,12 +357,12 @@ var phraseBookPages = [
       {
         audio: "ch4/4-02.mp3",
         kalmyk: "Аав: Кукн, сер.",
-        russian: "Father: Wake up my child.",
+        russian: "Father: Wake up, my child.",
       },
       {
         audio: "ch4/4-03.mp3",
         kalmyk: "Саглр: Серүв.",
-        russian: "Saglara: I'm awake.",
+        russian: "Saglara: I have woken up.",
       },
       {
         audio: "ch4/4-04.mp3",
@@ -366,7 +378,7 @@ var phraseBookPages = [
     vocabulary: [
       { audio: "ch4/4-07.mp3", kalmyk: "кукн", russian: "my child" },
       { audio: "ch4/4-08.mp3", kalmyk: "серх", russian: "to wake up" },
-      { audio: "ch4/4-09.mp3", kalmyk: "сән", russian: "good" },
+      { audio: "ch4/4-09.mp3", kalmyk: "сән", russian: "well/good" },
       {
         audio: "ch4/4-10.mp3",
         kalmyk: "хонх",
@@ -394,7 +406,11 @@ var phraseBookPages = [
           kalmyk: "хонх",
           russian: "(to sleep; to stay over)",
         },
-        { audio: "ch4/4-17.mp3", kalmyk: "Хон! ", russian: "(Sleep!)" },
+        {
+          audio: "ch4/4-17.mp3",
+          kalmyk: "Сән хон! ",
+          russian: "(Sleep well!)",
+        },
         {
           audio: "ch4/4-18.mp3",
           kalmyk: "Би сән хонув. ",
@@ -411,52 +427,52 @@ var phraseBookPages = [
     extras: {
       items: [
         "In Kalmyk, you can say «Би серүв» (I woke up) or «Серүв» (I woke up), «Би сән хонув» (I slept well) or «Сән хонув» (I slept well). The sentence can be constructed without the pronoun «би».",
-        "The indefinite form of the verb has an ending -х: серх, хонх",
-        "The imperative form is formed from the indefinite form without an ending -х: Сер! (Wake up!), Хон! (Sleep!).",
-        "The recent past tense of a verb is formed with the suffix -в. In some cases, -в is replaced by -у/ү if there are two or three letters «в» in a row.",
+        "The infinitive form of the verb has an ending -х: серх, хонх",
+        "The imperative form is formed from the infinitive form without an ending -х: Сер! (Wake up!), Сән хон! (Sleep well!).",
+        "The recent past tense of the Kalmyk language corresponds to Present Perfect in English and is formed with the suffix -в. In some cases, -в is replaced by -у/ү if there are two or three letters «в» in a row.",
       ],
       table: [
         [
           {
             audio: "ch4/4-20.mp3",
             kalmyk: "Би эрт серүв.",
-            russian: "I woke up early.",
+            russian: "I have woken up early.",
           },
           {
             audio: "ch4/4-24.mp3",
             kalmyk: "Бидн эрт серүвидн.",
-            russian: "We woke up early.",
+            russian: "We have woken up early.",
           },
         ],
         [
           {
             audio: "ch4/4-21.mp3",
             kalmyk: "Чи эрт сервч.",
-            russian: "You woke up early.",
+            russian: "You have woken up early.",
           },
           {
             audio: "ch4/4-25.mp3",
             kalmyk: "Тадн эрт сервт.",
-            russian: "You (plural) woke up early.",
+            russian: "You (plural) have woken up early.",
           },
         ],
         [
           {
             audio: "ch4/4-22.mp3",
             kalmyk: "Та эрт сервт.",
-            russian: "Вы (respectful) woke up early.",
+            russian: "You (respectful) have woken up early.",
           },
         ],
         [
           {
             audio: "ch4/4-23.mp3",
             kalmyk: "Эн/Тер эрт серв.",
-            russian: "He woke up early.",
+            russian: "He has woken up early.",
           },
           {
             audio: "ch4/4-26.mp3",
             kalmyk: "Эдн/Тедн эрт серв.",
-            russian: "They woke up early.",
+            russian: "They have woken up early.",
           },
         ],
       ],
@@ -515,12 +531,12 @@ var phraseBookPages = [
   {
     chapter: 5,
     pageNumber: 5,
-    title: "5. Зүүдн / Dreaming",
+    title: "5. Зүүдн / Dream",
     dialog: [
       {
         audio: "ch5/5-02.mp3",
         kalmyk: "Аав: Зүүд үзүвч?",
-        russian: "Father: Did you have a dream?",
+        russian: "Father: Did you have a good dream?",
       },
       {
         audio: "ch5/5-03.mp3",
@@ -535,7 +551,7 @@ var phraseBookPages = [
       {
         audio: "ch5/5-05.mp3",
         kalmyk: "Саглр: Уул давшув.",
-        russian: "Saglara: I went up a mountain.",
+        russian: "Saglara: I climbed a mountain.",
       },
       {
         audio: "ch5/5-06.mp3",
@@ -563,13 +579,17 @@ var phraseBookPages = [
         kalmyk: "давшх",
         russian: "to climb, ascend",
       },
-      { audio: "ch5/5-15.mp3", kalmyk: "үнәр", russian: "in reality, real" },
+      {
+        audio: "ch5/5-15.mp3",
+        kalmyk: "Үнәрий?",
+        russian: "Really?",
+      },
       { audio: "ch5/5-16.mp3", kalmyk: "санан", russian: "wish; intention" },
       { audio: "ch5/5-17.mp3", kalmyk: "күцх", russian: "to come true" },
     ],
     extras: {
       items: [
-        "В общем вопросе глагол после суффикса прошедшего времени присоединяет вопросительную частицу -в: Ирүвч? – Ты пришел? Ууввч? – Ты пил?",
+        "In a general (Yes/No) question, a question forming particle -в is added to the suffix of the recent past tense: Ирв (came) - Ирүвч? (Did you come?), Уув (drank) - Ууввч? (Did you drink?)",
       ],
     },
     highlights: {
@@ -600,12 +620,12 @@ var phraseBookPages = [
       {
         audio: "ch6/6-03.mp3",
         kalmyk: "Амулӊ: Ясчкув.",
-        russian: "Amulanga: I made the bed.",
+        russian: "Amulanga: I have made the bed.",
       },
       {
         audio: "ch6/6-04.mp3",
         kalmyk: "Саглр: Би бас ясчкув.",
-        russian: "Saglara: I also made the bed.",
+        russian: "Saglara: I have also made the bed.",
       },
       {
         audio: "ch6/6-05.mp3",
@@ -615,12 +635,12 @@ var phraseBookPages = [
       {
         audio: "ch6/6-06.mp3",
         kalmyk: "Амулӊ: Уһачкув.",
-        russian: "Amulanga: I washed up.",
+        russian: "Amulanga: I have washed up.",
       },
       {
         audio: "ch6/6-07.mp3",
         kalmyk: "Саглр: Би бас уһачкув.",
-        russian: "Saglara: I also washed up.",
+        russian: "Saglara: I have also washed up.",
       },
     ],
     vocabulary: [
@@ -637,7 +657,7 @@ var phraseBookPages = [
       { audio: "ch6/6-11.mp3", kalmyk: "орн", russian: "bed; bedding" },
       { audio: "ch6/6-12.mp3", kalmyk: "ясх", russian: "to make (the bed)" },
       { audio: "ch6/6-13.mp3", kalmyk: "нүр", russian: "face" },
-      { audio: "ch6/6-14.mp3", kalmyk: "һар", russian: "hand (arm?)" },
+      { audio: "ch6/6-14.mp3", kalmyk: "һар", russian: "hand/arm" },
       { audio: "ch6/6-15.mp3", kalmyk: "уһах", russian: "wash" },
       {
         audio: "ch6/6-16.mp3",
@@ -670,14 +690,18 @@ var phraseBookPages = [
         {
           audio: "ch6/6-22.mp3",
           kalmyk: "ясчкув",
-          russian: "(I made the bed)",
+          russian: "(I have made the bed)",
         },
         {
           audio: "ch6/6-24.mp3",
           kalmyk: "уһа",
           russian: "(wash (imperative, casual))",
         },
-        { audio: "ch6/6-26.mp3", kalmyk: "уһачкув", russian: "(I washed)" },
+        {
+          audio: "ch6/6-26.mp3",
+          kalmyk: "уһачкув",
+          russian: "(I have washed)",
+        },
       ],
     ],
     memorizeType: "horizontalTable",
@@ -706,7 +730,7 @@ var phraseBookPages = [
       {
         audio: "ch7/7-03.mp3",
         kalmyk: "Амулӊ: Невчк күләҗә.",
-        russian: "Amulanga: Wait a second.",
+        russian: "Amulanga: Wait a little.",
       },
       {
         audio: "ch7/7-04.mp3",
@@ -716,7 +740,7 @@ var phraseBookPages = [
       {
         audio: "ch7/7-05.mp3",
         kalmyk: "Амулӊ: Би шүдән цеврлҗәнәв.",
-        russian: "Amulanga: I am brushing my teeth.",
+        russian: "Amulanga: I'm brushing my teeth.",
       },
       {
         audio: "ch7/7-06.mp3",
@@ -752,13 +776,13 @@ var phraseBookPages = [
         audio1: "ch7/7-18.mp3",
         audio2: "ch7/7-19.mp3",
         kalmyk: "цеврлх ",
-        russian: "Шүдән цеврлҗәнәв. (Brushing my teeth.)",
+        russian: "Шүдән цеврлҗәнәв. (I'm brushing my teeth.)",
       },
       {
         audio1: "ch7/7-20.mp3",
         audio2: "ch7/7-21.mp3",
         kalmyk: "самлх ",
-        russian: "Үсән самлҗанав. (Combing my hair.)",
+        russian: "Үсән самлҗанав. (I'm combing my hair.)",
       },
       {
         audio1: "ch7/7-22.mp3",
@@ -782,7 +806,7 @@ var phraseBookPages = [
         audio1: "ch7/7-28.mp3",
         audio2: "ch7/7-29.mp3",
         kalmyk: "уһах ",
-        russian: "Эгч һаран уһаҗана. (Sister is washing her hands.)",
+        russian: "Эгч һаран уһаҗана. (My sister is washing her hands.)",
       },
       {
         audio1: "ch7/7-30.mp3",
@@ -794,13 +818,14 @@ var phraseBookPages = [
         audio1: "ch7/7-32.mp3",
         audio2: "ch7/7-33.mp3",
         kalmyk: "үзх ",
-        russian: "Тадн уул үзҗәнәт. (You see mountains.)",
+        russian: "Тадн уул үзҗәнәт. (You can see mountains.)",
       },
     ],
     memorizeType: "table1",
     extras: {
       items: [
-        "When we talk about an action that is happening right now, suffixes -җана/-җәнә/-чана/-чәнә are added to the base of the verb",
+        "When we talk about an action that is happening right now, suffixes -җана/-җәнә/-чана/-чәнә are added to the base of the verb.",
+        "This Kalmyk tense corresponds to Present Continuous in English.",
       ],
     },
     highlights: {
@@ -986,27 +1011,27 @@ var phraseBookPages = [
       {
         audio: "ch9/9-22.mp3",
         kalmyk: "Би чамд дуртав.",
-        russian: "I like you.",
+        russian: "I like/love you.",
       },
       {
         audio: "ch9/9-23.mp3",
         kalmyk: "Би аавдан дуртав.",
-        russian: "I love (my) father.",
+        russian: "I love my father.",
       },
       {
         audio: "ch9/9-24.mp3",
         kalmyk: "Би ээҗдән дуртав.",
-        russian: "I love (my) mother.",
+        russian: "I love my mother.",
       },
       {
         audio: "ch9/9-25.mp3",
         kalmyk: "Би Амулядан дуртав.",
-        russian: "I love (my) Amulya.",
+        russian: "I love Amulya.",
       },
       {
         audio: "ch9/9-26.mp3",
         kalmyk: "Би Саглртан дуртав.",
-        russian: "I love (my) Saglara.",
+        russian: "I love Saglara.",
       },
     ],
     memorizeType: "table1",
@@ -1039,27 +1064,27 @@ var phraseBookPages = [
       {
         audio: "ch10/10-02.mp3",
         kalmyk: "Амулӊ: Чи дорван белдүвч?",
-        russian: "Amulanga: Did you pack your bag?",
+        russian: "Amulanga: Have you packed your bag?",
       },
       {
         audio: "ch10/10-03.mp3",
         kalmyk: "Саглр: Белдүв.",
-        russian: "Saglara: I packed.",
+        russian: "Saglara: I have packed.",
       },
       {
         audio: "ch10/10-04.mp3",
         kalmyk: "Амулӊ: Дегтр, девтр, үзг авувч?",
-        russian: "Amulanga: Did you take books, notebooks, and a pen?",
+        russian: "Amulanga: Have you taken books, notebooks, and a pen?",
       },
       {
         audio: "ch10/10-05.mp3",
         kalmyk: "Саглр: Авув.",
-        russian: "Saglara: I did.",
+        russian: "Saglara: I have.",
       },
       {
         audio: "ch10/10-06.mp3",
         kalmyk: "Амулӊ: Хувцан өмс.",
-        russian: "Amulanga: Dress up.",
+        russian: "Amulanga: Put on your clothes.",
       },
       {
         audio: "ch10/10-07.mp3",
@@ -1070,10 +1095,14 @@ var phraseBookPages = [
     vocabulary: [
       { audio: "ch10/10-09.mp3", kalmyk: "авх", russian: "to take" },
       { audio: "ch10/10-10.mp3", kalmyk: "белдх", russian: "to prepare" },
-      { audio: "ch10/10-11.mp3", kalmyk: "девтр", russian: "notebook" },
+      { audio: "ch10/10-11.mp3", kalmyk: "девтр", russian: "copybook" },
       { audio: "ch10/10-12.mp3", kalmyk: "дегтр", russian: "book" },
-      { audio: "ch10/10-13.mp3", kalmyk: "дорв", russian: "Bag" },
-      { audio: "ch10/10-14.mp3", kalmyk: "өмсх", russian: "to put on" },
+      { audio: "ch10/10-13.mp3", kalmyk: "дорв", russian: "bag" },
+      {
+        audio: "ch10/10-14.mp3",
+        kalmyk: "өмсх",
+        russian: "to dress, to put on",
+      },
       { audio: "ch10/10-15.mp3", kalmyk: "үзг", russian: "pen" },
       { audio: "ch10/10-16.mp3", kalmyk: "хувцн", russian: "clothes" },
     ],
@@ -1092,16 +1121,16 @@ var phraseBookPages = [
         },
       ],
       [
-        { audio: "ch10/10-21.mp3", kalmyk: "давшх ", russian: "(to get up)" },
+        { audio: "ch10/10-21.mp3", kalmyk: "давшх ", russian: "(to climb)" },
         {
           audio: "ch10/10-22.mp3",
           kalmyk: "тадн давшвт ",
-          russian: "(you got up)",
+          russian: "(you climbed)",
         },
         {
           audio: "ch10/10-23.mp3",
           kalmyk: "Тадн уул давшувт?",
-          russian: "(Did you go up the mountain?)",
+          russian: "(Did you climb the mountain?)",
         },
       ],
       [
@@ -1157,7 +1186,7 @@ var phraseBookPages = [
     extras: {
       items: [
         "The recent past tense of a verb is formed with the suffix -в. ",
-        "interrogative particle -в is added after the recent past tense suffix -в. In some cases, the time suffix -в is replaced by -у/ү, if there are two or three «в» in a row. If the verb stem ends in a vowel letter, the two «в» letters are retained (уу – уувв, ууввч, ууввт).",
+        "Interrogative particle -в is added after the recent past tense suffix -в. In some cases, the time suffix -в is replaced by -у/ү, if there are two or three «в» in a row. If the verb stem ends in a vowel letter, the two «в» letters are retained (уу – уувв, ууввч, ууввт).",
       ],
     },
     highlights: {
